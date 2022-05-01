@@ -1,7 +1,8 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
+\usepackage[compat=1.0.0]{tikz-feynman}
 
-\title{\textbf{Background Knowledge: Axion Like Particles (ALPs)}}
+\title{\textbf{Background Knowledge: Search for Axion Like Particles (ALPs) at the BABAR Experiment}}
 \author{Sai Pemmaraju}
 \date{April 2022}
 
@@ -28,7 +29,26 @@ a new global symmetry (Peccei-Quinn (PQ) symmetry) which is spontaneously broken
 Five experiments have been conducted in an attempt to search for evidence of axions. However, all of these have yielded negative results
 \subsection{Axion-Like Particles (ALPs)}
 The key difference between axions and Axion-Like Particles (ALPs), which result from the aforementioned breaking of the PQ symmetry is that the latter are not as constrained as axions (i.e. their masses and coupling strengths are independent parameters). 
-In addition to this, ALPs couple predominantly to gauge bosons (specifically pairs of bosons, such as $gg, \gamma\gamma, ZZ, W^{+}W^{-}, \gamma Z$)
+In addition to this, ALPs couple predominantly to gauge bosons (specifically pairs of bosons, such as $gg, \gamma\gamma, ZZ, W^{+}W^{-}, \gamma Z$). In other words, an ALP does not intend to solve the strong CP problem, but its phenomenology is identical to that of an axion. These ALPs are ideal Dark Matter candidates
+
+
+\section{B-Meson Decay Process}
+The following decay is considered for the subsequent sections
+\begin{equation}
+    B\rightarrow K^{*}A, A\rightarrow\gamma\gamma
+\end{equation}
+The coupling of the ALPs to weak gauge bosons (i.e. the $W^{\pm}$) leads to observable signatures. The effective Lagrangian is given by:
+\begin{equation}
+    \mathcal{L} = (\partial_{\mu}a)^{2}-\frac{1}{2}m_{a}^{2}a^{2}-\frac{g_{aW}}{4}W_{\mu\nu}\bar{W}^{\mu\nu}
+\end{equation}
+
+
+One can observe the decay $B\rightarrow K^{*}A, A\rightarrow\gamma\gamma$ using B-factories which are desgined to generate and observe B-decays
+
+\subsection{B-Factories}
+B factories were constructed with the intention of testing the CKM (Cabibo-Kobayashi-Maskawa) description of quark mixing and CP violation in the Standard Model. These detectors performed precise measurements of the CKM matrix elements and of several branching ratios of rare B-meson decays. In order to achieve these goals, a B-factory 
+is required to achieve a high luminosity\footnote{The luminosity is proportional to the number of collisions that occur in a given amount of time. The greater the luminosity, the more data the experiments can gather to observe rare processes}. It is also mandatory to boost the produced $B\bar{B}$ pairs to increase their respective displacement 
+in order to distinguish between them
 \end{document}
 
 
