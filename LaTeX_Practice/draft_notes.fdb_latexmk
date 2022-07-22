@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1651657292 "c:/Users/saich/Desktop/MSc-Physics-Monash-University/LaTeX_Practice/draft_notes.tex" "draft_notes.pdf" "draft_notes" 1651657293
-  "C:/Users/saich/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1651378151 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1658455573 "c:/Users/saich/Desktop/MSc-Physics-Monash-University/LaTeX_Practice/draft_notes.tex" "draft_notes.pdf" "draft_notes" 1658455575
+  "C:/Users/saich/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1657774560 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/saich/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1651453868 11548 0347e94b4fb13fdd3b03fac560a0daed ""
   "C:/Users/saich/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1651190677 10255042 dccd9ce77d05198599efd44c49454492 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
@@ -130,9 +130,9 @@
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/tikz-feynman/tikzfeynman.keys.code.tex" 1454659414 30485 290c9ab1d3def5802ae47c3d6189ac2f ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/tikz-feynman/tikzlibraryfeynman.code.tex" 1454659414 11610 8e70e7f6c7e9a7e7ee03990108a6bbdd ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636281272 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "c:/Users/saich/Desktop/MSc-Physics-Monash-University/LaTeX_Practice/draft_notes.tex" 1651657291 8357 7fa5f2ae7475c60f3e877df6d94995bf ""
-  "draft_notes.aux" 1651657293 932 e468b465d1d18d2095fba4798bebc682 "pdflatex"
-  "draft_notes.tex" 1651657291 8357 7fa5f2ae7475c60f3e877df6d94995bf ""
+  "c:/Users/saich/Desktop/MSc-Physics-Monash-University/LaTeX_Practice/draft_notes.tex" 1658455571 8357 7fa5f2ae7475c60f3e877df6d94995bf ""
+  "draft_notes.aux" 1658455575 932 e468b465d1d18d2095fba4798bebc682 "pdflatex"
+  "draft_notes.tex" 1658455571 8357 7fa5f2ae7475c60f3e877df6d94995bf ""
   (generated)
   "draft_notes.aux"
   "draft_notes.log"
