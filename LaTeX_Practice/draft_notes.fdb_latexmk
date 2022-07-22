@@ -1,7 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1651380433 "c:/Users/saich/Desktop/MSc-Physics-Monash-University/LaTeX_Practice/draft_notes.tex" "draft_notes.pdf" "draft_notes" 1651380434
+["pdflatex"] 1651657292 "c:/Users/saich/Desktop/MSc-Physics-Monash-University/LaTeX_Practice/draft_notes.tex" "draft_notes.pdf" "draft_notes" 1651657293
   "C:/Users/saich/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1651378151 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "C:/Users/saich/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1651453868 11548 0347e94b4fb13fdd3b03fac560a0daed ""
   "C:/Users/saich/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1651190677 10255042 dccd9ce77d05198599efd44c49454492 ""
+  "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136761453 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136761453 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136761453 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -18,6 +20,7 @@
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1247596667 36281 c355509802a035cadc5f15869451dcee ""
+  "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1247596667 31809 8670ca339bf94e56da1fc21c80635e2a ""
@@ -127,9 +130,9 @@
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/tikz-feynman/tikzfeynman.keys.code.tex" 1454659414 30485 290c9ab1d3def5802ae47c3d6189ac2f ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/tikz-feynman/tikzlibraryfeynman.code.tex" 1454659414 11610 8e70e7f6c7e9a7e7ee03990108a6bbdd ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636281272 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "c:/Users/saich/Desktop/MSc-Physics-Monash-University/LaTeX_Practice/draft_notes.tex" 1651380432 4512 be630f3c0caea5ab4d16249fa9039462 ""
-  "draft_notes.aux" 1651380434 602 c290d929c3dc65110ca2d695968e59fa "pdflatex"
-  "draft_notes.tex" 1651380432 4512 be630f3c0caea5ab4d16249fa9039462 ""
+  "c:/Users/saich/Desktop/MSc-Physics-Monash-University/LaTeX_Practice/draft_notes.tex" 1651657291 8357 7fa5f2ae7475c60f3e877df6d94995bf ""
+  "draft_notes.aux" 1651657293 932 e468b465d1d18d2095fba4798bebc682 "pdflatex"
+  "draft_notes.tex" 1651657291 8357 7fa5f2ae7475c60f3e877df6d94995bf ""
   (generated)
   "draft_notes.aux"
   "draft_notes.log"

@@ -1,0 +1,158 @@
+\documentclass[10pt]{report}
+
+\usepackage[a4paper,width=160mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
+\usepackage{times}
+\usepackage{lipsum}
+\usepackage{titlesec}
+
+\titlespacing\section{0pt}{12pt plus 3pt minus 1pt}{0pt plus 1pt minus 1pt}
+\titlespacing\subsection{0pt}{12pt plus 3pt minus 1pt}{0pt plus 1pt minus 1pt}
+
+%headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+\usepackage{natbib}
+\usepackage{float}
+\usepackage{placeins}
+
+% Only include extra packages if you really need them. Common packages are:
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}	% Including figure files
+\usepackage{amsmath}	% Advanced maths commands
+\usepackage{amssymb}	% Extra maths symbols
+
+\usepackage{xspace}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{caption,setspace}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%% AUTHORS - PLACE YOUR OWN COMMANDS HERE %%%%%
+
+% Please keep new commands to a minimum, and use \newcommand not \def to avoid
+% overwriting existing commands. Example:
+%\newcommand{\pcm}{\,cm$^{-2}$}	% per cm-squared
+
+\newcommand{\ergcm}[1]{$\times 10^{#1}$ erg cm$^{-2}$ s$^{-1}$}
+\newcommand{\oergcm}[1]{$10^{#1}$ erg cm$^{-2}$ s$^{-1}$}
+\newcommand{\ergs}[1]{$\times 10^{#1}$ erg s$^{-1}$}
+\newcommand{\oergs}[1]{$10^{#1}$ erg s$^{-1}$}
+\newcommand{\expo}[1]{$\times 10^{#1}$}
+\newcommand{\oexpo}[1]{$10^{#1}$}
+\newcommand{\kms}{km s$^{-1}$}
+\newcommand{\msun}{M\textsubscript{\(\odot\)}}
+%\newcommand{\msun}{M$_{\odot}$}
+
+%%%%%%%%%%%%%%%%%%% TITLE PAGE %%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\label{firstpage}
+%\pagerange{\pageref{firstpage}--\pageref{lastpage}}
+
+\begin{titlepage}
+    \begin{center}
+        
+        \vspace{1.5cm}
+        \includegraphics[width=0.65\textwidth]{monashlogo.png}
+        
+        \large
+        {School of Physics and Astronomy/Astrophysics}
+        
+        \vspace{2.5cm}
+        \Large
+        {MASTERS THESIS}
+        
+        \huge
+        \line(1,0){250}\\
+        \textbf{The Search for Axion Like Particles (ALPs) Through $B$ Meson Decays at the LHCb}\\
+        \line(1,0){250}
+        
+        \vspace{2.0cm}
+        \huge
+        {Subrahmanya Saicharan Pemmaraju}\\
+        \Large
+        {ID: ...}
+        
+        \vspace{1.5cm}
+        \huge
+        {Supervised by: Prof.Ulrik Egede}
+        
+        \vspace{5.5cm}
+        \Large
+        {Date}
+        
+    \end{center}
+\end{titlepage}
+
+\pagenumbering{arabic}
+
+%#################################################
+\newpage
+\chapter*{Abstract}
+% Abstract here 
+
+%#################################################
+\newpage
+\chapter*{Acknowledgements}
+% Acknowledgements here
+
+%#################################################
+\newpage
+\tableofcontents
+
+%%%%%%%%%%%%%%%%% BODY OF REVIEW %%%%%%%%%%%%%%%%%%
+\setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{1.5}
+
+\newpage
+
+\chapter{Background and Motivation}
+\input{Chapter_1.tex}
+
+\chapter{The LHCb Detector}
+\input{Chapter_2.tex}
+
+\chapter{Experimental Methods}
+\input{Chapter_3.tex}
+\chapter{Results}
+\chapter{Discussion}
+
+
+% Can add more Chapters just follow the same idea above. 
+% If you want a different name for the chapter in the header edit the above line as follows \chapter[New Name]{Official Chapter Name}
+
+%##########################################################
+\newpage
+\chapter*{Conclusion}
+
+% Add Conclusion here
+
+\addcontentsline{toc}{chapter}{Conclusion}
+\addcontentsline{toc}{chapter}{References}
+%%%%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%
+
+% The best way to enter references is to use BibTeX:
+%\bibliography{example} % if your bibtex file is called example.bib
+\footnotesize
+% uncomment and change to the bibiliography style you prefer
+%\bibliographystyle{apalike}
+%\bibliography{refs}
+
+%%%%%%%%%%%%%%%%% APPENDICES %%%%%%%%%%%%%%%%%%%%%
+
+%\appendix
+
+%\section{Some extra material}
+
+%If you want to present additional material which would interrupt the flow of the main paper,
+%it can be placed in an Appendix which appears after the list of references.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Don't change these lines
+%\bsp	% typesetting comment
+\label{lastpage}
+\end{document}

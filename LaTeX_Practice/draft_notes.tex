@@ -9,6 +9,16 @@
 \begin{document}
 
 \maketitle
+\section{Introduction}
+The analysis aims to search for an Axion Like Particle in the decay $B^{\pm}\rightarrow K^{\pm}+A, A\rightarrow \gamma\gamma$
+The ALP that are searched for and presented in the analysis would be produced in flavour changing neutral current processes\footnote{Interactions that change the flavour of a fermion without altering its electric charge}), since these are rare in the Standard Model, and present good prospects of
+a signature that is likely to lead to discovery. In addition to this, the theory does not present a constraint on the mass of an ALP, and the search is therefore conducted up to the kinematical limit of the decay, given by:
+$$m^{max}_{A} = m_{B^{\pm}}-m_{K^{\pm}} = 4786 MeV/c^{2}$$
+The analysis aims to reconstruct the decay of a charged B-meson into a charged $K$ and two photons, and to search resonances in the diphoton invariant mass spectrum. Various multivariate analuses have been tested to discriminate the signal from the background, and different selection strategies have been accounted for to reject the two main backgrounds
+(i.e. the one related to light quark production (i.e.$uds$ and $c$ quarks). Shape variables, which describe the topology of the event, are necessary to reject the $uds$ background. Since the B-like background is similar to the signal, it is more complex to reject these.\\
+Hence, two BDTs\footnote{Boosted Decision Trees} are optimised to reject each of the different sources of background. Twelve variables have been used, including shape variables, kinematic variables, etc. is preceeded by a rough pre-selection, which is finalised to reduce the quantity of data to process without losing signal events, to train the selection on a reduced and simplified sample\\
+\\
+The selection has been trained on a signal sample produced with Monte Carlo simulation and modified to have a flat diphoton mass distribution in the considered range\footnote{This is done to avoid the introduction of biases in the training selection proceedure, caused by the overspecialisation over a specific signal ALP mass like the energy of the two photons}
 
 \section{Axions}
 \subsection{Strong CP Problem and the Motivation Behind Axions}
@@ -31,9 +41,8 @@ Five experiments have been conducted in an attempt to search for evidence of axi
 The key difference between axions and Axion-Like Particles (ALPs), which result from the aforementioned breaking of the PQ symmetry is that the latter are not as constrained as axions (i.e. their masses and coupling strengths are independent parameters). 
 In addition to this, ALPs couple predominantly to gauge bosons (specifically pairs of bosons, such as $gg, \gamma\gamma, ZZ, W^{+}W^{-}, \gamma Z$). In other words, an ALP does not intend to solve the strong CP problem, but its phenomenology is identical to that of an axion. These ALPs are ideal Dark Matter candidates
 
-
 \section{B-Meson Decay Process}
-The following decay is considered for the subsequent sections
+The following decay is considered for the subsequent sections\footnote{A B-meson is one that consists of a $b\bar{b}$ pair}
 \begin{equation}
     B\rightarrow K^{*}A, A\rightarrow\gamma\gamma
 \end{equation}
@@ -48,8 +57,38 @@ One can observe the decay $B\rightarrow K^{*}A, A\rightarrow\gamma\gamma$ using 
 \subsection{B-Factories}
 B factories were constructed with the intention of testing the CKM (Cabibo-Kobayashi-Maskawa) description of quark mixing and CP violation in the Standard Model. These detectors performed precise measurements of the CKM matrix elements and of several branching ratios of rare B-meson decays. In order to achieve these goals, a B-factory 
 is required to achieve a high luminosity\footnote{The luminosity is proportional to the number of collisions that occur in a given amount of time. The greater the luminosity, the more data the experiments can gather to observe rare processes}. It is also mandatory to boost the produced $B\bar{B}$ pairs to increase their respective displacement 
-in order to distinguish between them
+in order to distinguish between them. \\
+\\
+The PEP-II 
+
+\section{Analysis Overview and Data Samples}
+The search is only conducted in the charged mode $B^{\pm}\rightarrow K^{\pm}A$ with an un-excited $K$ (since the neutral mode has higher background, and the sensitivity is significantly reduced as a result). Reconstructing the $B^{\pm}\rightarrow K^{\pm}\gamma\gamma$ constrains the ALP mass to be lower than: $$m_{A}^{max} = m_{B_{\pm}}-m_{K} = 5279.26-493.68 MeV/c^{2} = 4785.58 MeV/c^{2}$$
+The following steps can be adhered to to describe the characteristics of both the signal and the background:
+\begin{itemize}
+    \item Event selection (discriminating between the signal and the background)
+    \item Verifying the optimal event selection for consistency by checking against a real data control sample to check that the Monte Carlo (MC) simulation is a good model of the actual data
+    \item Performing a fit to extract the signal yielded
+    \item Estimating systematic errors
+\end{itemize}
+
+\subsection{Event Selection}
+The following variables are used to discriminate between the signal and the background:
+\begin{itemize}
+    \item $m_{ES}$, which represents the beam energy substituted mass of the B-meson candidate
+    \item $\Delta E$, which represents the energy difference between the B-meson and the beam in the centre of mass frame
+    \item Helicity angle of $K$
+    \item Thrust angle
+    \item Sphericity angle
+    \item Legendre Moments
+    \item Maximum Selector of $K$
+    \item Photon Veto, which is a variable that is designed to reduce contamination from real $\pi^{0},$, $\eta$ and $\eta'$
+    \item Photon Energies
+\end{itemize}
+
+
 \end{document}
 
 
- 
+
+
+

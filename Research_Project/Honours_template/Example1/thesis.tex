@@ -1,0 +1,35 @@
+\documentclass[12pt]{report}
+\usepackage{preamble}
+\begin{document}
+\import{sections/}{title.tex}
+\pagenumbering{roman}
+\begin{acknowledgments}
+\end{acknowledgments}
+\begin{abstract}
+\emph{}
+\end{abstract}
+\begin{preface}
+\end{preface}
+\newpage
+\tableofcontents
+\setcounter{page}{3}
+\newpage
+
+\chapter{Introduction} \label{ch2}
+%\import{sections/}{intro.tex}
+
+\chapter{Methods} \label{ch3}
+%\import{sections/}{methods.tex}
+
+\chapter{Results} \label{ch4}
+%\import{sections/}{results.tex}
+
+\chapter{Discussion} \label{ch5}
+%\import{sections/}{discussion.tex}
+
+\chapter{Concluding Remarks}\label{ch6}
+
+\bibliography{/path/to/bib}{}  
+{\emph{This document contains \total{citnum}\ references.}}
+\appendix
+\end{document}  
