@@ -1,0 +1,1 @@
+./run gaudirun.py '$APPCONFIGOPTS/Gauss/Beam6500GeV-md100-2018-nu1.6.py' '$GAUSSOPTS/GenStandAlone.py' '$DECFILESROOT/options/11102202.py' '$LBPYTHIA8ROOT/options/Pythia8.py' Gauss-Job2.py

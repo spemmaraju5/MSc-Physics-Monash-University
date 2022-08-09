@@ -1,8 +1,10 @@
 import sys
 import GaudiPython as GP
 from GaudiConf import IOHelper
-from Configurables import DaVinci
+import DaVinci
 from LoKiPhys.decorators import PX, PY, PZ, PT, M, E, P, GeV, VCHI2
+from Configurables import DecayTreeTuple
+from DecayTreeTuple.Configuration import *
 
 dv = DaVinci()
 dv.DataType = '2016'
@@ -75,3 +77,4 @@ def find_tracks(particle):
     return tracks
 
 max_pt = max([PT(child) for child in find_tracks(candidate)])
+

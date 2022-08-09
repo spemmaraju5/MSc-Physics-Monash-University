@@ -1,6 +1,6 @@
-PWD c:\Users\saich\Desktop\MSc-Physics-Monash-University\Research_Project\Honours_template\Example2
+PWD c:\Users\saich\Desktop\MSc-Physics-Monash-University\Research_Project\Honours_template\Thesis_Draft
 INPUT C:\Users\saich\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\saich\Desktop\MSc-Physics-Monash-University\Research_Project\Honours_template\Example2\main.tex
+INPUT c:\Users\saich\Desktop\MSc-Physics-Monash-University\Research_Project\Honours_template\Thesis_Draft\main.tex
 OUTPUT main.log
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
@@ -560,6 +560,10 @@ INPUT .\Chapter_2.tex
 INPUT Chapter_2.tex
 INPUT .\Chapter_2.tex
 INPUT Chapter_2.tex
+INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aesl10.tfm
+INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aesl10.vf
+INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl10.tfm
+INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\Chapter_3.tex
 INPUT Chapter_3.tex
 INPUT .\Chapter_3.tex
@@ -584,6 +588,8 @@ INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsl10.pfb
+INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsl10.pfb
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
