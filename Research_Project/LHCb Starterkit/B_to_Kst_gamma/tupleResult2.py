@@ -1,5 +1,5 @@
-decay = "[[B0]nos => ^(K*(892)0 ==> K+ pi-) ^gamma]CC"
-datafile = "Gauss-11102202-100ev-20220808.xgen"
+decay = "[[B0]nos => ^(K*(892)0 ==> K+ pi-) ^(eta => ^gamma ^gamma)]CC"
+datafile = "Gauss-11102441-2000ev-20220810.xgen"
 
 mc_basic_loki_vars = {
     'ETA' : 'MCETA',
