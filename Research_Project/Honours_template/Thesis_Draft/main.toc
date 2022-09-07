@@ -5,6 +5,8 @@
 \contentsline {subsection}{\numberline {1.2.2}Experimental Searches for Axions}{4}{}%
 \contentsline {subsection}{\numberline {1.2.3}Axion Like Particles (ALPs)}{4}{}%
 \contentsline {subsection}{\numberline {1.2.4}The $B\rightarrow K^{*}A, A\rightarrow \gamma \gamma $ Decay Process}{4}{}%
+\contentsline {section}{\numberline {1.3}Flavour Changing Neutral Currents}{4}{}%
+\contentsline {section}{\numberline {1.4}Electroweak Penguin Decays}{4}{}%
 \contentsline {chapter}{\numberline {2}The LHCb Detector}{5}{}%
 \contentsline {section}{\numberline {2.1}Structure of the LHCb Detector}{5}{}%
 \contentsline {subsection}{\numberline {2.1.1}Vertex Locator (VELO)}{5}{}%
@@ -15,6 +17,8 @@
 \contentsline {subsubsection}{ECAL}{6}{}%
 \contentsline {section}{\numberline {2.2}Data Analysis at the LHCb}{6}{}%
 \contentsline {subsection}{\numberline {2.2.1}The LHCb Data Flow}{6}{}%
+\contentsline {subsection}{\numberline {2.2.2}Software Overview}{6}{}%
+\contentsline {subsection}{\numberline {2.2.3}The LHCb Simulation Framework}{6}{}%
 \contentsline {chapter}{\numberline {3}Experimental Methods}{7}{}%
 \contentsline {chapter}{\numberline {4}Results}{8}{}%
 \contentsline {chapter}{\numberline {5}Discussion}{9}{}%

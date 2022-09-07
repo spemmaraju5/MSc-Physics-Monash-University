@@ -1,0 +1,336 @@
+WARNING:lb-run:Decided best container to use is None
+WARNING:lb-run:trying old SetupProject (cannot find project dep_project_1 version_1 for x86_64-slc6-gcc49-opt in /afs/cern.ch/user/s/spemmara/public:/cvmfs/lhcb.cern.ch/lib/lhcb:/cvmfs/lhcb.cern.ch/lib/lcg/releases:/cvmfs/lhcb.cern.ch/lib/lcg/app/releases:/cvmfs/lhcb.cern.ch/lib/lcg/external:/cvmfs/lhcb.cern.ch/lib/contrib:/cvmfs/lhcb.cern.ch/lib/var/lib/LbEnv/2511/stable/linux-64/lib/python3.9/site-packages/LbDevTools/data/cmake:/cvmfs/lhcb.cern.ch/lib/lhcb:/cvmfs/lhcb.cern.ch/lib/lcg/releases:/cvmfs/lhcb.cern.ch/lib/lcg/app/releases:/cvmfs/lhcb.cern.ch/lib/lcg/external:/cvmfs/lhcb.cern.ch/lib/contrib:/cvmfs/lhcb.cern.ch/lib/var/lib/LbEnv/2511/stable/linux-64/lib/python3.9/site-packages/LbDevTools/data/cmake)
+ALWAYS:SetupProject:Configuring GaussDev_v49r21 from /afs/cern.ch/user/s/spemmara/public/GaussDev_v49r21
+# setting LC_ALL to "C"
+# --> Including file '/cvmfs/lhcb.cern.ch/lib/lhcb/DBASE/AppConfig/v3r411/options/Gauss/Beam6500GeV-md100-2018-nu1.6.py'
+# --> Including file '/cvmfs/lhcb.cern.ch/lib/lhcb/DBASE/AppConfig/v3r411/options/Gauss/VertexSmear_SignalPGun.py'
+# <-- End of file '/cvmfs/lhcb.cern.ch/lib/lhcb/DBASE/AppConfig/v3r411/options/Gauss/VertexSmear_SignalPGun.py'
+# <-- End of file '/cvmfs/lhcb.cern.ch/lib/lhcb/DBASE/AppConfig/v3r411/options/Gauss/Beam6500GeV-md100-2018-nu1.6.py'
+# --> Including file '/cvmfs/lhcb.cern.ch/lib/lhcb/GAUSS/GAUSS_v49r21/Sim/Gauss/options/GenStandAlone.py'
+# <-- End of file '/cvmfs/lhcb.cern.ch/lib/lhcb/GAUSS/GAUSS_v49r21/Sim/Gauss/options/GenStandAlone.py'
+# --> Including file '/afs/cern.ch/user/s/spemmara/public/GaussDev_v49r21/Gen/DecFiles/options/11102441.py'
+# <-- End of file '/afs/cern.ch/user/s/spemmara/public/GaussDev_v49r21/Gen/DecFiles/options/11102441.py'
+# --> Including file '/cvmfs/lhcb.cern.ch/lib/lhcb/GAUSS/GAUSS_v49r21/Gen/LbPythia8/options/Pythia8.py'
+# <-- End of file '/cvmfs/lhcb.cern.ch/lib/lhcb/GAUSS/GAUSS_v49r21/Gen/LbPythia8/options/Pythia8.py'
+# --> Including file '/afs/cern.ch/user/s/spemmara/public/GaussDev_v49r21/Gauss-Job3.py'
+# <-- End of file '/afs/cern.ch/user/s/spemmara/public/GaussDev_v49r21/Gauss-Job3.py'
+# applying configuration of Gauss
+$PGUNSDATAROOT/data/Ebeam6500GeV/Pythia8/MomentumSpectrum_511.root
+Ecut value = 5.0
+# WARNING: No simulation phase.
+WARNING: OutputType not supported for this phase. Use default : .xgen
+# /***** User Gauss/Gauss ****************************************************************************
+# |-B2Particle          = 'p'
+# |-DatasetName         = 'Gauss'
+# |-RandomGenerator     = 'Ranlux'
+# |-DetectorGeo         = {'Detectors': []}
+# |                     (default: {'Detectors': ['PuVeto', 'Velo', 'TT', 'IT', 'OT', 'Rich1', 'Rich2', 'Spd', 'Prs', 'Ecal', 'Hcal', 'Muon', 'Magnet']})
+# |-Histograms          = 'DEFAULT'
+# |-BeamEmittance       = 0.00362087  (default: 0.0037)
+# |-Phases              = ['Generator', 'GenToMCTree']  (default: ['Generator', 'Simulation'])
+# |-Production          = 'PHYS'
+# |-TotalCrossSection   = 1.0149999999999999e-23  (default: 9.109999999999999e-24)
+# |-BeamPipe            = 'BeamPipeOn'
+# |-ReplaceWithGDML     = [{'volsToReplace': [], 'gdmlFile': ''}]
+# |                     (default: [{'volsToReplace': [], 'gdmlFile': ''}])
+# |-InteractionPosition = [0.8461, 0.1097, 1.48]  (default: [0.459, -0.015, 0.5])
+# |-BeamLineAngles      = [0.0, 0.0]  (default: [-7.5e-05, 3.5000000000000004e-05])
+# |-PGunsSource         = 'Pythia8'
+# |-BeamHCrossingAngle  = -0.000395  (default: -0.0005200000000000001)
+# |-PhysicsList         = {'Em': 'NoCuts', 'GeneralPhys': True, 'Other': '', 'Hadron': 'FTFP_BERT', 'LHCbPhys': True}
+# |                     (default: {'Em': 'NoCuts', 'GeneralPhys': True, 'Other': '', 'Hadron': 'FTFP_BERT', 'LHCbPhys': True})    
+# |-RICHRandomHits      = False
+# |-OutputType          = 'SIM'
+# |-B2Momentum          = 3500000.0
+# |-DetectorMoni        = {'Detectors': []}
+# |                     (default: {'Detectors': ['PuVeto', 'Velo', 'TT', 'IT', 'OT', 'Rich1', 'Rich2', 'Spd', 'Prs', 'Ecal', 'Hcal', 'Muon']})
+# |-DeltaRays           = True
+# |-EnablePack          = True
+# |-BeamBetaStar        = 3000.0  (default: 3100.0)
+# |-BeamVCrossingAngle  = 0.0  (default: 0.0)
+# |-Luminosity          = 1.77e+18  (default: 2.47e+18)
+# |-DataPackingChecks   = True
+# |-Debug               = False
+# |-BeamMomentum        = 6500000.0  (default: 3500000.0)
+# |-SplitSim            = False
+# |-DataType            = ''
+# |-PostSimFilters      = []  (default: [])
+# |-B1Particle          = 'p'
+# |-BunchRMS            = 52.1845  (default: 82.03)
+# |-WriteFSR            = True
+# |-DetectorSim         = {'Detectors': []}
+# |                     (default: {'Detectors': ['PuVeto', 'Velo', 'TT', 'IT', 'OT', 'Rich1', 'Rich2', 'Spd', 'Prs', 'Ecal', 'Hcal', 'Muon', 'Magnet']})
+# |-Redecay             = {'active': False, 'rd_mode': 1, 'N': 100}
+# |                     (default: {'active': False, 'rd_mode': 1, 'N': 100})
+# |-SpilloverPaths      = []  (default: [])
+# \----- (End of User Gauss/Gauss) -------------------------------------------------------------------
+# GaussTape.ItemList    = ['/Event/Gen/Header#1', '/Event/MC/Header#1', '/Event/Gen/BeamParameters#1', '/Event/Gen/Collisions#1', '/Event/pSim/MCVertices#1', '/Event/pSim/MCParticles#1']
+# GaussTape.OptItemList = ['/Event/Gen/HepMCEvents#1']
+ApplicationMgr    SUCCESS 
+====================================================================================================================================
+                                                   Welcome to Gauss version v49r21
+                                          running on lxplus782.cern.ch on Wed Aug 31 12:10:27 2022
+====================================================================================================================================
+ApplicationMgr       INFO Application Manager Configured successfully
+ToolSvc.GitDDDB            INFO opening Git repository '/cvmfs/lhcb.cern.ch/lib/lhcb/git-conddb/DDDB.git'
+ToolSvc.GitDDDB            INFO using commit 'dddb-20170721-3' corresponding to dc334ea655e66a57065f1630f5bb60d061ad67e2
+ToolSvc.GitSIMCOND         INFO opening Git repository '/cvmfs/lhcb.cern.ch/lib/lhcb/git-conddb/SIMCOND.git'
+ToolSvc.GitSIMCOND         INFO using commit 'sim-20190430-vc-md100' corresponding to d2cb94a56aa34ec2f98333db6703a663cff61248
+DetectorPersistencySvc     INFO Added successfully Conversion service:XmlCnvSvc
+DetectorDataSvc         SUCCESS Detector description database: git:/lhcb.xml
+ChronoStatSvc              INFO  Number of skipped events for MemStat-1
+
+*************************************************************
+ Geant4 version Name: geant4-09-06-patch-04    (30-January-2015)
+                      Copyright : Geant4 Collaboration
+                      Reference : NIM A 506 (2003), 250-303
+                            WWW : http://cern.ch/geant4
+*************************************************************
+
+SimulationSvc              INFO Loading simulation attributes file "/cvmfs/lhcb.cern.ch/lib/lhcb/GAUSS/GAUSS_v49r21/Sim/Gauss/xml/Simulation.xml" ...
+GiGa.ModularPL             INFO GiGaPhysListModular initializing
+GiGa.ModularPL             INFO Registered GiGa.ModularPL.EmOpt1NoCutsPhysics
+GiGa.ModularPL             INFO Registered GiGa.ModularPL.DecayPhysics
+GiGa.ModularPL             INFO Registered GiGa.ModularPL.EmExtraPhysics
+GiGa.ModularPL             INFO Registered GiGa.ModularPL.IonPhysics
+GiGa.ModularPL             INFO Registered GiGa.ModularPL.ElasticPhysics
+GiGa.ModularPL             INFO Registered GiGa.ModularPL.FTFP_BERTPhysics
+WARNING: G4QStoppingPhysics is deprecated and will be removed in GEANT4 version 10.0.
+GiGa.ModularPL             INFO Registered GiGa.ModularPL.QStoppingPhysics
+GiGa.ModularPL             INFO Registered GiGa.ModularPL.NeutronTrkCut
+GiGa.ModularPL             INFO Registered GiGa.ModularPL.GiGaPhysConstructorOp
+GiGa.ModularPL             INFO Registered GiGa.ModularPL.GiGaPhysConstructorHpd
+GiGa.ModularPL             INFO Registered GiGa.ModularPL.GiGaPhysUnknownParticles
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : PART102
+      issued by : G4ParticleDefintion::G4ParticleDefintion
+Strange PDGEncoding
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : PART102
+      issued by : G4ParticleDefintion::G4ParticleDefintion
+Strange PDGEncoding
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : PART102
+      issued by : G4ParticleDefintion::G4ParticleDefintion
+Strange PDGEncoding
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : PART102
+      issued by : G4ParticleDefintion::G4ParticleDefintion
+Strange PDGEncoding
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : PART102
+      issued by : G4ParticleDefintion::G4ParticleDefintion
+Strange PDGEncoding
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : PART102
+      issued by : G4ParticleDefintion::G4ParticleDefintion
+Strange PDGEncoding
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : PART102
+      issued by : G4ParticleDefintion::G4ParticleDefintion
+Strange PDGEncoding
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+GiGa                       INFO Used Physics List Object is GiGaPhysListModular/GiGa.ModularPL
+GiGa                       INFO Stacking Action Object is not required to be loaded
+GiGa                       INFO Used Tracking Action Object is GiGaTrackActionSequence/GiGa.TrackSeq
+GiGa                       INFO Used  Stepping Action Object is GiGaStepActionSequence/GiGa.StepSeq
+GiGa                       INFO Used  Event Action Object is GiGaEventActionSequence/GiGa.EventSeq
+GiGa                       INFO Used  Run Action Object is GiGaRunActionSequence/GiGa.RunSeq
+GiGa                       INFO GiGa User Interface session is not required to be launched
+GiGa                       INFO Visualisation Manager is not required to be created.
+RndmGenSvc.Engine          INFO Generator engine type:CLHEP::RanluxEngine
+RndmGenSvc.Engine          INFO Current Seed:1234567 Luxury:3
+RndmGenSvc.Engine          INFO This is the GEANT4 engine!
+RndmGenSvc                 INFO Using Random engine:HepRndm::Engine<CLHEP::RanluxEngine>
+TimingAuditor.TIMER        INFO This machine has a speed about   3.57 times the speed of a 2.8 GHz Xeon.
+GaussSequencer             INFO Member list: GaudiSequencer/Generator, GaudiSequencer/SkipGeant4
+ToolSvc.SequencerTime...   INFO This machine has a speed about   3.61 times the speed of a 2.8 GHz Xeon.
+Generator                  INFO Member list: GaudiSequencer/GeneratorSlotMainSeq
+GeneratorSlotMainSeq       INFO Member list: GenInit/GaussGen, Generation, GaudiSequencer/GenMonitor
+GaussGen                SUCCESS ==================================================================
+GaussGen                SUCCESS Requested to process 10 events
+GaussGen                SUCCESS ==================================================================
+RootHistSvc                INFO Writing ROOT histograms to: Gauss-11102441-10ev-20220831-histos.root
+HistogramPersistencySvc    INFO Added successfully Conversion service:RootHistSvc
+GaussGen                   INFO Create BeamForInitialization
+GaussGen                   INFO Beam Parameters :
+GaussGen                   INFO Energy = 6.5 TeV
+GaussGen                   INFO Bunch length RMS = 52.1845 mm
+GaussGen                   INFO Normalized emittance = 0.00362087 mm
+GaussGen                   INFO Revolution frequency = 11.245 kHz
+GaussGen                   INFO Total cross-section assumed = 101.5 mb
+GaussGen                   INFO Horizontal crossing angle = -0.395 mrad
+GaussGen                   INFO Vertical crossing angle = 0 mrad
+GaussGen                   INFO Horizontal beam line angle = 0 mrad
+GaussGen                   INFO Vertical beam line angle = 0 mrad
+GaussGen                   INFO beta star = 3 m
+GaussGen                   INFO Bunch spacing = 50 ns
+GaussGen                   INFO Beam spot = (0.8461,0.1097,1.48) mm
+GaussGen                   INFO Luminosity = 1.77e+29 /cm2/s
+GaussGen                   INFO Nu = 1.59764
+GaussGen                   INFO emittance = 5.22671e-07
+GaussGen                   INFO Luminous region = ( 0.0280001, 0.0280001, 36.9 ), mm
+Message from PHCORK(MODCOR):: initialization
+MODOP=5 -- corrects Energy from mass+flow
+
+********************************************************************************
+
+                            =========================
+                              PHOTOS, Version:  3.56
+                              Released at:  3/5/14
+                            =========================
+
+                     Photos QED corrections in Particle Decays
+
+           Monte Carlo Program - by E. Barberio, B. van Eijk and Z. Was
+           From version 2.09   - by P. Golonka and Z. Was
+           From version 3.00   - by N. Davidson, T. Przedzinski and Z. Was
+********************************************************************************
+
+                  Internal (default) input parameters:
+
+                    INTERF= 1 ISEC= 0 ITRE= 0 IEXP= 1 IFTOP= 1 IFW= 1
+                    ALPHA_QED= 0.00729735 XPHCUT= 1e-07
+
+                    Option with interference is active
+                    Option with exponentiation is active EPSEXP=0.0001
+                    Emision in t tbar production is active
+                    Correction wt in decay of W is active
+
+          WARNING:  /HEPEVT/ is not anymore used.
+
+********************************************************************************
+MODOP=2 -- blocks emission in Kl  to gamma e+e-: DEFAULT
+MODOP=2 -- blocks emission in pi0 to gamma e+e-: DEFAULT
+ IPHQRK_setQarknoEmission MODOP=1 -- blocks emission from light quarks:  DEFAULT
+Message from PHCORK(MODCOR):: initialization
+MODOP=5 -- corrects Energy from mass+flow
+
+ *------------------------------------------------------------------------------------*
+ |                                                                                    |
+ |  *------------------------------------------------------------------------------*  |
+ |  |                                                                              |  |
+ |  |                                                                              |  |
+ |  |   PPP   Y   Y  TTTTT  H   H  III    A      Welcome to the Lund Monte Carlo!  |  |
+ |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.186      |  |
+ |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change:  8 Jul 2014  |  |
+ |  |   P       Y      T    H   H   I   A   A                                      |  |
+ |  |   P       Y      T    H   H  III  A   A    Now is 31 Aug 2022 at 12:10:35    |  |
+ |  |                                                                              |  |
+ |  |   Torbjorn Sjostrand;  Department of Astronomy and Theoretical Physics,      |  |
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  |
+ |  |      phone: + 46 - 46 - 222 48 16; e-mail: torbjorn@thep.lu.se               |  |
+ |  |   Jesper Roy Christiansen;  Department of Astronomy and Theoretical Physics, |  |
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  |
+ |  |      e-mail: Jesper.Roy.Christiansen@thep.lu.se                              |  |
+ |  |   Nishita Desai;  Institut fuer Theoretische Physik,                         |  |
+ |  |     Universitaet Heidelberg, Philosophenweg 16, D-69120 Heidelberg, Germany; |  |
+ |  |      phone: +49 - 6221 54 9424; e-mail: Nishita.Desai@cern.ch                |  |
+ |  |   Philip Ilten;  Massachusetts Institute of Technology,                      |  |
+ |  |      stationed at CERN, CH-1211 Geneva 23, Switzerland;                      |  |
+ |  |      e-mail: philten@cern.ch                                                 |  |
+ |  |   Stephen Mrenna;  Computing Division, Simulations Group,                    |  |
+ |  |      Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA;  |  |
+ |  |      phone: + 1 - 630 - 840 - 2556; e-mail: mrenna@fnal.gov                  |  |
+ |  |   Stefan Prestel;  Theory Group, DESY,                                       |  |
+ |  |      Notkestrasse 85, D-22607 Hamburg, Germany;                              |  |
+ |  |      phone: + 49 - 40 - 8998-4250; e-mail: stefan.prestel@thep.lu.se         |  |
+ |  |   Peter Skands;  Theoretical Physics, CERN, CH-1211 Geneva 23, Switzerland;  |  |
+ |  |      phone: + 41 - 22 - 767 2447; e-mail: peter.skands@cern.ch               |  |
+ |  |   Stefan Ask; former author; e-mail: ask.stefan@gmail.com                    |  |
+ |  |   Richard Corke; former author; e-mail: r.corke@errno.net                    |  |
+ |  |                                                                              |  |
+ |  |   The main program reference is the 'Brief Introduction to PYTHIA 8.1',      |  |
+ |  |   T. Sjostrand, S. Mrenna and P. Skands, Comput. Phys. Comm. 178 (2008) 85   |  |
+ |  |   [arXiv:0710.3820]                                                          |  |
+ |  |                                                                              |  |
+ |  |   The main physics reference is the 'PYTHIA 6.4 Physics and Manual',         |  |
+ |  |   T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026 [hep-ph/0603175]. |  |
+ |  |                                                                              |  |
+ |  |   An archive of program versions and documentation is found on the web:      |  |
+ |  |   http://www.thep.lu.se/~torbjorn/Pythia.html                                |  |
+ |  |                                                                              |  |
+ |  |   This program is released under the GNU General Public Licence version 2.   |  |
+ |  |   Please respect the MCnet Guidelines for Event Generator Authors and Users. |  | 
+ |  |                                                                              |  |
+ |  |   Disclaimer: this program comes without any guarantees.                     |  |
+ |  |   Beware of errors and use common sense when interpreting results.           |  |
+ |  |                                                                              |  |
+ |  |   Copyright (C) 2014 Torbjorn Sjostrand                                      |  |
+ |  |                                                                              |  |
+ |  |                                                                              |  |
+ |  *------------------------------------------------------------------------------*  |
+ |                                                                                    |
+ *------------------------------------------------------------------------------------*
+
+
+ *************************************
+ *     TAUOLA C++ Interface v1.1.6   *
+ *-----------------------------------*
+ *                                   *
+ *   (c) Nadia    Davidson,   (1,2)  *
+ *   (c) Gizo     Nanava,     (3)    *
+ *       Tomasz   Przedzinski,(4)    *
+ *       Elzbieta Richter-Was,(2,4)  *
+ *       Zbigniew Was         (2,5)  *
+ *                                   *
+ *  1) Unimelb, Melbourne, Australia *
+ *  2)     INP, Krakow, Poland       *
+ *  3) University Bonn, Germany      *
+ *  4)      UJ, Krakow, Poland       *
+ *  5)    CERN, Geneva, Switzerland  *
+ *************************************
+  In F3pi: chpt + 1 resonance + 2 resonance (RchT)
+  KORB: rho/rhop -> pi-pi0 mixing:
+  KORB: rho   =  0.769900024      0.151199996
+  KORB: rhop  =   1.37000000      0.509999990     -0.109999999
+  KORB: K*/K*prime -> Kpi mixing:
+  KORB: kstp  =   1.70000005      0.234999999      -3.79999988E-02
+  KORB: a1/a1prime -> 3pi, KKpi mixing:
+  KORB: a1    =   1.27499998      0.699999988
+  KORB: a1prim=   1.46099997      0.250000000       0.00000000
+  KORB: K1A/K1B -> Kpipi mixing:
+  KORB: K1A   =   1.26999998       9.00000036E-02   1.00000000
+  KORB: K1B   =   1.40199995      0.173999995      0.800000012
+  KORB: rho/rhop/rhopp -> 4pi mixing:
+  KORB: rho   =  0.769900024      0.151199996
+  KORB: rhopp =   1.46500003      0.310000002     -0.109999999
+  KORB: rhoppp=   1.70000005      0.234999999     -0.109999999
+  KORB: 3PI-PI0 PARAMS:   0.00000000      0.124200001      0.160400003      0.271100014      0.444299996
+  KORB: PI-3PI0 PARAMS:   0.00000000       1.00000000
+Reading SANC input files.
+File 'table1-1.txt'  missing... skipped.
+File 'table2-2.txt'  missing... skipped.
+File 'table11-11.txt' missing... skipped.
+
+ToolSvc.EvtGenDecay       ERROR EvtGen Error from EvtGen
+Unknown particle name:a0 on line 22
+ToolSvc.EvtGenDecay       ERROR EvtGen Error from EvtGen
+Will terminate execution!
