@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  7 SEP 2022 13:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  14 SEP 2022 16:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -311,52 +311,72 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [2
 
-] (main.toc)
+]
+No file main.toc.
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [3
+[3
 
 ]
 Chapter 1.
-(Chapter_1.tex) [4
+(Chapter_1.tex
+
+LaTeX Warning: Reference `QCD_Lagrangian' on page 4 undefined on input line 7.
+
+) [4
 
 ]
 Chapter 2.
-(Chapter_2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
-
- []
+(Chapter_2.tex)
+Runaway argument?
+{\textcolor {purple}{CITATIONS }.The detector is designed \subsection \ETC.
+c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex:116: File ended while scanning use of \@argdef.
+<inserted text> 
+                \par 
+l.116 \input{Chapter_2.tex}
+                           
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
 [5
 
-]) [6]
+]
 Chapter 3.
-(Chapter_3.tex) [7
+(Chapter_3.tex) [6
 
 ]
 Chapter 4.
-[8
+[7
 
 ]
 Chapter 5.
-[9
+[8
 
-] [10
+] [9
 
-] (main.aux) ) 
+] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6479 strings out of 478547
- 109245 string characters out of 2841835
- 485134 words of memory out of 3000000
- 24562 multiletter control sequences out of 15000+600000
- 508424 words of font info for 110 fonts, out of 8000000 for 9000
+ 6470 strings out of 478547
+ 109036 string characters out of 2841835
+ 482134 words of memory out of 3000000
+ 24558 multiletter control sequences out of 15000+600000
+ 506191 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,730b,254s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (11 pages, 231302 bytes).
+ 72i,5n,77p,711b,240s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (10 pages, 203675 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

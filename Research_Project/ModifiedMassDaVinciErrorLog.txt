@@ -1,0 +1,429 @@
+WARNING:lb-run:Decided best platform to use is x86_64+avx2+fma-centos7-gcc9-opt
+WARNING:lb-run:Decided best container to use is None
+# setting LC_ALL to "C"
+# --> Including file '/afs/cern.ch/user/s/spemmara/public/GaussDev_v49r21/tupleResult3.py'
+# <-- End of file '/afs/cern.ch/user/s/spemmara/public/GaussDev_v49r21/tupleResult3.py'
+# applying configuration of RawEventFormatConf
+# /***** User RawEventFormatConf/RawEventFormatConf **************************************************
+# |-RecoDict               = {'Stripping17': 1.0, 'Reco12': 1.0, 'Reco14': 2.0, 'Reco15': 4.2, 'LHCb': 0.1, 'Reconstruction12': 1.0, 'Hlt': 0.1, 'S17': 1.0, 'R14': 2.0, 'Reconstruction14': 2.0, 'Boole': 0.0, 'S20': 2.0, 'S21': 4.0, 'Stripping20': 2.0, 'Moore': 0.3, 'L0': 0.0, 'R12': 1.0, 'Strip20': 2.0, 'Pit': 0.1, 'Strip17': 1.0}
+# |                        (default: None)
+# |-Locations              = {0.0: {'HltSelReports': 'DAQ/RawEvent', 'OTError': 'DAQ/RawEvent', 'VeloError': 'DAQ/RawEvent', 'UTFull': 'DAQ/RawEvent', 'UTPedestal': 'DAQ/RawEvent', 'PrsTrig': 'DAQ/RawEvent', 'HcalPackedError': 'DAQ/RawEvent', 'L0PUFull': 'DAQ/RawEvent', 'HltDecReports': 'DAQ/RawEvent', 'Rich': 'DAQ/RawEvent', 'VeloProcFull': 'DAQ/RawEvent', 'HltRoutingBits': 'DAQ/RawEvent', 'L0MuonError': 'DAQ/RawEvent', 'VL': 'DAQ/RawEvent', 'L0MuonProcCand': 'DAQ/RawEvent', 'TTPedestal': 'DAQ/RawEvent', 'L0DUError': 'DAQ/RawEvent', 'DstBank': 'DAQ/RawEvent', 'TT': 'DAQ/RawEvent', 'L0MuonProcData': 'DAQ/RawEvent', 'OTRaw': 'DAQ/RawEvent', 'EcalPacked': 'DAQ/RawEvent', 'PrsPacked': 'DAQ/RawEvent', 'VeloPedestal': 'DAQ/RawEvent', 'DAQ': 'DAQ/RawEvent', 'ITError': 'DAQ/RawEvent', 'FileID': 'DAQ/RawEvent', 'EcalTrig': 'DAQ/RawEvent', 'FTCluster': 'DAQ/RawEvent', 'L0PUError': 'DAQ/RawEvent', 'L0Calo': 'DAQ/RawEvent', 'VeloFull': 'DAQ/RawEvent', 'L0MuonCtrlAll': 'DAQ/RawEvent', 'HltVertexReports': 'DAQ/RawEvent', 'EcalE': 'DAQ/RawEvent', 'ITProcFull': 'DAQ/RawEvent', 'HltLumiSummary': 'DAQ/RawEvent', 'TestDet': 'DAQ/RawEvent', 'IT': 'DAQ/RawEvent', 'VP': 'DAQ/RawEvent', 'HcalTrig': 'DAQ/RawEvent', 'HcalE': 'DAQ/RawEvent', 'L0PU': 'DAQ/RawEvent', 'DstAddress': 'DAQ/RawEvent', 'UT': 'DAQ/RawEvent', 'TAEHeader': 'DAQ/RawEvent', 'ODIN': 'DAQ/RawEvent', 'PrsE': 'DAQ/RawEvent', 'PrsPackedError': 'DAQ/RawEvent', 'Velo': 'DAQ/RawEvent', 'Muon': 'DAQ/RawEvent', 'ITPedestal': 'DAQ/RawEvent', 'TTProcFull': 'DAQ/RawEvent', 'DstData': 'DAQ/RawEvent', 'GaudiSerialize': 'DAQ/RawEvent', 'TTFull': 'DAQ/RawEvent', 'L0MuonRaw': 'DAQ/RawEvent', 'UTError': 'DAQ/RawEvent', 'TTError': 'DAQ/RawEvent', 'EcalPackedError': 'DAQ/RawEvent', 'HcalPacked': 'DAQ/RawEvent', 'MuonFull': 'DAQ/RawEvent', 'L0CaloError': 'DAQ/RawEvent', 'GaudiHeader': 'DAQ/RawEvent', 'L0DU': 'DAQ/RawEvent', 'ITFull': 'DAQ/RawEvent', 'OT': 'DAQ/RawEvent', 'MuonError': 'DAQ/RawEvent', 'L0CaloFull': 'DAQ/RawEvent', 'L0Muon': 'DAQ/RawEvent'}, 0.5: {'HltSelReports': 'DAQ/RawEvent', 'OTError': 'DAQ/RawEvent', 'VeloError': 'DAQ/RawEvent', 'UTFull': 'DAQ/RawEvent', 'UTPedestal': 'DAQ/RawEvent', 'PrsTrig': 'DAQ/RawEvent', 'HcalPackedError': 'DAQ/RawEvent', 'L0PUFull': 'DAQ/RawEvent', 'HltDecReports': 'DAQ/RawEvent', 'Rich': 'DAQ/RawEvent', 'VeloProcFull': 'DAQ/RawEvent', 'HltRoutingBits': 'DAQ/RawEvent', 'L0MuonError': 'DAQ/RawEvent', 'VL': 'DAQ/RawEvent', 'L0MuonProcCand': 'DAQ/RawEvent', 'TTPedestal': 'DAQ/RawEvent', 'L0DUError': 'DAQ/RawEvent', 'VPRetinaCluster': 'DAQ/RawEvent', 'HC': 'DAQ/RawEvent', 'DstBank': 'DAQ/RawEvent', 'TT': 'DAQ/RawEvent', 'L0MuonProcData': 'DAQ/RawEvent', 'OTRaw': 'DAQ/RawEvent', 'EcalPacked': 'DAQ/RawEvent', 'PrsPacked': 'DAQ/RawEvent', 'VeloPedestal': 'DAQ/RawEvent', 'DAQ': 'DAQ/RawEvent', 'ITError': 'DAQ/RawEvent', 'FileID': 'DAQ/RawEvent', 'EcalTrig': 'DAQ/RawEvent', 'FTCluster': 'DAQ/RawEvent', 'L0PUError': 'DAQ/RawEvent', 'L0Calo': 'DAQ/RawEvent', 'VeloFull': 'DAQ/RawEvent', 'L0MuonCtrlAll': 'DAQ/RawEvent', 'HltVertexReports': 'DAQ/RawEvent', 'EcalE': 'DAQ/RawEvent', 'ITProcFull': 'DAQ/RawEvent', 'HltLumiSummary': 'DAQ/RawEvent', 'TestDet': 'DAQ/RawEvent', 'IT': 'DAQ/RawEvent', 'VP': 'DAQ/RawEvent', 'HcalTrig': 'DAQ/RawEvent', 'HcalE': 'DAQ/RawEvent', 'L0PU': 'DAQ/RawEvent', 'DstAddress': 'DAQ/RawEvent', 'UT': 'DAQ/RawEvent', 'TAEHeader': 'DAQ/RawEvent', 'ODIN': 'DAQ/RawEvent', 'PrsE': 'DAQ/RawEvent', 'PrsPackedError': 'DAQ/RawEvent', 'Velo': 'DAQ/RawEvent', 'Muon': 'DAQ/RawEvent', 'ITPedestal': 'DAQ/RawEvent', 'TTProcFull': 'DAQ/RawEvent', 'DstData': 'DAQ/RawEvent', 'GaudiSerialize': 'DAQ/RawEvent', 'TTFull': 'DAQ/RawEvent', 'L0MuonRaw': 'DAQ/RawEvent', 'UTError': 'DAQ/RawEvent', 'TTError': 'DAQ/RawEvent', 'EcalPackedError': 'DAQ/RawEvent', 'HcalPacked': 'DAQ/RawEvent', 'MuonFull': 'DAQ/RawEvent', 'L0CaloError': 'DAQ/RawEvent', 'GaudiHeader': 'DAQ/RawEvent', 'L0DU': 'DAQ/RawEvent', 'ITFull': 'DAQ/RawEvent', 'OT': 'DAQ/RawEvent', 'MuonError': 'DAQ/RawEvent', 'HltTrackReports': 'DAQ/RawEvent', 'L0CaloFull': 'DAQ/RawEvent', 'L0Muon': 'DAQ/RawEvent'}, 2.0: {'HltSelReports': 'Trigger/RawEvent', 'OTError': 'Other/RawEvent', 'VeloError': 'Other/RawEvent', 'UTFull': 'Other/RawEvent', 'UTPedestal': 'Other/RawEvent', 'PrsTrig': 'Calo/RawEvent', 'HcalPackedError': 'Calo/RawEvent', 'L0PUFull': 'Other/RawEvent', 'HltDecReports': 'Trigger/RawEvent', 'Rich': 'Rich/RawEvent', 'VeloProcFull': 'Other/RawEvent', 'HltRoutingBits': 'Trigger/RawEvent', 'L0MuonError': 'Other/RawEvent', 'VL': 'Other/RawEvent', 'L0MuonProcCand': 'Trigger/RawEvent', 'TTPedestal': 'Other/RawEvent', 'L0DUError': 'Other/RawEvent', 'DstBank': 'Other/RawEvent', 'TT': 'Other/RawEvent', 'L0MuonProcData': 'Other/RawEvent', 'OTRaw': 'Other/RawEvent', 'EcalPacked': 'Calo/RawEvent', 'PrsPacked': 'Calo/RawEvent', 'VeloPedestal': 'Other/RawEvent', 'DAQ': 'Other/RawEvent', 'ITError': 'Other/RawEvent', 'FileID': 'Other/RawEvent', 'EcalTrig': 'Calo/RawEvent', 'FTCluster': 'Other/RawEvent', 'L0PUError': 'Other/RawEvent', 'L0Calo': 'Trigger/RawEvent', 'VeloFull': 'Other/RawEvent', 'L0MuonCtrlAll': 'Other/RawEvent', 'HltVertexReports': 'Trigger/RawEvent', 'EcalE': 'Calo/RawEvent', 'ITProcFull': 'Other/RawEvent', 'HltLumiSummary': 'Other/RawEvent', 'TestDet': 'Other/RawEvent', 'IT': 'Other/RawEvent', 'VP': 'Other/RawEvent', 'HcalTrig': 'Calo/RawEvent', 'HcalE': 'Calo/RawEvent', 'L0PU': 'Trigger/RawEvent', 'DstAddress': 'Other/RawEvent', 'UT': 'Other/RawEvent', 'TAEHeader': 'Other/RawEvent', 'ODIN': 'Trigger/RawEvent', 'PrsE': 'Calo/RawEvent', 'PrsPackedError': 'Calo/RawEvent', 'Velo': 'Other/RawEvent', 'Muon': 'Muon/RawEvent', 'ITPedestal': 'Other/RawEvent', 'TTProcFull': 'Other/RawEvent', 'DstData': 'Other/RawEvent', 'GaudiSerialize': 'Other/RawEvent', 'TTFull': 'Other/RawEvent', 'L0MuonRaw': 'Other/RawEvent', 'UTError': 'Other/RawEvent', 'TTError': 'Other/RawEvent', 'EcalPackedError': 'Calo/RawEvent', 'HcalPacked': 'Calo/RawEvent', 'MuonFull': 'Other/RawEvent', 'L0CaloError': 'Other/RawEvent', 'GaudiHeader': 'Other/RawEvent', 'L0DU': 'Trigger/RawEvent', 'ITFull': 'Other/RawEvent', 'OT': 'Other/RawEvent', 'MuonError': 'Other/RawEvent', 'L0CaloFull': 'Trigger/RawEvent', 'L0Muon': 'Trigger/RawEvent'}, 3.0: {'HltSelReports': 'Trigger/#TCK#/RawEvent', 'OTError': 'DAQ/RawEvent', 'VeloError': 'DAQ/RawEvent', 'UTFull': 'DAQ/RawEvent', 'UTPedestal': 'DAQ/RawEvent', 'PrsTrig': 'DAQ/RawEvent', 'HcalPackedError': 'DAQ/RawEvent', 'L0PUFull': 'DAQ/RawEvent', 'HltDecReports': 'Trigger/#TCK#/RawEvent', 'Rich': 'DAQ/RawEvent', 'VeloProcFull': 'DAQ/RawEvent', 'HltRoutingBits': 'Trigger/#TCK#/RawEvent', 'L0MuonError': 'DAQ/RawEvent', 'VL': 'DAQ/RawEvent', 'L0MuonProcCand': 'Trigger/#TCK#/RawEvent', 'TTPedestal': 'DAQ/RawEvent', 'L0DUError': 'DAQ/RawEvent', 'DstBank': 'DAQ/RawEvent', 'TT': 'DAQ/RawEvent', 'L0MuonProcData': 'DAQ/RawEvent', 'OTRaw': 'DAQ/RawEvent', 'EcalPacked': 'DAQ/RawEvent', 'PrsPacked': 'DAQ/RawEvent', 'VeloPedestal': 'DAQ/RawEvent', 'DAQ': 'DAQ/RawEvent', 'ITError': 'DAQ/RawEvent', 'FileID': 'DAQ/RawEvent', 'EcalTrig': 'DAQ/RawEvent', 'FTCluster': 'DAQ/RawEvent', 'L0PUError': 'DAQ/RawEvent', 'L0Calo': 'Trigger/#TCK#/RawEvent', 'VeloFull': 'DAQ/RawEvent', 'L0MuonCtrlAll': 'DAQ/RawEvent', 'HltVertexReports': 'Trigger/#TCK#/RawEvent', 'EcalE': 'DAQ/RawEvent', 'ITProcFull': 'DAQ/RawEvent', 'HltLumiSummary': 'DAQ/RawEvent', 'TestDet': 'DAQ/RawEvent', 'IT': 'DAQ/RawEvent', 'VP': 'DAQ/RawEvent', 'HcalTrig': 'DAQ/RawEvent', 'HcalE': 'DAQ/RawEvent', 'L0PU': 'Trigger/#TCK#/RawEvent', 'DstAddress': 'DAQ/RawEvent', 'UT': 'DAQ/RawEvent', 'TAEHeader': 'DAQ/RawEvent', 'ODIN': 'DAQ/RawEvent', 'PrsE': 'DAQ/RawEvent', 'PrsPackedError': 'DAQ/RawEvent', 'Velo': 'DAQ/RawEvent', 'Muon': 'DAQ/RawEvent', 'ITPedestal': 'DAQ/RawEvent', 'TTProcFull': 'DAQ/RawEvent', 'DstData': 'DAQ/RawEvent', 'GaudiSerialize': 'DAQ/RawEvent', 'TTFull': 'DAQ/RawEvent', 'L0MuonRaw': 'DAQ/RawEvent', 'UTError': 'DAQ/RawEvent', 'TTError': 'DAQ/RawEvent', 'EcalPackedError': 'DAQ/RawEvent', 'HcalPacked': 'DAQ/RawEvent', 'MuonFull': 'DAQ/RawEvent', 'L0CaloError': 'DAQ/RawEvent', 'GaudiHeader': 'DAQ/RawEvent', 'L0DU': 'Trigger/#TCK#/RawEvent', 'ITFull': 'DAQ/RawEvent', 'OT': 'DAQ/RawEvent', 'MuonError': 'DAQ/RawEvent', 'L0CaloFull': 'Trigger/#TCK#/RawEvent', 'L0Muon': 'Trigger/#TCK#/RawEvent'}, 4.0: {'HltSelReports': 'Trigger/RawEvent', 'OTError': 'Unstripped/RawEvent', 'VeloError': 'Unstripped/RawEvent', 'UTFull': 'Unstripped/RawEvent', 'UTPedestal': 'Unstripped/RawEvent', 'PrsTrig': 'Calo/RawEvent', 'HcalPackedError': 'Unstripped/RawEvent', 'L0PUFull': 'Unstripped/RawEvent', 'HltDecReports': 'Trigger/RawEvent', 'Rich': 'Rich/RawEvent', 'VeloProcFull': 'Unstripped/RawEvent', 'HltRoutingBits': 'Trigger/RawEvent', 'L0MuonError': 'Unstripped/RawEvent', 'VL': 'Unstripped/RawEvent', 'L0MuonProcCand': 'Trigger/RawEvent', 'TTPedestal': 'Unstripped/RawEvent', 'L0DUError': 'Unstripped/RawEvent', 'DstBank': 'Unstripped/RawEvent', 'TT': 'Tracker/RawEvent', 'L0MuonProcData': 'Unstripped/RawEvent', 'OTRaw': 'Unstripped/RawEvent', 'EcalPacked': 'Calo/RawEvent', 'PrsPacked': 'Calo/RawEvent', 'VeloPedestal': 'Unstripped/RawEvent', 'DAQ': 'Unstripped/RawEvent', 'ITError': 'Unstripped/RawEvent', 'FileID': 'Unstripped/RawEvent', 'EcalTrig': 'Calo/RawEvent', 'FTCluster': 'Tracker/RawEvent', 'L0PUError': 'Unstripped/RawEvent', 'L0Calo': 'Trigger/RawEvent', 'VeloFull': 'Unstripped/RawEvent', 'L0MuonCtrlAll': 'Unstripped/RawEvent', 'HltVertexReports': 'Trigger/RawEvent', 'EcalE': 'Calo/RawEvent', 'ITProcFull': 'Unstripped/RawEvent', 'HltLumiSummary': 'Unstripped/RawEvent', 'TestDet': 'Unstripped/RawEvent', 'IT': 'Tracker/RawEvent', 'VP': 'Velo/RawEvent', 'HcalTrig': 'Calo/RawEvent', 'HcalE': 'Calo/RawEvent', 'L0PU': 'Trigger/RawEvent', 'DstAddress': 'Unstripped/RawEvent', 'UT': 'Tracker/RawEvent', 'TAEHeader': 'Unstripped/RawEvent', 'ODIN': ['Trigger/RawEvent'], 'PrsE': 'Calo/RawEvent',
+ 'PrsPackedError': 'Unstripped/RawEvent', 'Velo': 'Velo/RawEvent', 'Muon': 'Muon/RawEvent', 'ITPedestal': 'Unstripped/RawEvent', 'TTProcFull': 'Unstripped/RawEvent', 'DstData': 'Unstripped/RawEvent', 'GaudiSerialize': 'Unstripped/RawEvent', 'TTFull': 'Unstripped/RawEvent', 'L0MuonRaw': 'Unstripped/RawEvent', 'UTError': 'Unstripped/RawEvent', 'TTError': 'Unstripped/RawEvent', 'EcalPackedError': 'Unstripped/RawEvent', 'HcalPacked': 'Calo/RawEvent', 'MuonFull': 'Unstripped/RawEvent', 'L0CaloError': 'Unstripped/RawEvent', 'GaudiHeader': 'Unstripped/RawEvent', 'L0DU': 'Trigger/RawEvent', 'ITFull': 'Unstripped/RawEvent', 'OT': 'Tracker/RawEvent', 'MuonError': 'Unstripped/RawEvent', 'HltTrackReports': 'Trigger/RawEvent', 'L0CaloFull': 'Trigger/RawEvent', 'L0Muon': 'Trigger/RawEvent'}, 0.2: {'HltRoutingBits': 'DAQ/RawEvent', 'L0PUFull': 'DAQ/RawEvent', 'HltDecReports': 'DAQ/RawEvent', 'HltSelReports': 'DAQ/RawEvent', 'L0MuonError': 'DAQ/RawEvent', 'DstBank': 'DAQ/RawEvent', 'L0MuonProcCand': 'DAQ/RawEvent', 'L0CaloError': 'DAQ/RawEvent', 'TAEHeader': 'DAQ/RawEvent', 'L0MuonProcData': 'DAQ/RawEvent', 'DAQ': 'DAQ/RawEvent', 'DstAddress': 'DAQ/RawEvent', 'L0PUError': 'DAQ/RawEvent', 'L0Calo': 'DAQ/RawEvent', 'L0MuonCtrlAll': 'DAQ/RawEvent', 'HltVertexReports': 'DAQ/RawEvent', 'HltLumiSummary': 'DAQ/RawEvent', 'TestDet': 'DAQ/RawEvent', 'L0PU': 'DAQ/RawEvent', 'L0DUError': 'DAQ/RawEvent', 'ODIN': 'DAQ/RawEvent', 'FileID': 'DAQ/RawEvent', 'DstData': 'DAQ/RawEvent', 'GaudiSerialize': 'DAQ/RawEvent', 'L0MuonRaw': 'DAQ/RawEvent', 'GaudiHeader': 'DAQ/RawEvent', 'L0DU': 'DAQ/RawEvent', 'L0CaloFull': 'DAQ/RawEvent', 'L0Muon': 'DAQ/RawEvent'}, 0.1: {'HltSelReports': 'DAQ/RawEvent', 'OTError': 'DAQ/RawEvent', 'VeloError': 'DAQ/RawEvent', 'UTFull': 'DAQ/RawEvent', 'UTPedestal': 'DAQ/RawEvent', 'PrsTrig': 'DAQ/RawEvent', 'HcalPackedError': 'DAQ/RawEvent', 'L0PUFull': 'DAQ/RawEvent', 'HltDecReports': 'DAQ/RawEvent', 'Rich': 'DAQ/RawEvent', 'VeloProcFull': 'DAQ/RawEvent', 'HltRoutingBits': 'DAQ/RawEvent', 'L0MuonError': 'DAQ/RawEvent', 'VL': 'DAQ/RawEvent', 'L0MuonProcCand': 'DAQ/RawEvent', 'TTPedestal': 'DAQ/RawEvent', 'L0DUError': 'DAQ/RawEvent', 'DstBank': 'DAQ/RawEvent', 'TT': 'DAQ/RawEvent', 'L0MuonProcData': 'DAQ/RawEvent', 'OTRaw': 'DAQ/RawEvent', 'EcalPacked': 'DAQ/RawEvent', 'PrsPacked': 'DAQ/RawEvent', 'VeloPedestal': 'DAQ/RawEvent', 'DAQ': 'DAQ/RawEvent', 'ITError': 'DAQ/RawEvent', 'FileID': 'DAQ/RawEvent', 'EcalTrig': 'DAQ/RawEvent', 'FTCluster': 'DAQ/RawEvent', 'L0PUError': 'DAQ/RawEvent', 'L0Calo': 'DAQ/RawEvent', 'VeloFull': 'DAQ/RawEvent', 'L0MuonCtrlAll': 'DAQ/RawEvent', 'HltVertexReports': 'DAQ/RawEvent', 'EcalE': 'DAQ/RawEvent', 'ITProcFull': 'DAQ/RawEvent', 'HltLumiSummary': 'DAQ/RawEvent', 'TestDet': 'DAQ/RawEvent', 'IT': 'DAQ/RawEvent', 'VP': 'DAQ/RawEvent', 'HcalTrig': 'DAQ/RawEvent', 'HcalE': 'DAQ/RawEvent', 'L0PU': 'DAQ/RawEvent', 'DstAddress': 'DAQ/RawEvent', 'UT': 'DAQ/RawEvent', 'TAEHeader': 'DAQ/RawEvent', 'ODIN': 'DAQ/RawEvent', 'PrsE': 'DAQ/RawEvent', 'PrsPackedError': 'DAQ/RawEvent', 'Velo': 'DAQ/RawEvent', 'Muon': 'DAQ/RawEvent', 'ITPedestal': 'DAQ/RawEvent', 'TTProcFull': 'DAQ/RawEvent', 'DstData': 'DAQ/RawEvent', 'GaudiSerialize': 'DAQ/RawEvent', 'TTFull': 'DAQ/RawEvent', 'L0MuonRaw': 'DAQ/RawEvent', 'UTError': 'DAQ/RawEvent', 'TTError': 'DAQ/RawEvent', 'EcalPackedError': 'DAQ/RawEvent', 'HcalPacked': 'DAQ/RawEvent', 'MuonFull': 'DAQ/RawEvent', 'L0CaloError': 'DAQ/RawEvent', 'GaudiHeader': 'DAQ/RawEvent', 'L0DU': 'DAQ/RawEvent', 'ITFull': 'DAQ/RawEvent', 'OT': 'DAQ/RawEvent', 'MuonError': 'DAQ/RawEvent', 'HltTrackReports': 'DAQ/RawEvent', 'L0CaloFull': 'DAQ/RawEvent', 'L0Muon': 'DAQ/RawEvent'}, 1.0: {'HltSelReports': ['Trigger/RawEvent', 'DAQ/RawEvent'], 'OTError': 'DAQ/RawEvent', 'VeloError': 'DAQ/RawEvent', 'UTFull': 'DAQ/RawEvent', 'UTPedestal': 'DAQ/RawEvent', 'PrsTrig': 'DAQ/RawEvent', 'HcalPackedError': 'DAQ/RawEvent', 'L0PUFull': 'DAQ/RawEvent', 'HltDecReports': ['Trigger/RawEvent', 'DAQ/RawEvent'], 'Rich': 'DAQ/RawEvent', 'VeloProcFull': 'DAQ/RawEvent', 'HltRoutingBits': ['Trigger/RawEvent', 'DAQ/RawEvent'], 'L0MuonError': 'DAQ/RawEvent', 'VL': 'DAQ/RawEvent', 'L0MuonProcCand': ['Trigger/RawEvent', 'DAQ/RawEvent'], 'TTPedestal': 'DAQ/RawEvent', 'L0DUError': 'DAQ/RawEvent', 'DstBank': 'DAQ/RawEvent', 'TT': 'DAQ/RawEvent', 'L0MuonProcData': 'DAQ/RawEvent', 'OTRaw': 'DAQ/RawEvent', 'EcalPacked': 'DAQ/RawEvent', 'PrsPacked': 'DAQ/RawEvent', 'VeloPedestal': 'DAQ/RawEvent', 'DAQ': 'DAQ/RawEvent', 'ITError': 'DAQ/RawEvent', 'FileID': 'DAQ/RawEvent', 'EcalTrig': 'DAQ/RawEvent', 'FTCluster': 'DAQ/RawEvent', 'L0PUError': 'DAQ/RawEvent', 'L0Calo': ['Trigger/RawEvent', 'DAQ/RawEvent'], 'VeloFull': 'DAQ/RawEvent', 'L0MuonCtrlAll': 'DAQ/RawEvent', 'HltVertexReports': ['Trigger/RawEvent', 'DAQ/RawEvent'], 'EcalE': 'DAQ/RawEvent', 'ITProcFull': 'DAQ/RawEvent', 'HltLumiSummary': 'DAQ/RawEvent', 'TestDet': 'DAQ/RawEvent', 'IT': 'DAQ/RawEvent', 'VP': 'DAQ/RawEvent', 'HcalTrig': 'DAQ/RawEvent', 'HcalE': 'DAQ/RawEvent', 'L0PU': ['Trigger/RawEvent', 'DAQ/RawEvent'], 'DstAddress': 'DAQ/RawEvent', 'UT': 'DAQ/RawEvent', 'TAEHeader': 'DAQ/RawEvent', 'ODIN': ['Trigger/RawEvent', 'DAQ/RawEvent'], 'PrsE': 'DAQ/RawEvent', 'PrsPackedError': 'DAQ/RawEvent', 'Velo': 'DAQ/RawEvent', 'Muon': 'DAQ/RawEvent', 'ITPedestal': 'DAQ/RawEvent', 'TTProcFull': 'DAQ/RawEvent', 'DstData': 'DAQ/RawEvent', 'GaudiSerialize': 'DAQ/RawEvent', 'TTFull': 'DAQ/RawEvent', 'L0MuonRaw': 'DAQ/RawEvent', 'UTError': 'DAQ/RawEvent', 'TTError': 'DAQ/RawEvent', 'EcalPackedError': 'DAQ/RawEvent', 'HcalPacked': 'DAQ/RawEvent', 'MuonFull': 'DAQ/RawEvent', 'L0CaloError': 'DAQ/RawEvent', 'GaudiHeader': 'DAQ/RawEvent', 'L0DU': ['Trigger/RawEvent', 'DAQ/RawEvent'], 'ITFull': 'DAQ/RawEvent', 'OT': 'DAQ/RawEvent', 'MuonError': 'DAQ/RawEvent', 'L0CaloFull': ['Trigger/RawEvent', 'DAQ/RawEvent'], 'L0Muon': ['Trigger/RawEvent', 'DAQ/RawEvent']}, 2.2: {'HltSelReports': 'Trigger/RawEvent', 'OTError': 'Other/RawEvent', 'VeloError': 'Other/RawEvent', 'UTFull': 'Other/RawEvent', 'UTPedestal': 'Other/RawEvent', 'PrsTrig': 'Calo/RawEvent', 'HcalPackedError': 'Calo/RawEvent', 'L0PUFull': 'Other/RawEvent', 'HltDecReports': 'Trigger/RawEvent', 'Rich': 'Rich/RawEvent', 'VeloProcFull': 'Other/RawEvent', 'HltRoutingBits': 'Trigger/RawEvent', 'L0MuonError': 'Other/RawEvent', 'VL': 'Other/RawEvent', 'L0MuonProcCand': 'Trigger/RawEvent', 'TTPedestal': 'Other/RawEvent', 'L0DUError': 'Other/RawEvent', 'HC': 'Other/RawEvent', 'DstBank': 'Other/RawEvent', 'TT': 'Other/RawEvent', 'L0MuonProcData': 'Other/RawEvent', 'OTRaw': 'Other/RawEvent', 'EcalPacked': 'Calo/RawEvent', 'PrsPacked': 'Calo/RawEvent', 'VeloPedestal': 'Other/RawEvent', 'DAQ': 'Other/RawEvent', 'ITError': 'Other/RawEvent', 'FileID': 'Other/RawEvent', 'EcalTrig': 'Calo/RawEvent', 'FTCluster': 'Other/RawEvent', 'L0PUError': 'Other/RawEvent', 'L0Calo': 'Trigger/RawEvent', 'VeloFull': 'Other/RawEvent', 'L0MuonCtrlAll': 'Other/RawEvent', 'HltVertexReports': 'Trigger/RawEvent', 'EcalE': 'Calo/RawEvent', 'ITProcFull': 'Other/RawEvent', 'HltLumiSummary': 'Other/RawEvent', 'TestDet': 'Other/RawEvent', 'IT': 'Other/RawEvent', 'VP': 'Other/RawEvent', 'HcalTrig': 'Calo/RawEvent', 'HcalE': 'Calo/RawEvent', 'L0PU': 'Trigger/RawEvent', 'DstAddress': 'Other/RawEvent', 'UT': 'Other/RawEvent', 'TAEHeader': 'Other/RawEvent', 'ODIN': 'Trigger/RawEvent', 'PrsE': 'Calo/RawEvent', 'PrsPackedError': 'Calo/RawEvent', 'Velo': 'Other/RawEvent', 'Muon': 'Muon/RawEvent', 'ITPedestal': 'Other/RawEvent', 'TTProcFull': 'Other/RawEvent', 'DstData': 'Other/RawEvent', 'GaudiSerialize': 'Other/RawEvent', 'TTFull': 'Other/RawEvent', 'L0MuonRaw': 'Other/RawEvent', 'UTError': 'Other/RawEvent', 'TTError': 'Other/RawEvent', 'EcalPackedError': 'Calo/RawEvent', 'HcalPacked': 'Calo/RawEvent', 'MuonFull': 'Other/RawEvent', 'L0CaloError': 'Other/RawEvent', 'GaudiHeader': 'Other/RawEvent', 'L0DU': 'Trigger/RawEvent', 'ITFull': 'Other/RawEvent', 'OT': 'Other/RawEvent', 'MuonError': 'Other/RawEvent', 'HltTrackReports': 'Trigger/RawEvent', 'L0CaloFull': 'Trigger/RawEvent', 'L0Muon': 'Trigger/RawEvent'}, 3.1: {'HltSelReports': 'Trigger/#TCK#/RawEvent', 'OTError': 'Other/RawEvent', 'VeloError': 'Other/RawEvent', 'UTFull': 'Other/RawEvent', 'UTPedestal': 'Other/RawEvent', 'PrsTrig': 'Calo/RawEvent', 'HcalPackedError': 'Calo/RawEvent', 'L0PUFull': 'Other/RawEvent', 'HltDecReports': 'Trigger/#TCK#/RawEvent', 'Rich': 'Rich/RawEvent', 'VeloProcFull': 'Other/RawEvent', 'HltRoutingBits': 'Trigger/#TCK#/RawEvent', 'L0MuonError': 'Other/RawEvent', 'VL': 'Other/RawEvent', 'L0MuonProcCand': 'Trigger/#TCK#/RawEvent', 'TTPedestal': 'Other/RawEvent', 'L0DUError': 'Other/RawEvent', 'DstBank': 'Other/RawEvent', 'TT': 'Other/RawEvent', 'L0MuonProcData': 'Other/RawEvent', 'OTRaw': 'Other/RawEvent', 'EcalPacked': 'Calo/RawEvent', 'PrsPacked': 'Calo/RawEvent', 'VeloPedestal': 'Other/RawEvent', 'DAQ': 'Other/RawEvent', 'ITError': 'Other/RawEvent', 'FileID': 'Other/RawEvent', 'EcalTrig': 'Calo/RawEvent', 'FTCluster': 'Other/RawEvent', 'L0PUError': 'Other/RawEvent', 'L0Calo': 'Trigger/#TCK#/RawEvent', 'VeloFull': 'Other/RawEvent', 'L0MuonCtrlAll': 'Other/RawEvent', 'HltVertexReports': 'Trigger/#TCK#/RawEvent', 'EcalE': 'Calo/RawEvent', 'ITProcFull': 'Other/RawEvent', 'HltLumiSummary': 'Other/RawEvent', 'TestDet': 'Other/RawEvent', 'IT': 'Other/RawEvent', 'VP': 'Other/RawEvent', 'HcalTrig': 'Calo/RawEvent', 'HcalE': 'Calo/RawEvent', 'L0PU': 'Trigger/#TCK#/RawEvent', 'DstAddress': 'Other/RawEvent', 'UT': 'Other/RawEvent', 'TAEHeader': 'Other/RawEvent', 'ODIN': 'Trigger/#TCK#/RawEvent', 'PrsE': 'Calo/RawEvent', 'PrsPackedError': 'Calo/RawEvent', 'Velo': 'Other/RawEvent', 'Muon': 'Muon/RawEvent', 'ITPedestal': 'Other/RawEvent', 'TTProcFull': 'Other/RawEvent', 'DstData': 'Other/RawEvent', 'GaudiSerialize': 'Other/RawEvent', 'TTFull': 'Other/RawEvent', 'L0MuonRaw': 'Other/RawEvent', 'UTError': 'Other/RawEvent',
+ 'TTError': 'Other/RawEvent', 'EcalPackedError': 'Calo/RawEvent', 'HcalPacked': 'Calo/RawEvent', 'MuonFull': 'Other/RawEvent', 'L0CaloError': 'Other/RawEvent', 'GaudiHeader': 'Other/RawEvent', 'L0DU': 'Trigger/#TCK#/RawEvent', 'ITFull': 'Other/RawEvent', 'OT': 'Other/RawEvent', 'MuonError': 'Other/RawEvent', 'L0CaloFull': 'Trigger/#TCK#/RawEvent', 'L0Muon': 'Trigger/#TCK#/RawEvent'}, 0.3: {'HltSelReports': 'DAQ/RawEvent', 'OTError': 'DAQ/RawEvent', 'VeloError': 'DAQ/RawEvent', 'UTFull': 'DAQ/RawEvent', 'UTPedestal': 'DAQ/RawEvent', 'PrsTrig': 'DAQ/RawEvent', 'HcalPackedError': 'DAQ/RawEvent', 'L0PUFull': 'DAQ/RawEvent', 'HltDecReports': 'DAQ/RawEvent', 'Rich': 'DAQ/RawEvent', 'VeloProcFull': 'DAQ/RawEvent', 'HltRoutingBits': 'DAQ/RawEvent', 'L0MuonError': 'DAQ/RawEvent', 'VL': 'DAQ/RawEvent', 'L0MuonProcCand': 'DAQ/RawEvent', 'TTPedestal': 'DAQ/RawEvent', 'L0DUError': 'DAQ/RawEvent', 'HC': 'DAQ/RawEvent', 'DstBank': 'DAQ/RawEvent', 'TT': 'DAQ/RawEvent', 'L0MuonProcData': 'DAQ/RawEvent', 'OTRaw': 'DAQ/RawEvent', 'EcalPacked': 'DAQ/RawEvent', 'PrsPacked': 'DAQ/RawEvent', 'VeloPedestal': 'DAQ/RawEvent', 'DAQ': 'DAQ/RawEvent', 'ITError': 'DAQ/RawEvent', 'FileID': 'DAQ/RawEvent', 'EcalTrig': 'DAQ/RawEvent', 'FTCluster': 'DAQ/RawEvent', 'L0PUError': 'DAQ/RawEvent', 'L0Calo': 'DAQ/RawEvent', 'VeloFull': 'DAQ/RawEvent', 'L0MuonCtrlAll': 'DAQ/RawEvent', 'HltVertexReports': 'DAQ/RawEvent', 'EcalE': 'DAQ/RawEvent', 'ITProcFull': 'DAQ/RawEvent', 'HltLumiSummary': 'DAQ/RawEvent', 'TestDet': 'DAQ/RawEvent', 'IT': 'DAQ/RawEvent', 'VP': 'DAQ/RawEvent', 'HcalTrig': 'DAQ/RawEvent', 'HcalE': 'DAQ/RawEvent', 'L0PU': 'DAQ/RawEvent', 'DstAddress': 'DAQ/RawEvent', 'UT': 'DAQ/RawEvent', 'TAEHeader': 'DAQ/RawEvent', 'ODIN': 'DAQ/RawEvent', 'PrsE': 'DAQ/RawEvent', 'PrsPackedError': 'DAQ/RawEvent', 'Velo': 'DAQ/RawEvent', 'Muon': 'DAQ/RawEvent', 'ITPedestal': 'DAQ/RawEvent', 'TTProcFull': 'DAQ/RawEvent', 'DstData': 'DAQ/RawEvent', 'GaudiSerialize': 'DAQ/RawEvent', 'TTFull': 'DAQ/RawEvent', 'L0MuonRaw': 'DAQ/RawEvent', 'UTError': 'DAQ/RawEvent', 'TTError': 'DAQ/RawEvent', 'EcalPackedError': 'DAQ/RawEvent', 'HcalPacked': 'DAQ/RawEvent', 'MuonFull': 'DAQ/RawEvent', 'L0CaloError': 'DAQ/RawEvent', 'GaudiHeader': 'DAQ/RawEvent', 'L0DU': 'DAQ/RawEvent', 'ITFull': 'DAQ/RawEvent', 'OT': 'DAQ/RawEvent', 'MuonError': 'DAQ/RawEvent', 'HltTrackReports': 'DAQ/RawEvent', 'L0CaloFull': 'DAQ/RawEvent', 'L0Muon': 'DAQ/RawEvent'}, 0.4: {'HltRoutingBits': 'DAQ/RawEvent', 'L0PUFull': 'DAQ/RawEvent', 'HltDecReports': 'DAQ/RawEvent', 'HC': 'DAQ/RawEvent', 'HltSelReports': 'DAQ/RawEvent', 'L0MuonError': 'DAQ/RawEvent', 'DstBank': 'DAQ/RawEvent', 'L0MuonProcCand': 'DAQ/RawEvent', 'L0CaloError': 'DAQ/RawEvent', 'TAEHeader': 'DAQ/RawEvent', 'L0MuonProcData': 'DAQ/RawEvent', 'DAQ': 'DAQ/RawEvent', 'DstAddress': 'DAQ/RawEvent', 'L0PUError': 'DAQ/RawEvent', 'L0Calo': 'DAQ/RawEvent', 'L0MuonCtrlAll': 'DAQ/RawEvent', 'HltVertexReports': 'DAQ/RawEvent', 'HltLumiSummary': 'DAQ/RawEvent', 'TestDet': 'DAQ/RawEvent', 'L0PU': 'DAQ/RawEvent', 'L0DUError': 'DAQ/RawEvent', 'ODIN': 'DAQ/RawEvent', 'FileID': 'DAQ/RawEvent', 'DstData': 'DAQ/RawEvent', 'GaudiSerialize': 'DAQ/RawEvent', 'L0MuonRaw': 'DAQ/RawEvent', 'GaudiHeader': 'DAQ/RawEvent', 'L0DU': 'DAQ/RawEvent', 'L0CaloFull': 'DAQ/RawEvent', 'L0Muon': 'DAQ/RawEvent'}, 4.3: {'HltSelReports': 'Trigger/RawEvent', 'OTError': 'Unstripped/RawEvent', 'VeloError': 'Unstripped/RawEvent', 'UTFull': 'Unstripped/RawEvent', 'UTPedestal': 'Unstripped/RawEvent', 'PrsTrig': 'Calo/RawEvent', 'HcalPackedError': 'Unstripped/RawEvent', 'L0PUFull': 'Unstripped/RawEvent', 'HltDecReports': 'Trigger/RawEvent', 'Rich': 'Rich/RawEvent', 'VeloProcFull': 'Unstripped/RawEvent', 'HltRoutingBits': 'Trigger/RawEvent', 'L0MuonError': 'Unstripped/RawEvent', 'VL': 'Unstripped/RawEvent', 'L0MuonProcCand': 'Trigger/RawEvent', 'TTPedestal': 'Unstripped/RawEvent', 'L0DUError': 'Unstripped/RawEvent', 'HC': 'HC/RawEvent', 'DstBank': 'Unstripped/RawEvent', 'TT': 'Tracker/RawEvent', 'L0MuonProcData': 'Unstripped/RawEvent', 'OTRaw': 'Unstripped/RawEvent', 'EcalPacked': 'Calo/RawEvent', 'PrsPacked': 'Calo/RawEvent', 'VeloPedestal': 'Unstripped/RawEvent', 'DAQ': 'Unstripped/RawEvent', 'ITError': 'Tracker/RawEvent', 'FileID': 'Unstripped/RawEvent', 'EcalTrig': 'Calo/RawEvent', 'FTCluster': 'Tracker/RawEvent', 'L0PUError': 'Unstripped/RawEvent', 'L0Calo': 'Trigger/RawEvent', 'VeloFull': 'Unstripped/RawEvent', 'L0MuonCtrlAll': 'Unstripped/RawEvent', 'HltVertexReports': 'Trigger/RawEvent', 'EcalE': 'Calo/RawEvent', 'ITProcFull': 'Unstripped/RawEvent', 'HltLumiSummary': 'Unstripped/RawEvent', 'TestDet': 'Unstripped/RawEvent', 'IT': 'Tracker/RawEvent', 'VP': 'Velo/RawEvent', 'HcalTrig': 'Calo/RawEvent', 'HcalE': 'Calo/RawEvent', 'L0PU': 'Trigger/RawEvent', 'DstAddress': 'Unstripped/RawEvent', 'UT': 'Tracker/RawEvent', 'TAEHeader': 'Unstripped/RawEvent', 'ODIN': ['Trigger/RawEvent'], 'PrsE': 'Calo/RawEvent', 'PrsPackedError': 'Unstripped/RawEvent', 'Velo': 'Velo/RawEvent', 'Muon': 'Muon/RawEvent', 'ITPedestal': 'Unstripped/RawEvent', 'TTProcFull': 'Unstripped/RawEvent', 'DstData': 'PersistReco/RawEvent', 'GaudiSerialize': 'Unstripped/RawEvent', 'TTFull': 'Unstripped/RawEvent', 'L0MuonRaw': 'Unstripped/RawEvent', 'UTError': 'Unstripped/RawEvent', 'TTError': 'Tracker/RawEvent', 'EcalPackedError': 'Unstripped/RawEvent', 'HcalPacked': 'Calo/RawEvent', 'MuonFull': 'Unstripped/RawEvent', 'L0CaloError': 'Unstripped/RawEvent', 'GaudiHeader': 'Unstripped/RawEvent', 'L0DU': 'Trigger/RawEvent', 'ITFull': 'Unstripped/RawEvent', 'OT': 'Tracker/RawEvent', 'MuonError': 'Unstripped/RawEvent', 'HltTrackReports': 'Trigger/RawEvent', 'L0CaloFull': 'Trigger/RawEvent', 'L0Muon': 'Trigger/RawEvent'}, 2.1: {'HltSelReports': 'Trigger/RawEvent', 'OTError': 'Other/RawEvent', 'VeloError': 'Other/RawEvent', 'UTFull': 'Other/RawEvent', 'UTPedestal': 'Other/RawEvent', 'PrsTrig': 'Calo/RawEvent', 'HcalPackedError': 'Calo/RawEvent', 'L0PUFull': 'Other/RawEvent', 'HltDecReports': 'Trigger/RawEvent', 'Rich': 'Rich/RawEvent', 'VeloProcFull': 'Other/RawEvent', 'HltRoutingBits': 'Trigger/RawEvent', 'L0MuonError': 'Other/RawEvent', 'VL': 'Other/RawEvent', 'L0MuonProcCand': 'Trigger/RawEvent', 'TTPedestal': 'Other/RawEvent', 'L0DUError': 'Other/RawEvent', 'DstBank': 'Other/RawEvent', 'TT': 'Other/RawEvent', 'L0MuonProcData': 'Other/RawEvent', 'OTRaw': 'Other/RawEvent', 'EcalPacked': 'Calo/RawEvent', 'PrsPacked': 'Calo/RawEvent', 'VeloPedestal': 'Other/RawEvent', 'DAQ': 'Other/RawEvent', 'ITError': 'Other/RawEvent', 'FileID': 'Other/RawEvent', 'EcalTrig': 'Calo/RawEvent', 'FTCluster': 'Other/RawEvent', 'L0PUError': 'Other/RawEvent', 'L0Calo': 'Trigger/RawEvent', 'VeloFull': 'Other/RawEvent', 'L0MuonCtrlAll': 'Other/RawEvent', 'HltVertexReports': 'Trigger/RawEvent', 'EcalE': 'Calo/RawEvent', 'ITProcFull': 'Other/RawEvent', 'HltLumiSummary': 'Other/RawEvent', 'TestDet': 'Other/RawEvent', 'IT': 'Other/RawEvent', 'VP': 'Other/RawEvent', 'HcalTrig': 'Calo/RawEvent', 'HcalE': 'Calo/RawEvent', 'L0PU': 'Trigger/RawEvent', 'DstAddress': 'Other/RawEvent', 'UT': 'Other/RawEvent', 'TAEHeader': 'Other/RawEvent', 'ODIN': 'Trigger/RawEvent', 'PrsE': 'Calo/RawEvent', 'PrsPackedError': 'Calo/RawEvent', 'Velo': 'Other/RawEvent', 'Muon': 'Muon/RawEvent', 'ITPedestal': 'Other/RawEvent', 'TTProcFull': 'Other/RawEvent', 'DstData': 'Other/RawEvent', 'GaudiSerialize': 'Other/RawEvent', 'TTFull': 'Other/RawEvent', 'L0MuonRaw': 'Other/RawEvent', 'UTError': 'Other/RawEvent', 'TTError': 'Other/RawEvent', 'EcalPackedError': 'Calo/RawEvent', 'HcalPacked': 'Calo/RawEvent', 'MuonFull': 'Other/RawEvent', 'L0CaloError': 'Other/RawEvent', 'GaudiHeader': 'Other/RawEvent', 'L0DU': 'Trigger/RawEvent', 'ITFull': 'Other/RawEvent', 'OT': 'Other/RawEvent', 'MuonError': 'Other/RawEvent', 'HltTrackReports': 'Trigger/RawEvent', 'L0CaloFull': 'Trigger/RawEvent', 'L0Muon': 'Trigger/RawEvent'}, 4.1: {'HltSelReports': 'Trigger/RawEvent', 'OTError': 'Unstripped/RawEvent', 'VeloError': 'Unstripped/RawEvent', 'UTFull': 'Unstripped/RawEvent', 'UTPedestal': 'Unstripped/RawEvent', 'PrsTrig': 'Calo/RawEvent', 'HcalPackedError': 'Unstripped/RawEvent', 'L0PUFull': 'Unstripped/RawEvent', 'HltDecReports': 'Trigger/RawEvent', 'Rich': 'Rich/RawEvent', 'VeloProcFull': 'Unstripped/RawEvent', 'HltRoutingBits': 'Trigger/RawEvent', 'L0MuonError': 'Unstripped/RawEvent', 'VL': 'Unstripped/RawEvent', 'L0MuonProcCand': 'Trigger/RawEvent', 'TTPedestal': 'Unstripped/RawEvent', 'L0DUError': 'Unstripped/RawEvent', 'HC': 'HC/RawEvent', 'DstBank': 'Unstripped/RawEvent', 'TT': 'Tracker/RawEvent', 'L0MuonProcData': 'Unstripped/RawEvent', 'OTRaw': 'Unstripped/RawEvent', 'EcalPacked': 'Calo/RawEvent', 'PrsPacked': 'Calo/RawEvent', 'VeloPedestal': 'Unstripped/RawEvent', 'DAQ': 'Unstripped/RawEvent', 'ITError': 'Unstripped/RawEvent', 'FileID': 'Unstripped/RawEvent', 'EcalTrig': 'Calo/RawEvent', 'FTCluster': 'Tracker/RawEvent', 'L0PUError': 'Unstripped/RawEvent', 'L0Calo': 'Trigger/RawEvent', 'VeloFull': 'Unstripped/RawEvent', 'L0MuonCtrlAll': 'Unstripped/RawEvent', 'HltVertexReports': 'Trigger/RawEvent', 'EcalE': 'Calo/RawEvent', 'ITProcFull': 'Unstripped/RawEvent', 'HltLumiSummary': 'Unstripped/RawEvent', 'TestDet': 'Unstripped/RawEvent', 'IT': 'Tracker/RawEvent', 'VP': 'Velo/RawEvent', 'HcalTrig': 'Calo/RawEvent', 'HcalE': 'Calo/RawEvent', 'L0PU': 'Trigger/RawEvent', 'DstAddress': 'Unstripped/RawEvent', 'UT': 'Tracker/RawEvent', 'TAEHeader': 'Unstripped/RawEvent', 'ODIN': ['Trigger/RawEvent'], 'PrsE': 'Calo/RawEvent', 'PrsPackedError': 'Unstripped/RawEvent', 'Velo': 'Velo/RawEvent', 'Muon': 'Muon/RawEvent', 'ITPedestal': 'Unstripped/RawEvent', 'TTProcFull': 'Unstripped/RawEvent', 'DstData': 'Unstripped/RawEvent', 'GaudiSerialize': 'Unstripped/RawEvent', 'TTFull': 'Unstripped/RawEvent', 'L0MuonRaw': 'Unstripped/RawEvent', 'UTError': 'Unstripped/RawEvent', 'TTError': 'Unstripped/RawEvent', 'EcalPackedError':
+ 'Unstripped/RawEvent', 'HcalPacked': 'Calo/RawEvent', 'MuonFull': 'Unstripped/RawEvent', 'L0CaloError': 'Unstripped/RawEvent', 'GaudiHeader': 'Unstripped/RawEvent', 'L0DU': 'Trigger/RawEvent', 'ITFull': 'Unstripped/RawEvent', 'OT': 'Tracker/RawEvent', 'MuonError': 'Unstripped/RawEvent', 'HltTrackReports': 'Trigger/RawEvent', 'L0CaloFull': 'Trigger/RawEvent', 'L0Muon': 'Trigger/RawEvent'}, 3.3: {'HltSelReports': 'Trigger/#TCK#/RawEvent', 'OTError': 'Other/RawEvent', 'VeloError': 'Other/RawEvent', 'UTFull': 'Other/RawEvent', 'UTPedestal': 'Other/RawEvent', 'PrsTrig': 'Calo/RawEvent', 'HcalPackedError': 'Calo/RawEvent', 'L0PUFull': 'Other/RawEvent', 'HltDecReports': 'Trigger/#TCK#/RawEvent', 'Rich': 'Rich/RawEvent', 'VeloProcFull': 'Other/RawEvent', 'HltRoutingBits': 'Trigger/#TCK#/RawEvent', 'L0MuonError': 'Other/RawEvent', 'VL': 'Other/RawEvent', 'L0MuonProcCand': 'Trigger/#L0TCK#/RawEvent', 'TTPedestal': 'Other/RawEvent', 'L0DUError': 'Other/RawEvent', 'DstBank': 'Other/RawEvent', 'TT': 'Other/RawEvent', 'L0MuonProcData': 'Other/RawEvent', 'OTRaw': 'Other/RawEvent', 'EcalPacked': 'Calo/RawEvent', 'PrsPacked': 'Calo/RawEvent', 'VeloPedestal': 'Other/RawEvent', 'DAQ': 'Other/RawEvent', 'ITError': 'Other/RawEvent', 'FileID': 'Other/RawEvent', 'EcalTrig': 'Calo/RawEvent', 'FTCluster': 'Other/RawEvent', 'L0PUError': 'Other/RawEvent', 'L0Calo': 'Trigger/#L0TCK#/RawEvent', 'VeloFull': 'Other/RawEvent', 'L0MuonCtrlAll': 'Other/RawEvent', 'HltVertexReports': 'Trigger/#TCK#/RawEvent', 'EcalE': 'Calo/RawEvent', 'ITProcFull': 'Other/RawEvent', 'HltLumiSummary': 'Other/RawEvent', 'TestDet': 'Other/RawEvent', 'IT': 'Other/RawEvent', 'VP': 'Other/RawEvent', 'HcalTrig': 'Calo/RawEvent', 'HcalE': 'Calo/RawEvent', 'L0PU': 'Trigger/#L0TCK#/RawEvent', 'DstAddress': 'Other/RawEvent', 'UT': 'Other/RawEvent', 'TAEHeader': 'Other/RawEvent', 'ODIN': ['Trigger/#TCK#/RawEvent', 'Trigger/#L0TCK#/RawEvent'], 'PrsE': 'Calo/RawEvent', 'PrsPackedError': 'Calo/RawEvent', 'Velo': 'Other/RawEvent', 'Muon': 'Muon/RawEvent', 'ITPedestal': 'Other/RawEvent', 'TTProcFull': 'Other/RawEvent', 'DstData': 'Other/RawEvent', 'GaudiSerialize': 'Other/RawEvent', 'TTFull': 'Other/RawEvent', 'L0MuonRaw': 'Other/RawEvent', 'UTError': 'Other/RawEvent', 'TTError': 'Other/RawEvent', 'EcalPackedError': 'Calo/RawEvent', 'HcalPacked': 'Calo/RawEvent', 'MuonFull': 'Other/RawEvent', 'L0CaloError': 'Other/RawEvent', 'GaudiHeader': 'Other/RawEvent', 'L0DU': 'Trigger/#L0TCK#/RawEvent', 'ITFull': 'Other/RawEvent', 'OT': 'Other/RawEvent', 'MuonError': 'Other/RawEvent', 'L0CaloFull': 'Trigger/#L0TCK#/RawEvent', 'L0Muon': 'Trigger/#L0TCK#/RawEvent'}, 4.2: {'HltSelReports': 'Trigger/RawEvent', 'OTError': 'Unstripped/RawEvent', 'VeloError': 'Unstripped/RawEvent', 'UTFull': 'Unstripped/RawEvent', 'UTPedestal': 'Unstripped/RawEvent', 'PrsTrig': 'Calo/RawEvent', 'HcalPackedError': 'Unstripped/RawEvent', 'L0PUFull': 'Unstripped/RawEvent', 'HltDecReports': 'Trigger/RawEvent', 'Rich': 'Rich/RawEvent', 'VeloProcFull': 'Unstripped/RawEvent', 'HltRoutingBits': 'Trigger/RawEvent', 'L0MuonError': 'Unstripped/RawEvent', 'VL': 'Unstripped/RawEvent', 'L0MuonProcCand': 'Trigger/RawEvent', 'TTPedestal': 'Unstripped/RawEvent', 'L0DUError': 'Unstripped/RawEvent', 'HC': 'HC/RawEvent', 'DstBank': 'Unstripped/RawEvent', 'TT': 'Tracker/RawEvent', 'L0MuonProcData': 'Unstripped/RawEvent', 'OTRaw': 'Unstripped/RawEvent', 'EcalPacked': 'Calo/RawEvent', 'PrsPacked': 'Calo/RawEvent', 'VeloPedestal': 'Unstripped/RawEvent', 'DAQ': 'Unstripped/RawEvent', 'ITError': 'Tracker/RawEvent', 'FileID': 'Unstripped/RawEvent', 'EcalTrig': 'Calo/RawEvent', 'FTCluster': 'Tracker/RawEvent', 'L0PUError': 'Unstripped/RawEvent', 'L0Calo': 'Trigger/RawEvent', 'VeloFull': 'Unstripped/RawEvent', 'L0MuonCtrlAll': 'Unstripped/RawEvent', 'HltVertexReports': 'Trigger/RawEvent', 'EcalE': 'Calo/RawEvent', 'ITProcFull': 'Unstripped/RawEvent', 'HltLumiSummary': 'Unstripped/RawEvent', 'TestDet': 'Unstripped/RawEvent', 'IT': 'Tracker/RawEvent', 'VP': 'Velo/RawEvent', 'HcalTrig': 'Calo/RawEvent', 'HcalE': 'Calo/RawEvent', 'L0PU': 'Trigger/RawEvent', 'DstAddress': 'Unstripped/RawEvent', 'UT': 'Tracker/RawEvent', 'TAEHeader': 'Unstripped/RawEvent', 'ODIN': ['Trigger/RawEvent'], 'PrsE': 'Calo/RawEvent', 'PrsPackedError': 'Unstripped/RawEvent', 'Velo': 'Velo/RawEvent', 'Muon': 'Muon/RawEvent', 'ITPedestal': 'Unstripped/RawEvent', 'TTProcFull': 'Unstripped/RawEvent', 'DstData': 'Unstripped/RawEvent', 'GaudiSerialize': 'Unstripped/RawEvent', 'TTFull': 'Unstripped/RawEvent', 'L0MuonRaw': 'Unstripped/RawEvent', 'UTError': 'Unstripped/RawEvent', 'TTError': 'Tracker/RawEvent', 'EcalPackedError': 'Unstripped/RawEvent', 'HcalPacked': 'Calo/RawEvent', 'MuonFull': 'Unstripped/RawEvent', 'L0CaloError': 'Unstripped/RawEvent', 'GaudiHeader': 'Unstripped/RawEvent', 'L0DU': 'Trigger/RawEvent', 'ITFull': 'Unstripped/RawEvent', 'OT': 'Tracker/RawEvent', 'MuonError': 'Unstripped/RawEvent', 'HltTrackReports': 'Trigger/RawEvent', 'L0CaloFull': 'Trigger/RawEvent', 'L0Muon': 'Trigger/RawEvent'}, 3.2: {'OTError': 'Other/RawEvent', 'VeloError': 'Other/RawEvent', 'UTFull': 'Other/RawEvent', 'UTPedestal': 'Other/RawEvent', 'PrsTrig': 'Calo/RawEvent', 'HcalPackedError': 'Calo/RawEvent', 'L0PUFull': 'Other/RawEvent', 'UT': 'Other/RawEvent', 'Rich': 'Rich/RawEvent', 'VeloProcFull': 'Other/RawEvent', 'L0MuonError': 'Other/RawEvent', 'VL': 'Other/RawEvent', 'L0MuonProcCand': 'Trigger/#L0TCK#/RawEvent', 'TTPedestal': 'Other/RawEvent', 'L0DUError': 'Other/RawEvent', 'DstBank': 'Other/RawEvent', 'TT': 'Other/RawEvent', 'OTRaw': 'Other/RawEvent', 'EcalPacked': 'Calo/RawEvent', 'PrsPacked': 'Calo/RawEvent', 'VeloPedestal': 'Other/RawEvent', 'DAQ': 'Other/RawEvent', 'ITError': 'Other/RawEvent', 'FileID': 'Other/RawEvent', 'EcalTrig': 'Calo/RawEvent', 'FTCluster': 'Other/RawEvent', 'L0PUError': 'Other/RawEvent', 'L0Calo': 'Trigger/#L0TCK#/RawEvent', 'VeloFull': 'Other/RawEvent', 'L0MuonCtrlAll': 'Other/RawEvent', 'L0MuonProcData': 'Other/RawEvent', 'EcalE': 'Calo/RawEvent', 'ITProcFull': 'Other/RawEvent', 'HltLumiSummary': 'Other/RawEvent', 'TestDet': 'Other/RawEvent', 'IT': 'Other/RawEvent', 'VP': 'Other/RawEvent', 'HcalTrig': 'Calo/RawEvent', 'HcalE': 'Calo/RawEvent', 'L0PU': 'Trigger/#L0TCK#/RawEvent', 'DstAddress': 'Other/RawEvent', 'TAEHeader': 'Other/RawEvent', 'ODIN': 'Trigger/#L0TCK#/RawEvent', 'PrsE': 'Calo/RawEvent', 'PrsPackedError': 'Calo/RawEvent', 'Velo': 'Other/RawEvent', 'Muon': 'Muon/RawEvent', 'ITPedestal': 'Other/RawEvent', 'TTProcFull': 'Other/RawEvent', 'DstData': 'Other/RawEvent', 'GaudiSerialize': 'Other/RawEvent', 'TTFull': 'Other/RawEvent', 'L0MuonRaw': 'Other/RawEvent', 'UTError': 'Other/RawEvent', 'TTError': 'Other/RawEvent', 'EcalPackedError': 'Calo/RawEvent', 'HcalPacked': 'Calo/RawEvent', 'MuonFull': 'Other/RawEvent', 'L0CaloError': 'Other/RawEvent', 'GaudiHeader': 'Other/RawEvent', 'L0DU': 'Trigger/#L0TCK#/RawEvent', 'ITFull': 'Other/RawEvent', 'OT': 'Other/RawEvent', 'MuonError': 'Other/RawEvent', 'L0CaloFull': 'Trigger/#L0TCK#/RawEvent', 'L0Muon': 'Trigger/#L0TCK#/RawEvent'}}
+# |                        (default: None)
+# |-TCKReplacePattern      = '#TCK#'
+# |-GenericReplacePatterns = {}  (default: {})
+# |-TCK                    = None
+# \----- (End of User RawEventFormatConf/RawEventFormatConf) -----------------------------------------
+# applying configuration of DaVinci
+# DaVinci                   INFO    Applying DaVinci configuration
+# DaVinci                   INFO    /***** User DaVinci/DaVinci ************************************************************************
+|-MainOptions          = ''
+|-TupleFile            = 'DVntupleHM.root'  (default: '')
+|-SkipEvents           = 0
+|-RootCompressionLevel = 'LZMA:6'
+|-Input                = []  (default: [])
+|-Turbo                = False
+|-DDDBtag              = ''
+|-UserAlgorithms       = [MCDecayTreeTuple('MCDecayTreeTuple')]  (default: [])
+|-RootInTES            = ''
+|-DQFLAGStag           = ''
+|-Lumi                 = False  (default: False)
+|-MoniSequence         = []  (default: [])
+|-VerboseMessages      = False
+|-InputType            = 'DIGI'  (default: 'DST')
+|-ProductionType       = 'None'
+|-PrintFreq            = 1000
+|-Detectors            = ['Velo', 'PuVeto', 'Rich1', 'Rich2', 'TT', 'IT', 'OT', 'Spd', 'Prs', 'Ecal', 'Hcal', 'Muon', 'Magnet', 'Tr']
+|                      (default: ['Velo', 'PuVeto', 'Rich1', 'Rich2', 'TT', 'IT', 'OT', 'Spd', 'Prs', 'Ecal', 'Hcal', 'Muon', 'Magnet', 'Tr'])
+|-EvtMax               = -1
+|-Simulation           = True  (default: False)
+|-MergeGenFSR          = False
+|-StrippingStream      = None
+|-TurboStream          = None
+|-CondDBtag            = ''
+|-DataType             = '2018'  (default: '')
+|-RedoMCLinks          = False
+|-IgnoreDQFlags        = False
+|-HistogramFile        = ''
+|-WriteFSR             = True
+|-EnableUnpack         = None
+|-EventPreFilters      = []  (default: [])
+\----- (End of User DaVinci/DaVinci) ---------------------------------------------------------------
+# DaVinci                   WARNING ``DDDBtag''   is not specified for simulated data
+# DaVinci                   WARNING ``CondDBtag'' is not specified for simulated data
+# --> Including file '/cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/GaudiConf/options/PreloadUnits.opts'
+# --> Including file '/cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/GaudiConf/options/units.opts'
+# <-- End of file '/cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/GaudiConf/options/units.opts'
+# <-- End of file '/cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/GaudiConf/options/PreloadUnits.opts'
+# DaVinci                   INFO    Creating Lumi Algorithms
+# DaVinci                   INFO    No MainOptions specified. DaVinci() will import no options file!
+# DaVinci                   INFO    Creating User Algorithms
+# DaVinci                   INFO    Append to Main Sequence has been called
+# DaVinci                   INFO    Creating Moni Algorithms
+# DaVinci                   INFO    Append to Moni Sequence has been called
+# /***** User DaVinci/DaVinci ************************************************************************
+# |-MainOptions          = ''
+# |-TupleFile            = 'DVntupleHM.root'  (default: '')
+# |-SkipEvents           = 0
+# |-RootCompressionLevel = 'LZMA:6'
+# |-Input                = []  (default: [])
+# |-Turbo                = False
+# |-DDDBtag              = ''
+# |-UserAlgorithms       = [MCDecayTreeTuple('MCDecayTreeTuple')]  (default: [])
+# |-RootInTES            = ''
+# |-DQFLAGStag           = ''
+# |-Lumi                 = False  (default: False)
+# |-MoniSequence         = []  (default: [])
+# |-VerboseMessages      = False
+# |-InputType            = 'DIGI'  (default: 'DST')
+# |-ProductionType       = 'None'
+# |-PrintFreq            = 1000
+# |-Detectors            = ['Velo', 'PuVeto', 'Rich1', 'Rich2', 'TT', 'IT', 'OT', 'Spd', 'Prs', 'Ecal', 'Hcal', 'Muon', 'Magnet', 'Tr']
+# |                      (default: ['Velo', 'PuVeto', 'Rich1', 'Rich2', 'TT', 'IT', 'OT', 'Spd', 'Prs', 'Ecal', 'Hcal', 'Muon', 'Magnet', 'Tr'])
+# |-EvtMax               = -1
+# |-Simulation           = True  (default: False)
+# |-MergeGenFSR          = False
+# |-StrippingStream      = None
+# |-TurboStream          = None
+# |-CondDBtag            = ''
+# |-DataType             = '2018'  (default: '')
+# |-RedoMCLinks          = False
+# |-IgnoreDQFlags        = True  (default: False)
+# |-HistogramFile        = ''
+# |-WriteFSR             = True
+# |-EnableUnpack         = None
+# |-EventPreFilters      = []  (default: [])
+# \----- (End of User DaVinci/DaVinci) ---------------------------------------------------------------
+# applying configuration of TrackSys
+# /***** User TrackSys/TrackSys **********************************************************************
+# |-FilterBeforeFit          = True
+# |-TrackingSequence         = []  (default: [])
+# |-ExpertTracking           = []  (default: [])
+# |-ExpertHistos             = False
+# |-TrackExtraInfoAlgorithms = ['CloneFlagging']  (default: [])
+# |-DataType                 = '2018'  (default: '2011')
+# |-WithMC                   = False
+# |-TrackTypes               = ['Velo', 'Upstream', 'Forward', 'Seeding', 'Match', 'Downstream']  (default: [])
+# |-OutputType               = ''
+# |-Simulation               = False
+# |-OldCloneKiller           = False
+# |-ForceNewSeq              = False
+# |-GlobalCuts               = {'Velo': 6000, 'OT': 15000, 'IT': 999999}  (default: {})
+# |-ExcludedLayers           = []  (default: [])
+# |-ForceOldSeq              = False
+# |-SpecialData              = []  (default: [])
+# |-HltMode                  = False
+# |-TrackPatRecAlgorithms    = ['FastVelo', 'ForwardHLT1', 'ForwardHLT2', 'PatSeed', 'PatMatch', 'PatLongLivedTracking', 'VeloTT']
+# |                          (default: [])
+# \----- (End of User TrackSys/TrackSys) -------------------------------------------------------------
+# skipping configuration of LumiIntegratorConf
+# applying configuration of AnalysisConf
+# Applying Analysis configuration
+# /***** User AnalysisConf/AnalysisConf **************************************************************
+# |-DataType    = '2018'  (default: '')
+# |-OutputLevel = 3
+# |-RedoMCLinks = False
+# |-RootInTES   = ''
+# |-Simulation  = True  (default: False)
+# |-InputType   = 'DIGI'  (default: '')
+# \----- (End of User AnalysisConf/AnalysisConf) -----------------------------------------------------
+# WARNING: Using default tag dddb-20200424-3 for partition DDDB
+# WARNING: Property 'EnableUnpack' is set in both 'DigiConf' and 'SimConf', using 'DigiConf.EnableUnpack'
+# WARNING: Property 'DataType' is set in both 'DigiConf' and 'SimConf', using 'DigiConf.DataType'
+# No Writer defined for DIGI
+# WARNING: something else configured a decoder already, Trig/L0/Calo L0CaloCandidatesFromRaw/L0CaloFromRaw
+# WARNING: something else configured a decoder already, Trig/L0/FullCalo L0CaloCandidatesFromRaw/L0CaloFromRaw
+# WARNING: something else configured a decoder already, Trig/L0/L0DUReport L0DUFromRawAlg/L0DUFromRaw
+# WARNING: something else configured a decoder already, Raw/Ecal/Digits CaloZSupAlg/EcalZSup
+# WARNING: something else configured a decoder already, Trig/L0/MuonCtrl L0MuonCandidatesFromRaw/L0MuonFromRaw
+# WARNING: something else configured a decoder already, Trig/L0/MuonBCSU L0MuonCandidatesFromRaw/L0MuonFromRaw
+# WARNING: something else configured a decoder already, Trig/L0/MuonData L0MuonCandidatesFromRaw/L0MuonFromRaw
+ApplicationMgr    SUCCESS 
+====================================================================================================================================
+                                                   Welcome to DaVinci version v45r4
+                                          running on lxplus766.cern.ch on Tue Sep 20 14:47:53 2022
+====================================================================================================================================
+ApplicationMgr       INFO Application Manager Configured successfully
+ToolSvc.GitDDDB      INFO opening Git repository '/cvmfs/lhcb.cern.ch/lib/lhcb/git-conddb/DDDB.git'
+ToolSvc.GitDDDB      INFO using commit 'dddb-20200424-3' corresponding to 312e726f6f6219889ea38625383668e29d176237
+ToolSvc.GitSIMCOND   INFO opening Git repository '/cvmfs/lhcb.cern.ch/lib/lhcb/git-conddb/SIMCOND.git'
+ToolSvc.GitSIMCOND   INFO using commit 'HEAD' corresponding to ac56dadef6be666579d262b69aa8d0b0d576bd71
+DetectorPersist...   INFO Added successfully Conversion service:XmlCnvSvc
+DetectorDataSvc   SUCCESS Detector description database: git:/lhcb.xml
+RndmGenSvc.Engine    INFO Generator engine type:CLHEP::RanluxEngine
+RndmGenSvc.Engine    INFO Current Seed:1234567 Luxury:3
+RndmGenSvc           INFO Using Random engine:HepRndm::Engine<CLHEP::RanluxEngine>
+TimingAuditor.T...   INFO This machine has a speed about   3.03 times the speed of a 2.8 GHz Xeon.
+NTupleSvc            INFO Added stream file:DVntupleHM.root as FILE1
+TransportSvc         INFO Initialize the static pointer to DetDesc::IGeometryErrorSvc
+TransportSvc         INFO Recovery of geometry errors is  ENABLED
+DaVinciEventSeq      INFO Member list: DaVinciInit/DaVinciInitAlg, GaudiSequencer/FilteredEventSeq, GaudiSequencer/LumiSeq
+DaVinciInitAlg    SUCCESS ==================================================================
+DaVinciInitAlg    SUCCESS Requested to process all events on input file(s)
+DaVinciInitAlg    SUCCESS ==================================================================
+RootHistSvc          INFO Writing ROOT histograms to: UndefinedROOTOutputFileName
+HistogramPersis...   INFO Added successfully Conversion service:RootHistSvc
+HistogramDataSvc     INFO Added stream file:/cvmfs/lhcb.cern.ch/lib/lhcb/PARAM/ParamFiles/v8r37/data/JetEnergyCorrections_R05_v3.root as JEC14R05
+HistogramDataSvc     INFO Added stream file:/cvmfs/lhcb.cern.ch/lib/lhcb/PARAM/ParamFiles/v8r37/data/JetEnergyCorrections_R07_v3.root as JEC14R07
+HistogramDataSvc     INFO Added stream file:/cvmfs/lhcb.cern.ch/lib/lhcb/PARAM/ParamFiles/v8r37/data/JetEnergyCorrections_R05_hlt_Run2.root as JECR05RUN2HLT
+HistogramDataSvc     INFO Added stream file:/cvmfs/lhcb.cern.ch/lib/lhcb/PARAM/ParamFiles/v8r37/data/JetEnergyCorrections_R05_std_Run2.root as JECRO5RUN2STD
+HistogramDataSvc     INFO Added stream file:/cvmfs/lhcb.cern.ch/lib/lhcb/PARAM/ParamFiles/v8r37/data/JetEnergyCorrections_R05_std_Turbo.root as JECRO5RUN2TURBO
+FilteredEventSeq     INFO Member list: GaudiSequencer/DaVinciEventInitSeq, GaudiSequencer/DaVinciAnalysisSeq
+DaVinciEventIni...   INFO Member list: 
+DaVinciAnalysisSeq   INFO Member list: GaudiSequencer/DaVinciUserSequence, GaudiSequencer/MonitoringSequence
+DaVinciUserSequ...   INFO Member list: MCDecayTreeTuple
+LHCb::ParticleP...SUCCESS  New/updated particles (from "Particles" property)
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ | #    |        Name       |     PdgID    |   Q  |        Mass       |    (c*)Tau/Gamma  |  MaxWidth  |        EvtGen        |  PythiaID  |     Antiparticle     |
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ | 95   | a0                |          221 |   0  |           954 MeV |     1.2999999 keV |      0     |          a0          |     221    |        self-cc       |
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+LHCb::ParticleP...   INFO  Replaced PIDs  : [ LHCb.ParticleID(221) ]
+MCDecayTreeTuple     INFO Will look for  ( ([ B0 ]nos  => ^( ( K*(892)0 ==>  K+   pi- ) ) ^( ( a0  => ^(  gamma ) ^(  gamma )) )) || ([ B~0 ]nos  => ^( ( K*(892)~0 ==>  K-   pi+ ) ) ^( ( a0  => ^(  gamma ) ^(  gamma )) )) ) 
+MonitoringSequence   INFO Member list: 
+LumiSeq              INFO OR Member list: EventAccounting/EventAccount
+EventPersistenc...   INFO Added successfully Conversion service:RootCnvSvc
+EventSelector        INFO Stream:EventSelector.DataStreamTool_1 Def:DATAFILE='Gauss-11102441-10ev-20220908.xgen' SVC='Gaudi::RootEvtSelector' OPT='READ'
+ApplicationMgr       INFO Application Manager Initialized successfully
+ApplicationMgr       INFO Application Manager Started successfully
+FileRecordPersi...   INFO Added successfully Conversion service:FileRecordCnvSvc
+EventSelector     SUCCESS Reading Event record 1. Record number within stream 1: 1
+ToolSvc.OdinTim...  FATAL ODINDecodeTool:: Exception throw: Cannot find RawEvent in [Trigger/RawEvent, DAQ/RawEvent] StatusCode=FAILURE
+createODIN          FATAL  Exception with tag= is caught 
+createODIN          ERROR       ToolSvc.OdinTimeDecoder.ODINDecodeTool:: Cannot find RawEvent in [Trigger/RawEvent, DAQ/RawEvent]     StatusCode=FAILURE
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007fd87865060c in waitpid () from /lib64/libc.so.6
+#1  0x00007fd8785cdf62 in do_system () from /lib64/libc.so.6
+#2  0x00007fd86946e3d5 in TUnixSystem::StackTrace() () from /cvmfs/lhcb.cern.ch/lib/lcg/releases/LCG_96b/ROOT/6.18.04/x86_64-centos7-gcc9-opt/lib/libCore.so
+#3  0x00007fd86946b3fc in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/lhcb.cern.ch/lib/lcg/releases/LCG_96b/ROOT/6.18.04/x86_64-centos7-gcc9-opt/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007fd85a7a1108 in MsgStream& operator<< <std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(MsgStream&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#6  0x00007fd859b3c4dc in IncidentSvc::i_fireIncident(Incident const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .cold] () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#7  0x00007fd859bfa299 in IncidentSvc::fireIncident(Incident const&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#8  0x00007fd85a826802 in DataSvc::i_handleDataFault(IRegistry*, std::basic_string_view<char, std::char_traits<char> >) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#9  0x00007fd85a82768e in DataSvc::i_retrieveEntry(DataSvcHelpers::RegistryEntry*, std::basic_string_view<char, std::char_traits<char> >, DataSvcHelpers::RegistryEntry*&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#10 0x00007fd85a8273b4 in DataSvc::i_retrieveEntry(DataSvcHelpers::RegistryEntry*, std::basic_string_view<char, std::char_traits<char> >, DataSvcHelpers::RegistryEntry*&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#11 0x00007fd85a827b94 in DataSvc::retrieveObject(IRegistry*, std::basic_string_view<char, std::char_traits<char> >, DataObject*&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#12 0x00007fd850e57c46 in LHCb::ODIN* Gaudi::Utils::GetData<LHCb::ODIN>::operator()<GaudiCommon<CounterHolder<AlgTool> > >(GaudiCommon<CounterHolder<AlgTool> > const&, IDataProviderSvc*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const () from /cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libLHCbAlgs.so
+#13 0x00007fd850e56635 in ODINDecodeTool::execute() () from /cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libLHCbAlgs.so
+#14 0x00007fd850e5a5e7 in OdinTimeDecoder::getODIN() const () from /cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libLHCbAlgs.so
+#15 0x00007fd850e5a8eb in OdinTimeDecoder::getTime() const () from /cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libLHCbAlgs.so
+#16 0x00007fd8583c16ac in EventClockSvc::handle(Incident const&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libDetDescSvc.so
+#17 0x00007fd859bf9eaf in IncidentSvc::i_fireIncident(Incident const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#18 0x00007fd859bfa299 in IncidentSvc::fireIncident(Incident const&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#19 0x00007fd859b8cea1 in EventLoopMgr::executeEvent(EventContext&&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#20 0x00007fd859b8feb0 in EventLoopMgr::nextEvent(int) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#21 0x00007fd85a859155 in virtual thunk to MinimalEventLoopMgr::executeRun(int) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#22 0x00007fd859b5c138 in ApplicationMgr::executeRun(int) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#23 0x00007fd85a7ccc01 in Gaudi::Application::run() () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#24 0x00007fd86d49aafc in ffi_call_unix64 () at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Modules/_ctypes/libffi/src/x86/unix64.S:76
+#25 0x00007fd86d49a33b in ffi_call (cif=cif
+entry=0x7fff01142a10, fn=fn
+entry=0x7fd85a7c9d40 <_py_Gaudi__Application__run>, rvalue=<optimized out>, rvalue
+entry=0x7fff01142970, avalue=avalue
+entry=0x7fff01142960) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Modules/_ctypes/libffi/src/x86/ffi64.c:525
+#26 0x00007fd86d492e75 in _call_function_pointer (argcount=1, resmem=0x7fff01142970, restype=<optimized out>, atypes=<optimized out>, avalues=0x7fff01142960, pProc=0x7fd85a7c9d40 <_py_Gaudi__Application__run>, flags=4357) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Modules/_ctypes/callproc.c:837
+#27 _ctypes_callproc (pProc=pProc
+entry=0x7fd85a7c9d40 <_py_Gaudi__Application__run>, argtuple=argtuple
+entry=0x7fd85c3bbdd0, flags=4357, argtypes=<optimized out>, restype=0x19d44c0, checker=0x0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Modules/_ctypes/callproc.c:1180
+#28 0x00007fd86d48a0cb in PyCFuncPtr_call (self=<optimized out>, inargs=<optimized out>, kwds=<optimized out>) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Modules/_ctypes/_ctypes.c:4095
+#29 0x00007fd8792d1f93 in PyObject_Call (func=func
+entry=0x7fd85c3bfa10, arg=arg
+entry=0x7fd85c3bbdd0, kw=kw
+entry=0x0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Objects/abstract.c:2544
+#30 0x00007fd879377de6 in do_call (nk=<optimized out>, na=<optimized out>, pp_stack=0x7fff01142c08, func=0x7fd85c3bfa10) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4593
+#31 call_function (oparg=<optimized out>, pp_stack=0x7fff01142c08) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4398
+#32 PyEval_EvalFrameEx (f=f
+entry=0x7fd85acd98e8, throwflag=throwflag
+entry=0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3013
+#33 0x00007fd87937cf2f in fast_function (nk=<optimized out>, na=<optimized out>, n=1, pp_stack=0x7fff01142d18, func=0x7fd86e9e3f50) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4461
+#34 call_function (oparg=<optimized out>, pp_stack=0x7fff01142d18) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4396
+#35 PyEval_EvalFrameEx (f=f
+entry=0x4ac8be0, throwflag=throwflag
+entry=0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3013
+#36 0x00007fd87937f638 in PyEval_EvalCodeEx (co=<optimized out>, globals=<optimized out>, locals=locals
+entry=0x0, args=<optimized out>, argcount=<optimized out>, kws=0x7fd85acef5b8, kwcount=0, defs=0x0, defcount=0, closure=0x0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3608
+#37 0x00007fd87937c939 in fast_function (nk=<optimized out>, na=<optimized out>, n=<optimized out>, pp_stack=0x7fff01142ee8, func=0x7fd86d26d848) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4471
+#38 call_function (oparg=<optimized out>, pp_stack=0x7fff01142ee8) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4396
+#39 PyEval_EvalFrameEx (f=f
+entry=0x7fd85acef410, throwflag=throwflag
+entry=0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3013
+#40 0x00007fd87937f638 in PyEval_EvalCodeEx (co=<optimized out>, globals=<optimized out>, locals=locals
+entry=0x0, args=<optimized out>, argcount=<optimized out>, kws=0x185c2d0, kwcount=0, defs=0x7fd86d3bdfe8, defcount=1, closure=0x0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3608
+#41 0x00007fd87937c939 in fast_function (nk=<optimized out>, na=<optimized out>, n=<optimized out>, pp_stack=0x7fff011430b8, func=0x7fd86d26d758) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4471
+#42 call_function (oparg=<optimized out>, pp_stack=0x7fff011430b8) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4396
+#43 PyEval_EvalFrameEx (f=f
+entry=0x185c140, throwflag=throwflag
+entry=0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3013
+#44 0x00007fd87937f638 in PyEval_EvalCodeEx (co=co
+entry=0x7fd877ee13b0, globals=globals
+entry=0x7fd879808168, locals=locals
+entry=0x7fd879808168, args=args
+entry=0x0, argcount=argcount
+entry=0, kws=kws
+entry=0x0, kwcount=0, defs=0x0, defcount=0, closure=0x0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3608
+#45 0x00007fd87937f7e9 in PyEval_EvalCode (co=co
+entry=0x7fd877ee13b0, globals=globals
+entry=0x7fd879808168, locals=locals
+entry=0x7fd879808168) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:669
+#46 0x00007fd8793a4659 in run_mod (arena=0x1883980, flags=0x7fff011432fc, locals=0x7fd879808168, globals=0x7fd879808168, filename=0x7fd877ee13b0 "\002", mod=0x18de9b0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/pythonrun.c:1385
+#47 PyRun_FileExFlags (fp=fp
+entry=0x185c120, filename=filename
+entry=0x7fff011445a7 "/cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/scripts/gaudirun.py", start=start
+entry=257, globals=globals
+entry=0x7fd879808168, locals=locals
+entry=0x7fd879808168, closeit=closeit
+entry=1, flags=0x7fff011432fc) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/pythonrun.c:1371
+#48 0x00007fd8793a59ac in PyRun_SimpleFileExFlags (fp=fp
+entry=0x185c120, filename=0x7fff011445a7 "/cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/scripts/gaudirun.py", closeit=closeit
+entry=1, flags=flags
+entry=0x7fff011432fc) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/pythonrun.c:957
+#49 0x00007fd8793a605c in PyRun_AnyFileExFlags (fp=fp
+entry=0x185c120, filename=<optimized out>, closeit=closeit
+entry=1, flags=flags
+entry=0x7fff011432fc) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/pythonrun.c:761
+#50 0x00007fd8793b8c1f in Py_Main (argc=<optimized out>, argv=<optimized out>) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Modules/main.c:641
+#51 0x00007fd8785ad555 in __libc_start_main () from /lib64/libc.so.6
+#52 0x00000000004006be in _start ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum http://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at http://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007fd85a7a1108 in MsgStream& operator<< <std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(MsgStream&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#6  0x00007fd859b3c4dc in IncidentSvc::i_fireIncident(Incident const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .cold] () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#7  0x00007fd859bfa299 in IncidentSvc::fireIncident(Incident const&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#8  0x00007fd85a826802 in DataSvc::i_handleDataFault(IRegistry*, std::basic_string_view<char, std::char_traits<char> >) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#9  0x00007fd85a82768e in DataSvc::i_retrieveEntry(DataSvcHelpers::RegistryEntry*, std::basic_string_view<char, std::char_traits<char> >, DataSvcHelpers::RegistryEntry*&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#10 0x00007fd85a8273b4 in DataSvc::i_retrieveEntry(DataSvcHelpers::RegistryEntry*, std::basic_string_view<char, std::char_traits<char> >, DataSvcHelpers::RegistryEntry*&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#11 0x00007fd85a827b94 in DataSvc::retrieveObject(IRegistry*, std::basic_string_view<char, std::char_traits<char> >, DataObject*&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#12 0x00007fd850e57c46 in LHCb::ODIN* Gaudi::Utils::GetData<LHCb::ODIN>::operator()<GaudiCommon<CounterHolder<AlgTool> > >(GaudiCommon<CounterHolder<AlgTool> > const&, IDataProviderSvc*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const () from /cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libLHCbAlgs.so
+#13 0x00007fd850e56635 in ODINDecodeTool::execute() () from /cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libLHCbAlgs.so
+#14 0x00007fd850e5a5e7 in OdinTimeDecoder::getODIN() const () from /cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libLHCbAlgs.so
+#15 0x00007fd850e5a8eb in OdinTimeDecoder::getTime() const () from /cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libLHCbAlgs.so
+#16 0x00007fd8583c16ac in EventClockSvc::handle(Incident const&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/LHCB/LHCB_v45r3/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libDetDescSvc.so
+#17 0x00007fd859bf9eaf in IncidentSvc::i_fireIncident(Incident const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#18 0x00007fd859bfa299 in IncidentSvc::fireIncident(Incident const&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#19 0x00007fd859b8cea1 in EventLoopMgr::executeEvent(EventContext&&) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#20 0x00007fd859b8feb0 in EventLoopMgr::nextEvent(int) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#21 0x00007fd85a859155 in virtual thunk to MinimalEventLoopMgr::executeRun(int) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#22 0x00007fd859b5c138 in ApplicationMgr::executeRun(int) () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiCoreSvc.so
+#23 0x00007fd85a7ccc01 in Gaudi::Application::run() () from /cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/lib/libGaudiKernel.so
+#24 0x00007fd86d49aafc in ffi_call_unix64 () at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Modules/_ctypes/libffi/src/x86/unix64.S:76
+#25 0x00007fd86d49a33b in ffi_call (cif=cif
+entry=0x7fff01142a10, fn=fn
+entry=0x7fd85a7c9d40 <_py_Gaudi__Application__run>, rvalue=<optimized out>, rvalue
+entry=0x7fff01142970, avalue=avalue
+entry=0x7fff01142960) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Modules/_ctypes/libffi/src/x86/ffi64.c:525
+#26 0x00007fd86d492e75 in _call_function_pointer (argcount=1, resmem=0x7fff01142970, restype=<optimized out>, atypes=<optimized out>, avalues=0x7fff01142960, pProc=0x7fd85a7c9d40 <_py_Gaudi__Application__run>, flags=4357) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Modules/_ctypes/callproc.c:837
+#27 _ctypes_callproc (pProc=pProc
+entry=0x7fd85a7c9d40 <_py_Gaudi__Application__run>, argtuple=argtuple
+entry=0x7fd85c3bbdd0, flags=4357, argtypes=<optimized out>, restype=0x19d44c0, checker=0x0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Modules/_ctypes/callproc.c:1180
+#28 0x00007fd86d48a0cb in PyCFuncPtr_call (self=<optimized out>, inargs=<optimized out>, kwds=<optimized out>) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Modules/_ctypes/_ctypes.c:4095
+#29 0x00007fd8792d1f93 in PyObject_Call (func=func
+entry=0x7fd85c3bfa10, arg=arg
+entry=0x7fd85c3bbdd0, kw=kw
+entry=0x0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Objects/abstract.c:2544
+#30 0x00007fd879377de6 in do_call (nk=<optimized out>, na=<optimized out>, pp_stack=0x7fff01142c08, func=0x7fd85c3bfa10) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4593
+#31 call_function (oparg=<optimized out>, pp_stack=0x7fff01142c08) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4398
+#32 PyEval_EvalFrameEx (f=f
+entry=0x7fd85acd98e8, throwflag=throwflag
+entry=0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3013
+#33 0x00007fd87937cf2f in fast_function (nk=<optimized out>, na=<optimized out>, n=1, pp_stack=0x7fff01142d18, func=0x7fd86e9e3f50) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4461
+#34 call_function (oparg=<optimized out>, pp_stack=0x7fff01142d18) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4396
+#35 PyEval_EvalFrameEx (f=f
+entry=0x4ac8be0, throwflag=throwflag
+entry=0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3013
+#36 0x00007fd87937f638 in PyEval_EvalCodeEx (co=<optimized out>, globals=<optimized out>, locals=locals
+entry=0x0, args=<optimized out>, argcount=<optimized out>, kws=0x7fd85acef5b8, kwcount=0, defs=0x0, defcount=0, closure=0x0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3608
+#37 0x00007fd87937c939 in fast_function (nk=<optimized out>, na=<optimized out>, n=<optimized out>, pp_stack=0x7fff01142ee8, func=0x7fd86d26d848) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4471
+#38 call_function (oparg=<optimized out>, pp_stack=0x7fff01142ee8) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4396
+#39 PyEval_EvalFrameEx (f=f
+entry=0x7fd85acef410, throwflag=throwflag
+entry=0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3013
+#40 0x00007fd87937f638 in PyEval_EvalCodeEx (co=<optimized out>, globals=<optimized out>, locals=locals
+entry=0x0, args=<optimized out>, argcount=<optimized out>, kws=0x185c2d0, kwcount=0, defs=0x7fd86d3bdfe8, defcount=1, closure=0x0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3608
+#41 0x00007fd87937c939 in fast_function (nk=<optimized out>, na=<optimized out>, n=<optimized out>, pp_stack=0x7fff011430b8, func=0x7fd86d26d758) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4471
+#42 call_function (oparg=<optimized out>, pp_stack=0x7fff011430b8) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:4396
+#43 PyEval_EvalFrameEx (f=f
+entry=0x185c140, throwflag=throwflag
+entry=0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3013
+#44 0x00007fd87937f638 in PyEval_EvalCodeEx (co=co
+entry=0x7fd877ee13b0, globals=globals
+entry=0x7fd879808168, locals=locals
+entry=0x7fd879808168, args=args
+entry=0x0, argcount=argcount
+entry=0, kws=kws
+entry=0x0, kwcount=0, defs=0x0, defcount=0, closure=0x0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:3608
+#45 0x00007fd87937f7e9 in PyEval_EvalCode (co=co
+entry=0x7fd877ee13b0, globals=globals
+entry=0x7fd879808168, locals=locals
+entry=0x7fd879808168) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/ceval.c:669
+#46 0x00007fd8793a4659 in run_mod (arena=0x1883980, flags=0x7fff011432fc, locals=0x7fd879808168, globals=0x7fd879808168, filename=0x7fd877ee13b0 "002", mod=0x18de9b0) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/pythonrun.c:1385
+#47 PyRun_FileExFlags (fp=fp
+entry=0x185c120, filename=filename
+entry=0x7fff011445a7 "/cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/scripts/gaudirun.py", start=start
+entry=257, globals=globals
+entry=0x7fd879808168, locals=locals
+entry=0x7fd879808168, closeit=closeit
+entry=1, flags=0x7fff011432fc) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/pythonrun.c:1371
+#48 0x00007fd8793a59ac in PyRun_SimpleFileExFlags (fp=fp
+entry=0x185c120, filename=0x7fff011445a7 "/cvmfs/lhcb.cern.ch/lib/lhcb/GAUDI/GAUDI_v33r0/InstallArea/x86_64+avx2+fma-centos7-gcc9-opt/scripts/gaudirun.py", closeit=closeit
+entry=1, flags=flags
+entry=0x7fff011432fc) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/pythonrun.c:957
+#49 0x00007fd8793a605c in PyRun_AnyFileExFlags (fp=fp
+entry=0x185c120, filename=<optimized out>, closeit=closeit
+entry=1, flags=flags
+entry=0x7fff011432fc) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Python/pythonrun.c:761
+#50 0x00007fd8793b8c1f in Py_Main (argc=<optimized out>, argv=<optimized out>) at /mnt/build/jenkins/workspace/lcg_release_tar/BUILDTYPE/Release/COMPILER/gcc9binutils/LABEL/centos7/build/externals/Python-2.7.16/src/Python/2.7.16/Modules/main.c:641
+#51 0x00007fd8785ad555 in __libc_start_main () from /lib64/libc.so.6
+#52 0x00000000004006be in _start ()
+===========================================================
+
+
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'ConversionDODMapper/ToolSvc.LiteClusterMapper' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'ConversionDODMapper/ToolSvc.UnpackRecPhysMapper' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'EvtCounter/ToolSvc.EvtCounter' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'GenericParticle2PVRelator<_p2PVWithIPChi2, OfflineDistanceCalculatorName>/ToolSvc.P2PVWithIPChi2' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'LoKi::Decay/ToolSvc.Decays' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'LoKi::DistanceCalculator/ToolSvc.P2PVWithIPChi2.LoKi::DistanceCalculator' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'LoKi::MCDecay/MCDecayTreeTuple.LoKi::MCDecay' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'LoKi::Reporter/LoKiSvc.REPORT' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'MemoryTool/DaVinciInitAlg.DaVinciMemory' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'ODINDecodeTool/ToolSvc.OdinTimeDecoder.ODINDecodeTool' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'OdinTimeDecoder/ToolSvc.OdinTimeDecoder' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'ParticlesAndVerticesMapper/ToolSvc.UnpackPsAndVsMapper' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'SequencerTimerTool/TimingAuditor.TIMER' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'SequencerTimerTool/ToolSvc.SequencerTimerTool' Counts = 1
+GaudiTool       WARNING   Initialize/Finalize (mis)balance 'TrackClustersMapper/ToolSvc.UnpackTkClustersMapper' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'ConversionDODMapper/ToolSvc.LiteClusterMapper' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'ConversionDODMapper/ToolSvc.UnpackRecPhysMapper' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'EvtCounter/ToolSvc.EvtCounter' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'GenericParticle2PVRelator<_p2PVWithIPChi2, OfflineDistanceCalculatorName>/ToolSvc.P2PVWithIPChi2' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'LoKi::Decay/ToolSvc.Decays' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'LoKi::DistanceCalculator/ToolSvc.P2PVWithIPChi2.LoKi::DistanceCalculator' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'LoKi::MCDecay/MCDecayTreeTuple.LoKi::MCDecay' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'LoKi::Reporter/LoKiSvc.REPORT' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'MemoryTool/DaVinciInitAlg.DaVinciMemory' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'ODINDecodeTool/ToolSvc.OdinTimeDecoder.ODINDecodeTool' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'OdinTimeDecoder/ToolSvc.OdinTimeDecoder' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'ParticlesAndVerticesMapper/ToolSvc.UnpackPsAndVsMapper' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'SequencerTimerTool/TimingAuditor.TIMER' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'SequencerTimerTool/ToolSvc.SequencerTimerTool' Counts = 1
+GaudiTool       WARNING   Create/Destroy      (mis)balance 'TrackClustersMapper/ToolSvc.UnpackTkClustersMapper' Counts = 1
