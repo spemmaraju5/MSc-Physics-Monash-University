@@ -2,13 +2,13 @@
 \contentsline {section}{\numberline {1.1}Introduction}{4}{}%
 \contentsline {section}{\numberline {1.2}Synopsis of the Standard Model}{4}{}%
 \contentsline {section}{\numberline {1.3}CP Violation}{5}{}%
-\contentsline {section}{\numberline {1.4}The Strong CP Problem}{6}{}%
-\contentsline {subsection}{\numberline {1.4.1}Axions}{6}{}%
-\contentsline {subsection}{\numberline {1.4.2}Experimental Searches for Axions}{6}{}%
-\contentsline {subsection}{\numberline {1.4.3}Axion Like Particles (ALPs)}{6}{}%
-\contentsline {subsection}{\numberline {1.4.4}The $B\rightarrow K^{*}A, A\rightarrow \gamma \gamma $ Decay Process}{6}{}%
-\contentsline {section}{\numberline {1.5}Flavour Changing Neutral Currents}{6}{}%
-\contentsline {section}{\numberline {1.6}Electroweak Penguin Decays}{6}{}%
+\contentsline {subsection}{\numberline {1.3.1}The Strong CP Problem}{5}{}%
+\contentsline {subsection}{\numberline {1.3.2}Axions}{6}{}%
+\contentsline {subsection}{\numberline {1.3.3}Experimental Searches for Axions}{6}{}%
+\contentsline {subsection}{\numberline {1.3.4}Axion Like Particles (ALPs)}{6}{}%
+\contentsline {subsection}{\numberline {1.3.5}The $B\rightarrow K^{*}A, A\rightarrow \gamma \gamma $ Decay Process}{6}{}%
+\contentsline {section}{\numberline {1.4}Flavour Changing Neutral Currents}{6}{}%
+\contentsline {section}{\numberline {1.5}Electroweak Penguin Decays}{6}{}%
 \contentsline {chapter}{\numberline {2}The LHCb Detector}{7}{}%
 \contentsline {section}{\numberline {2.1}Structure of the LHCb Detector}{7}{}%
 \contentsline {subsection}{\numberline {2.1.1}Vertex Locator (VELO)}{7}{}%
