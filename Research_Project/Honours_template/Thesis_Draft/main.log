@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  1 NOV 2022 15:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  2 NOV 2022 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -336,87 +336,88 @@ File: StandardModel.jpg Graphic file (type jpg)
 Package pdftex.def Info: StandardModel.jpg  used on input line 20.
 (pdftex.def)             Requested size: 245.92242pt x 184.79314pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--27
+Underfull \hbox (badness 10000) in paragraph at lines 3--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--27
+Underfull \hbox (badness 10000) in paragraph at lines 3--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--27
+Underfull \hbox (badness 10000) in paragraph at lines 3--23
 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 3--23
+
+ []
 
 [4
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 28--34
 
-LaTeX Warning: Reference `ParityTransformation' on page 5 undefined on input line 29.
-
-<ParityTransformation.png, id=29, 397.485pt x 127.47626pt>
-File: ParityTransformation.png Graphic file (type png)
-<use ParityTransformation.png>
-Package pdftex.def Info: ParityTransformation.png  used on input line 33.
-(pdftex.def)             Requested size: 397.48402pt x 127.47594pt.
-
-Overfull \hbox (169.86198pt too wide) in paragraph at lines 33--35
-[][] 
  []
 
-<ChargeConjugation.jpg, id=30, 272.01625pt x 186.6975pt>
+<ChargeConjugation.jpg, id=29, 272.01625pt x 186.6975pt>
 File: ChargeConjugation.jpg Graphic file (type jpg)
 <use ChargeConjugation.jpg>
-Package pdftex.def Info: ChargeConjugation.jpg  used on input line 40.
+Package pdftex.def Info: ChargeConjugation.jpg  used on input line 38.
 (pdftex.def)             Requested size: 272.01558pt x 186.69704pt.
 
-Overfull \hbox (44.39354pt too wide) in paragraph at lines 40--41
+Overfull \hbox (44.39354pt too wide) in paragraph at lines 38--39
 [][] 
  []
 
+<ParityTransformation.png, id=30, 397.485pt x 127.47626pt>
+File: ParityTransformation.png Graphic file (type png)
+<use ParityTransformation.png>
+Package pdftex.def Info: ParityTransformation.png  used on input line 44.
+(pdftex.def)             Requested size: 397.48402pt x 127.47594pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (78.81456pt too wide) in paragraph at lines 44--46
+[][] 
+ []
 
-[5 <./StandardModel.jpg>]) [6 <./ParityTransformation.png> <./ChargeConjugation.jpg>]
+[5 <./StandardModel.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 56--65
+
+ []
+
+[6 <./ChargeConjugation.jpg> <./ParityTransformation.png>]) [7]
 Chapter 2.
-(Chapter_2.tex [7
+(Chapter_2.tex [8
 
-] [8]) [9]
+] [9]) [10]
 Chapter 3.
-(Chapter_3.tex) [10
+(Chapter_3.tex) [11
 
 ]
 Chapter 4.
-[11
+[12
 
 ]
 Chapter 5.
-[12
+[13
 
-] [13
+] [14
 
-] (main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 6536 strings out of 478547
- 110262 string characters out of 2841835
- 487134 words of memory out of 3000000
- 24607 multiletter control sequences out of 15000+600000
+ 6537 strings out of 478547
+ 110300 string characters out of 2841835
+ 486134 words of memory out of 3000000
+ 24608 multiletter control sequences out of 15000+600000
  513902 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,12n,77p,719b,542s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,11n,77p,719b,534s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (14 pages, 422103 bytes).
+Output written on main.pdf (15 pages, 425661 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
+ 143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

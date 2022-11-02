@@ -2,34 +2,34 @@
 \contentsline {section}{\numberline {1.1}Introduction}{4}{}%
 \contentsline {section}{\numberline {1.2}Synopsis of the Standard Model}{4}{}%
 \contentsline {section}{\numberline {1.3}CP Violation}{5}{}%
-\contentsline {subsection}{\numberline {1.3.1}The Strong CP Problem}{5}{}%
-\contentsline {subsection}{\numberline {1.3.2}Axions}{6}{}%
-\contentsline {subsection}{\numberline {1.3.3}Experimental Searches for Axions}{6}{}%
-\contentsline {subsection}{\numberline {1.3.4}Axion Like Particles (ALPs)}{6}{}%
-\contentsline {subsection}{\numberline {1.3.5}The $B\rightarrow K^{*}A, A\rightarrow \gamma \gamma $ Decay Process}{6}{}%
-\contentsline {section}{\numberline {1.4}Flavour Changing Neutral Currents}{6}{}%
-\contentsline {section}{\numberline {1.5}Electroweak Penguin Decays}{6}{}%
-\contentsline {chapter}{\numberline {2}The LHCb Detector}{7}{}%
-\contentsline {section}{\numberline {2.1}Structure of the LHCb Detector}{7}{}%
-\contentsline {subsection}{\numberline {2.1.1}Vertex Locator (VELO)}{7}{}%
-\contentsline {subsubsection}{Angular Coverage}{8}{}%
-\contentsline {subsubsection}{Triggering}{8}{}%
-\contentsline {subsubsection}{Reconstruction Efficiency}{8}{}%
-\contentsline {subsubsection}{Displaced Tracks and Vertices}{8}{}%
-\contentsline {subsubsection}{Decay Time}{8}{}%
-\contentsline {subsection}{\numberline {2.1.2}Ring Imaging Cherenkov (RICH) Detector}{8}{}%
-\contentsline {subsection}{\numberline {2.1.3}Magnet}{8}{}%
-\contentsline {subsection}{\numberline {2.1.4}Electromagnetic Calorimeter (ECAL)}{8}{}%
-\contentsline {section}{\numberline {2.2}Data Analysis at the LHCb}{8}{}%
-\contentsline {subsection}{\numberline {2.2.1}The LHCb Data Flow}{8}{}%
-\contentsline {subsection}{\numberline {2.2.2}The LHCb Simulation Framework}{9}{}%
-\contentsline {subsubsection}{Gauss}{9}{}%
-\contentsline {subsubsection}{EvtGen}{9}{}%
-\contentsline {subsubsection}{Pythia}{9}{}%
-\contentsline {subsubsection}{Geant4}{9}{}%
-\contentsline {subsubsection}{Boole}{9}{}%
-\contentsline {chapter}{\numberline {3}Experimental Methods}{10}{}%
-\contentsline {chapter}{\numberline {4}Results}{11}{}%
-\contentsline {chapter}{\numberline {5}Discussion}{12}{}%
-\contentsline {chapter}{Conclusion}{13}{}%
-\contentsline {chapter}{References}{13}{}%
+\contentsline {subsection}{\numberline {1.3.1}The Strong CP Problem}{6}{}%
+\contentsline {subsection}{\numberline {1.3.2}Axions}{7}{}%
+\contentsline {subsection}{\numberline {1.3.3}Experimental Searches for Axions}{7}{}%
+\contentsline {subsection}{\numberline {1.3.4}Axion Like Particles (ALPs)}{7}{}%
+\contentsline {subsection}{\numberline {1.3.5}The $B\rightarrow K^{*}A, A\rightarrow \gamma \gamma $ Decay Process}{7}{}%
+\contentsline {section}{\numberline {1.4}Flavour Changing Neutral Currents}{7}{}%
+\contentsline {section}{\numberline {1.5}Electroweak Penguin Decays}{7}{}%
+\contentsline {chapter}{\numberline {2}The LHCb Detector}{8}{}%
+\contentsline {section}{\numberline {2.1}Structure of the LHCb Detector}{8}{}%
+\contentsline {subsection}{\numberline {2.1.1}Vertex Locator (VELO)}{8}{}%
+\contentsline {subsubsection}{Angular Coverage}{9}{}%
+\contentsline {subsubsection}{Triggering}{9}{}%
+\contentsline {subsubsection}{Reconstruction Efficiency}{9}{}%
+\contentsline {subsubsection}{Displaced Tracks and Vertices}{9}{}%
+\contentsline {subsubsection}{Decay Time}{9}{}%
+\contentsline {subsection}{\numberline {2.1.2}Ring Imaging Cherenkov (RICH) Detector}{9}{}%
+\contentsline {subsection}{\numberline {2.1.3}Magnet}{9}{}%
+\contentsline {subsection}{\numberline {2.1.4}Electromagnetic Calorimeter (ECAL)}{9}{}%
+\contentsline {section}{\numberline {2.2}Data Analysis at the LHCb}{9}{}%
+\contentsline {subsection}{\numberline {2.2.1}The LHCb Data Flow}{9}{}%
+\contentsline {subsection}{\numberline {2.2.2}The LHCb Simulation Framework}{10}{}%
+\contentsline {subsubsection}{Gauss}{10}{}%
+\contentsline {subsubsection}{EvtGen}{10}{}%
+\contentsline {subsubsection}{Pythia}{10}{}%
+\contentsline {subsubsection}{Geant4}{10}{}%
+\contentsline {subsubsection}{Boole}{10}{}%
+\contentsline {chapter}{\numberline {3}Experimental Methods}{11}{}%
+\contentsline {chapter}{\numberline {4}Results}{12}{}%
+\contentsline {chapter}{\numberline {5}Discussion}{13}{}%
+\contentsline {chapter}{Conclusion}{14}{}%
+\contentsline {chapter}{References}{14}{}%

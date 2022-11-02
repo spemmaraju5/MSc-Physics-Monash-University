@@ -15,7 +15,7 @@ Three of the four fundamental forces of nature (i.e. the strong, electromagnetic
 which mediate the aforementioned forces respectively. The model also describes a spin-0 particle, known as the Higgs boson, which, through the mechanism of spontaneous symmetry breaking, is responsible for the Standard Model particles acquiring their mass. A spin-2, massless boson, known as the graviton
 has also been hypothesised as a mediator of the gravitational force. However, there is no experimental evidence of this to date. Figure \ref{StandardModel} provides a visual summary of the model that has been described above.\\
 \\
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[scale = 0.35]{StandardModel.jpg}
     \caption{The particles of the Standard Model, grouped based on their quantum spin into gauge bosons and fermions (particles that make up all matter).The fermions are further divided into quarks and leptons which are fundamental, and can partake in various interactions that are mediated by the gauge bosons corresponding to each of the three fundamental forces described by the model. The Higgs boson is also included, and is responsible for all of the particles acquiring their mass.}
@@ -26,35 +26,44 @@ a large proportion of the matter in the Universe, is not fully understood, and r
 known as quantum chromodynamics (QCD). This is known as the Strong CP problem and forms the basis for motivating particles such as the axion, as well as Axion-Like Particles (ALPs), both of which are described in further detail in the sections that follow.
 \section{CP Violation}
 The principle of symmetry (i.e. the invariance of a physical system under a transformation) is significant in the study of particle physics. Two symmetries that are of particular interest are those of charge conjugation, denoted $C$, and parity, denoted $P$. Charge conjugation is a transformation wherein particles within a physical system are interchanged with
-their antiparticles, while parity refers to the inversion of spatial coordinates of a physical system, as illustrated in Figure \ref{ParityTransformation} below
-\begin{figure}[h]
+their antiparticles, as demonstrated in Figure \ref{ChargeConjugation}, while parity refers to the inversion of spatial coordinates of a physical system, as illustrated in Figure \ref{ParityTransformation} below. 
+\\
+\\
+The combination of the abovementioned transformations is referred to as $CP$, and its violation is of particular interest as it provides a possible explanation for the abundance of matter over antimatter in the Universe. CP symmetry has been observed to be preserved in electromagnetic interactions, whilst being violated in weak interactions, as demonstrated by 
+a study of the decay of neutral kaons by Cronin and Fitch in 1964. While the theory of QCD permits the violation of this symmetry in the strong force, there is no experimental evidence of processes that violate this symmetry. This is referred to as the Strong CP problem, and is essential for the theoretical motivation behind axions and ALPs.
+
+\begin{figure}[H]
     \centering
     \begin{subfigure}{0.5\textwidth}
+        \includegraphics[]{ChargeConjugation.jpg}
+        \caption{The charge conjugation transformation $C$, which interchanges particles in a physical system with their corresponding antiparticles.}
+        \label{ChargeConjugation}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.7\textwidth}
         \includegraphics[]{ParityTransformation.png}
         \caption{An illustration of the parity transformation $P$, corresponding
         to the inversion of spatial coordinates in a physical system}
-        \label{fig:first}
+        \label{ParityTransformation}
     \end{subfigure}
     \hfill
-    \begin{subfigure}{0.5\textwidth}
-        \includegraphics[]{ChargeConjugation.jpg}
-        \caption{The Charge conjugation transformation $C$, which interchanges particles in a physical system with their corresponding antiparticles.}
-        \label{fig:second}
-    \end{subfigure}
-    \hfill
-\end{figure}\\
-The combination of the abovementioned transformations is referred to as $CP$, and its violation is of particular interest as it provides a possible explanation for the abundance of matter over antimatter in the Universe. CP symmetry has been observed to be preserved in electromagnetic interactions, whilst being violated in weak interactions, as demonstrated by 
-a study of the decay of neutral kaons by Cronin and Fitch in 1964. While the theory of QCD permits the violation of this symmetry in the strong force, there is no experimental evidence of processes that violate this symmetry. This is referred to as the Strong CP problem, and is essential for the theoretical motivation behind axions and ALPs.
-\subsection{The Strong CP Problem}
-The two discrete symmetries that are essential to the motivation of the Strong CP problem are charge conjugation, $C$, and parity (i.e. an inversion of spatial coordinates), $P$. While each
-of these symmetries can be individually violated by various physical phenomena, their combination CP is known to be conserved in both the strong and electromagnetic interactions, whilst being violated by weak interactions. The strong CP problem arises from the theory pertaining to QCD, which
-permits such a violation. Despite this, however, such a process has not been experimentally observed. One can examine the QCD Lagrangian in Equation \ref{QCD_Lagrangian} below, which has been written to include the CP violating terms
+\end{figure}
+
+\subsection{The Strong CP Problem}\label{StrongCPProb}
+The theoretically permissible nature of CP violation in the strong force is evident within the QCD Lagrangian, which can be written in the following form:
 \begin{equation}\label{QCD_Lagrangian}
     \mathcal{L}_{QCD} = -\frac{1}{4}G_{\mu\nu}G^{\mu\nu}-\frac{g_{s}^{2}\theta}{32\pi^{2}}G_{\mu\nu}\tilde{G}^{\mu\nu}+\bar{\psi}(i\gamma^{\mu}D_{\mu}-me^{i\theta'\gamma_{5}})\psi
 \end{equation}
-The terms $\theta$ is CP violating
-% Describe the Strong CP problem here and hint towards it's resolution
+where $G_{\mu\nu}G^{\mu\nu}$ represents the gluonic field strength tensor, which is the QCD equivalent of the electromagnetic field strength tensor, $F_{\mu\nu}F^{\mu\nu}$, and $\tilde{G}^{\mu\nu}$ is its dual. By inspection, it is evident that the terms $\theta$ and $\theta'$ in Equation \ref{QCD_Lagrangian} are CP-violating, as they both 
+change sign under a parity transformation. The effects of these terms, which can be interpreted as physical angles, are not experimentally observed, thereby suggesting that these angular terms are infinitessimal in magnitude. The angular terms $\theta$ and $\theta'$ can be combined to form a total effective angle, labelled $\bar{theta}$. The absence
+of CP violation in the strong force suggests that $|\bar{\theta}|\approx 0$. This is supported by the experimental measurement of the electric dipole moment (EDM) of the neutron, which impose the constraint $|\bar{\theta}| < 10^{-10}$. This is referred to as a fine-tuning problem, wherein the value of $|\bar{\theta}|$ is constrained to be as small as possible
+through the tuning of other parameters.\\
+\\
+A more elegant solution to the Strong CP problem was proposed by Peccei and Quinn in 1977. This solution involved promoting $\bar{\theta}$ to a dynamic field, thereby introducing a spatial and temporal dependence, along with an associated
+potential. This field is postulated to have an associated global symmetry, known as the Peccei-Quinn (PQ) symmetry. Spontaneous breaking of this symmetry mandates that $|\bar{\theta}| = 0$, thereby resolving the Strong CP Problem. This solution 
+results in the introduction of the axion, which in turn leads to the motivation of Axion-Like Particles (ALPs) through the similar mechanism of spontaneous symmetry breaking.
 \subsection{Axions}
+Spontaneous breaking of the PQ symmetry described in section \ref{StrongCPProb} mandates the introduction of a light, pseudoscalar (spin-0 and odd parity) particle
 \subsection{Experimental Searches for Axions}
 \subsection{Axion Like Particles (ALPs)}
 \subsection{The $B\rightarrow K^{*}A, A\rightarrow\gamma\gamma$ Decay Process}
