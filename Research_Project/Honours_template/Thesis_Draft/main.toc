@@ -3,6 +3,7 @@
 \contentsline {section}{\numberline {1.2}Synopsis of the Standard Model}{4}{}%
 \contentsline {section}{\numberline {1.3}CP Violation}{5}{}%
 \contentsline {subsection}{\numberline {1.3.1}The Strong CP Problem}{6}{}%
+\contentsline {subsection}{\numberline {1.3.2}Spontaneous Symmetry Breaking}{7}{}%
 \contentsline {section}{\numberline {1.4}Axions}{7}{}%
 \contentsline {subsection}{\numberline {1.4.1}Experimental Searches for Axions}{7}{}%
 \contentsline {section}{\numberline {1.5}Axion Like Particles (ALPs)}{7}{}%
