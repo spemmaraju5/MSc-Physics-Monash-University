@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1667527771 "c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex" "main.pdf" "main" 1667527772
+["pdflatex"] 1667812477 "c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex" "main.pdf" "main" 1667812478
   "C:/Users/saich/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1667277410 367115 c65f1c307c34d4aaff32667f9f6d6f77 ""
   "C:/Users/saich/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1651194277 10255042 dccd9ce77d05198599efd44c49454492 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmr8t.tfm" 1136736254 6672 e3ab9e37e925f3045c9005e6d1473d56 ""
@@ -51,6 +51,7 @@
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247600266 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1247600267 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247600267 32762 7fee39e011c23b3589931effd97b9702 ""
+  "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247600267 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1247600266 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb" 1247600266 35022 e40946b20bfdcd1099eafb2bcd9f25dd ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247600267 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -111,16 +112,16 @@
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1324294077 22913 a27d7908fc6f0385466454a966a316eb ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1625501267 48833 3b7b4cfab1a3d15596bfd3772a77ab65 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty" 1636710260 4545 d84d0b20a11b9c36c6ecf45697be591c ""
-  "Chapter_1.tex" 1667527771 10284 64724b229a75f98da2e4be8ae454ac2d ""
+  "Chapter_1.tex" 1667812477 12848 207bb2a26aa95fcc2762d7db207fe9ef ""
   "Chapter_2.tex" 1667220147 8187 08acd548422775b7958bd00ba6d76d1d ""
   "Chapter_3.tex" 0 -1 0 ""
   "ChargeConjugation.jpg" 1667276859 4452 2cd84bd776ed2ca550a1084900ccbeec ""
   "ParityTransformation.png" 1667270721 3411 e3c6c37f61c5440b4105b7725dd795b5 ""
   "StandardModel.jpg" 1667266861 124619 2c70e6d5c36be4979a8f1be0e10d3810 ""
   "c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex" 1667527648 4974 c50c17a519ccb2026bfaf51e68dcb5c2 ""
-  "main.aux" 1667527772 5306 7fd0917ea2f80a5427c7f7261054b81d "pdflatex"
+  "main.aux" 1667812478 5736 9493403c21d0f83737c5c3498010749b "pdflatex"
   "main.tex" 1667527648 4974 c50c17a519ccb2026bfaf51e68dcb5c2 ""
-  "main.toc" 1667527772 2395 96a7dbd7552371d2e67c02d505a055b0 "pdflatex"
+  "main.toc" 1667812478 2661 c45e7a91ef7d07070438c2b0c4c880c2 "pdflatex"
   "monashlogo.png" 1557181040 74007 7fb0b9b96cbbd7568b17f0cec2e153a0 ""
   (generated)
   "main.aux"
