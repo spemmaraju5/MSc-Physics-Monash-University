@@ -1,5 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1667812477 "c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex" "main.pdf" "main" 1667812478
+["pdflatex"] 1667819431 "c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex" "main.pdf" "main" 1667819432
+  "ALPExperimentalConstraints.jpg" 1667818259 128954 18999bef77d3fde2de7ddc15ed0f57f1 ""
   "C:/Users/saich/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1667277410 367115 c65f1c307c34d4aaff32667f9f6d6f77 ""
   "C:/Users/saich/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1651194277 10255042 dccd9ce77d05198599efd44c49454492 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmr8t.tfm" 1136736254 6672 e3ab9e37e925f3045c9005e6d1473d56 ""
@@ -112,16 +113,16 @@
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1324294077 22913 a27d7908fc6f0385466454a966a316eb ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1625501267 48833 3b7b4cfab1a3d15596bfd3772a77ab65 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty" 1636710260 4545 d84d0b20a11b9c36c6ecf45697be591c ""
-  "Chapter_1.tex" 1667812477 12848 207bb2a26aa95fcc2762d7db207fe9ef ""
+  "Chapter_1.tex" 1667819430 14043 62e09a499aa312138c9394018b7cfb3a ""
   "Chapter_2.tex" 1667220147 8187 08acd548422775b7958bd00ba6d76d1d ""
   "Chapter_3.tex" 0 -1 0 ""
   "ChargeConjugation.jpg" 1667276859 4452 2cd84bd776ed2ca550a1084900ccbeec ""
   "ParityTransformation.png" 1667270721 3411 e3c6c37f61c5440b4105b7725dd795b5 ""
   "StandardModel.jpg" 1667266861 124619 2c70e6d5c36be4979a8f1be0e10d3810 ""
   "c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex" 1667527648 4974 c50c17a519ccb2026bfaf51e68dcb5c2 ""
-  "main.aux" 1667812478 5736 9493403c21d0f83737c5c3498010749b "pdflatex"
+  "main.aux" 1667819432 6278 fb4b15291a4d33fd5dde52fd70374a30 "pdflatex"
   "main.tex" 1667527648 4974 c50c17a519ccb2026bfaf51e68dcb5c2 ""
-  "main.toc" 1667812478 2661 c45e7a91ef7d07070438c2b0c4c880c2 "pdflatex"
+  "main.toc" 1667819432 2664 8d998de65e32938d2853efe8f9a4f421 "pdflatex"
   "monashlogo.png" 1557181040 74007 7fb0b9b96cbbd7568b17f0cec2e153a0 ""
   (generated)
   "main.aux"

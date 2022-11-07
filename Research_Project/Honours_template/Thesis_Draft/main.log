@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  7 NOV 2022 20:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  7 NOV 2022 22:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -398,37 +398,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--83
 
  []
 
-[7]) [8]
+<ALPExperimentalConstraints.jpg, id=46, 637.1805pt x 504.08325pt>
+File: ALPExperimentalConstraints.jpg Graphic file (type jpg)
+<use ALPExperimentalConstraints.jpg>
+Package pdftex.def Info: ALPExperimentalConstraints.jpg  used on input line 86.
+(pdftex.def)             Requested size: 286.72858pt x 226.83536pt.
+[7] [8 <./ALPExperimentalConstraints.jpg>]) [9]
 Chapter 2.
-(Chapter_2.tex [9
+(Chapter_2.tex [10
 
-] [10]) [11]
+] [11]) [12]
 Chapter 3.
-(Chapter_3.tex) [12
+(Chapter_3.tex) [13
 
 ]
 Chapter 4.
-[13
+[14
 
 ]
 Chapter 5.
-[14
+[15
 
-] [15
+] [16
 
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 6539 strings out of 478547
- 110328 string characters out of 2841835
- 488148 words of memory out of 3000000
- 24610 multiletter control sequences out of 15000+600000
+ 6547 strings out of 478547
+ 110597 string characters out of 2841835
+ 487148 words of memory out of 3000000
+ 24617 multiletter control sequences out of 15000+600000
  513902 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,11n,77p,719b,534s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (16 pages, 443391 bytes).
+Output written on main.pdf (17 pages, 574392 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
