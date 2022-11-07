@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  7 NOV 2022 22:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  7 NOV 2022 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -394,14 +394,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--63
  []
 
 [6 <./ChargeConjugation.jpg> <./ParityTransformation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 73--83
+Underfull \hbox (badness 10000) in paragraph at lines 72--82
 
  []
 
 <ALPExperimentalConstraints.jpg, id=46, 637.1805pt x 504.08325pt>
 File: ALPExperimentalConstraints.jpg Graphic file (type jpg)
 <use ALPExperimentalConstraints.jpg>
-Package pdftex.def Info: ALPExperimentalConstraints.jpg  used on input line 86.
+Package pdftex.def Info: ALPExperimentalConstraints.jpg  used on input line 85.
 (pdftex.def)             Requested size: 286.72858pt x 226.83536pt.
 [7] [8 <./ALPExperimentalConstraints.jpg>]) [9]
 Chapter 2.
