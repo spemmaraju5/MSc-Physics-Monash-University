@@ -6,14 +6,14 @@
 \contentsline {subsection}{\numberline {1.3.2}Spontaneous Symmetry Breaking}{7}{}%
 \contentsline {section}{\numberline {1.4}Axions}{7}{}%
 \contentsline {section}{\numberline {1.5}Axion Like Particles (ALPs)}{7}{}%
-\contentsline {subsection}{\numberline {1.5.1}Experimental Searches for Axions}{8}{}%
-\contentsline {subsubsection}{Light Shining Through Walls (LSW) Searches}{8}{}%
-\contentsline {subsubsection}{Haloscope Searches}{8}{}%
-\contentsline {subsubsection}{Helioscope Searches}{8}{}%
-\contentsline {subsubsection}{Collider Searches}{9}{}%
-\contentsline {subsection}{\numberline {1.5.2}Flavour Changing Neutral Currents}{9}{}%
-\contentsline {subsection}{\numberline {1.5.3}Electroweak Penguin Decays}{9}{}%
-\contentsline {subsection}{\numberline {1.5.4}The $B\rightarrow K^{*}a_{0}, a_{0}\rightarrow \gamma \gamma $ Decay Process}{9}{}%
+\contentsline {section}{\numberline {1.6}Experimental Searches for Axions and ALPs}{7}{}%
+\contentsline {subsection}{\numberline {1.6.1}Light Shining Through Walls (LSW) Searches}{8}{}%
+\contentsline {subsection}{\numberline {1.6.2}Haloscope Searches}{8}{}%
+\contentsline {subsection}{\numberline {1.6.3}Helioscope Searches}{9}{}%
+\contentsline {subsection}{\numberline {1.6.4}Collider Searches}{9}{}%
+\contentsline {subsection}{\numberline {1.6.5}The $B\rightarrow K^{*}a_{0}, a_{0}\rightarrow \gamma \gamma $ Decay Process}{9}{}%
+\contentsline {subsection}{\numberline {1.6.6}Flavour Changing Neutral Currents}{9}{}%
+\contentsline {subsection}{\numberline {1.6.7}Electroweak Penguin Decays}{9}{}%
 \contentsline {chapter}{\numberline {2}The LHCb Detector}{10}{}%
 \contentsline {section}{\numberline {2.1}Structure of the LHCb Detector}{10}{}%
 \contentsline {subsection}{\numberline {2.1.1}Vertex Locator (VELO)}{10}{}%
