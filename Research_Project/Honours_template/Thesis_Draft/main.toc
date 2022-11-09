@@ -11,30 +11,30 @@
 \contentsline {subsection}{\numberline {1.6.2}Haloscope Searches}{8}{}%
 \contentsline {subsection}{\numberline {1.6.3}Helioscope Searches}{9}{}%
 \contentsline {subsection}{\numberline {1.6.4}Collider Searches}{9}{}%
-\contentsline {subsection}{\numberline {1.6.5}The $B\rightarrow K^{*}a_{0}, a_{0}\rightarrow \gamma \gamma $ Decay Process}{9}{}%
-\contentsline {subsection}{\numberline {1.6.6}Flavour Changing Neutral Currents}{9}{}%
-\contentsline {subsection}{\numberline {1.6.7}Electroweak Penguin Decays}{9}{}%
-\contentsline {chapter}{\numberline {2}The LHCb Detector}{10}{}%
-\contentsline {section}{\numberline {2.1}Structure of the LHCb Detector}{10}{}%
-\contentsline {subsection}{\numberline {2.1.1}Vertex Locator (VELO)}{10}{}%
-\contentsline {subsubsection}{Angular Coverage}{11}{}%
-\contentsline {subsubsection}{Triggering}{11}{}%
-\contentsline {subsubsection}{Reconstruction Efficiency}{11}{}%
-\contentsline {subsubsection}{Displaced Tracks and Vertices}{11}{}%
-\contentsline {subsubsection}{Decay Time}{11}{}%
-\contentsline {subsection}{\numberline {2.1.2}Ring Imaging Cherenkov (RICH) Detector}{11}{}%
-\contentsline {subsection}{\numberline {2.1.3}Magnet}{11}{}%
-\contentsline {subsection}{\numberline {2.1.4}Electromagnetic Calorimeter (ECAL)}{11}{}%
-\contentsline {section}{\numberline {2.2}Data Analysis at the LHCb}{11}{}%
-\contentsline {subsection}{\numberline {2.2.1}The LHCb Data Flow}{11}{}%
-\contentsline {subsection}{\numberline {2.2.2}The LHCb Simulation Framework}{12}{}%
-\contentsline {subsubsection}{Gauss}{12}{}%
-\contentsline {subsubsection}{EvtGen}{12}{}%
-\contentsline {subsubsection}{Pythia}{12}{}%
-\contentsline {subsubsection}{Geant4}{12}{}%
-\contentsline {subsubsection}{Boole}{12}{}%
-\contentsline {chapter}{\numberline {3}Experimental Methods}{13}{}%
-\contentsline {chapter}{\numberline {4}Results}{14}{}%
-\contentsline {chapter}{\numberline {5}Discussion}{15}{}%
-\contentsline {chapter}{Conclusion}{16}{}%
-\contentsline {chapter}{References}{16}{}%
+\contentsline {subsection}{\numberline {1.6.5}The $B\rightarrow K^{*}a_{0}, a_{0}\rightarrow \gamma \gamma $ Decay Process}{10}{}%
+\contentsline {subsection}{\numberline {1.6.6}Flavour Changing Neutral Currents}{10}{}%
+\contentsline {subsection}{\numberline {1.6.7}Electroweak Penguin Decays}{10}{}%
+\contentsline {chapter}{\numberline {2}The LHCb Detector}{11}{}%
+\contentsline {section}{\numberline {2.1}Structure of the LHCb Detector}{11}{}%
+\contentsline {subsection}{\numberline {2.1.1}Vertex Locator (VELO)}{11}{}%
+\contentsline {subsubsection}{Angular Coverage}{12}{}%
+\contentsline {subsubsection}{Triggering}{12}{}%
+\contentsline {subsubsection}{Reconstruction Efficiency}{12}{}%
+\contentsline {subsubsection}{Displaced Tracks and Vertices}{12}{}%
+\contentsline {subsubsection}{Decay Time}{12}{}%
+\contentsline {subsection}{\numberline {2.1.2}Ring Imaging Cherenkov (RICH) Detector}{12}{}%
+\contentsline {subsection}{\numberline {2.1.3}Magnet}{12}{}%
+\contentsline {subsection}{\numberline {2.1.4}Electromagnetic Calorimeter (ECAL)}{12}{}%
+\contentsline {section}{\numberline {2.2}Data Analysis at the LHCb}{12}{}%
+\contentsline {subsection}{\numberline {2.2.1}The LHCb Data Flow}{12}{}%
+\contentsline {subsection}{\numberline {2.2.2}The LHCb Simulation Framework}{13}{}%
+\contentsline {subsubsection}{Gauss}{13}{}%
+\contentsline {subsubsection}{EvtGen}{13}{}%
+\contentsline {subsubsection}{Pythia}{13}{}%
+\contentsline {subsubsection}{Geant4}{13}{}%
+\contentsline {subsubsection}{Boole}{13}{}%
+\contentsline {chapter}{\numberline {3}Experimental Methods}{14}{}%
+\contentsline {chapter}{\numberline {4}Results}{15}{}%
+\contentsline {chapter}{\numberline {5}Discussion}{16}{}%
+\contentsline {chapter}{Conclusion}{17}{}%
+\contentsline {chapter}{References}{17}{}%
