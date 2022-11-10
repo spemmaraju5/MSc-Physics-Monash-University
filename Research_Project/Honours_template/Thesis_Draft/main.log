@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  9 NOV 2022 17:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  10 NOV 2022 15:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -404,24 +404,27 @@ File: ALPExperimentalConstraints.jpg Graphic file (type jpg)
 Package pdftex.def Info: ALPExperimentalConstraints.jpg  used on input line 88.
 (pdftex.def)             Requested size: 286.72858pt x 226.83536pt.
 [7] [8 <./ALPExperimentalConstraints.jpg>]
-
-Package caption Warning: \label without proper reference on input line 124.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `ALPColliderConstraints' on page 9 undefined on input line 121.
-
 <ALPColliderConstraints.jpg, id=54, 344.487pt x 243.91125pt>
 File: ALPColliderConstraints.jpg Graphic file (type jpg)
 <use ALPColliderConstraints.jpg>
-Package pdftex.def Info: ALPColliderConstraints.jpg  used on input line 123.
-(pdftex.def)             Requested size: 258.36461pt x 182.93298pt.
+Package pdftex.def Info: ALPColliderConstraints.jpg  used on input line 124.
+(pdftex.def)             Requested size: 241.13924pt x 170.7367pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--125
+Overfull \hbox (59.04439pt too wide) in paragraph at lines 124--125
+[][] 
+ []
+
+<ALPExperimentalAndColliderConstraints.jpg, id=55, 542.025pt x 461.3235pt>
+File: ALPExperimentalAndColliderConstraints.jpg Graphic file (type jpg)
+<use ALPExperimentalAndColliderConstraints.jpg>
+Package pdftex.def Info: ALPExperimentalAndColliderConstraints.jpg  used on input line 130.
+(pdftex.def)             Requested size: 189.71158pt x 161.46564pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--134
 
  []
 
-) [9 <./ALPColliderConstraints.jpg>] [10]
+) [9 <./ALPColliderConstraints.jpg> <./ALPExperimentalAndColliderConstraints.jpg>] [10]
 Chapter 2.
 (Chapter_2.tex [11
 
@@ -441,23 +444,19 @@ Chapter 5.
 
 ]) [18
 
-] (main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 6584 strings out of 478547
- 111533 string characters out of 2841835
- 488148 words of memory out of 3000000
- 24645 multiletter control sequences out of 15000+600000
+ 6593 strings out of 478547
+ 111888 string characters out of 2841835
+ 489148 words of memory out of 3000000
+ 24653 multiletter control sequences out of 15000+600000
  517044 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,11n,77p,768b,534s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on main.pdf (19 pages, 648005 bytes).
+<C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on main.pdf (19 pages, 735950 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
+ 174 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
