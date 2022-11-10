@@ -608,12 +608,6 @@ INPUT .\ALPExperimentalAndColliderConstraints.jpg
 INPUT .\ALPExperimentalAndColliderConstraints.jpg
 INPUT .\ALPExperimentalAndColliderConstraints.jpg
 INPUT .\ALPExperimentalAndColliderConstraints.jpg
-INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT .\Chapter_2.tex
 INPUT Chapter_2.tex
 INPUT .\Chapter_2.tex
@@ -629,7 +623,10 @@ INPUT .\main.bbl
 INPUT main.bbl
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeti8.tfm
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aer8.vf
+INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeti8.vf
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti8.tfm
@@ -669,8 +666,6 @@ INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
-INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\saich\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti8.pfb

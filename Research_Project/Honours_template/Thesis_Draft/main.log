@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  10 NOV 2022 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  10 NOV 2022 16:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -334,129 +334,133 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--102
 
 ]
 Chapter 1.
-(Chapter_1.tex
-<StandardModel.jpg, id=26, 702.625pt x 527.9725pt>
-File: StandardModel.jpg Graphic file (type jpg)
-<use StandardModel.jpg>
-Package pdftex.def Info: StandardModel.jpg  used on input line 20.
-(pdftex.def)             Requested size: 281.04501pt x 211.18526pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--23
-
- []
-
 [4
 
 ]
-<ChargeConjugation.jpg, id=30, 272.01625pt x 186.6975pt>
-File: ChargeConjugation.jpg Graphic file (type jpg)
-<use ChargeConjugation.jpg>
-Package pdftex.def Info: ChargeConjugation.jpg  used on input line 37.
-(pdftex.def)             Requested size: 272.01558pt x 186.69704pt.
-
-Overfull \hbox (44.39354pt too wide) in paragraph at lines 37--38
-[][] 
- []
-
-<ParityTransformation.png, id=31, 397.485pt x 127.47626pt>
-File: ParityTransformation.png Graphic file (type png)
-<use ParityTransformation.png>
-Package pdftex.def Info: ParityTransformation.png  used on input line 43.
-(pdftex.def)             Requested size: 397.48402pt x 127.47594pt.
-
-Overfull \hbox (78.81456pt too wide) in paragraph at lines 43--45
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--49
-
- []
-
-[5 <./StandardModel.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 54--63
-
- []
-
-[6 <./ChargeConjugation.jpg> <./ParityTransformation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 72--82
-
- []
-
-<ALPExperimentalConstraints.jpg, id=46, 637.1805pt x 504.08325pt>
-File: ALPExperimentalConstraints.jpg Graphic file (type jpg)
-<use ALPExperimentalConstraints.jpg>
-Package pdftex.def Info: ALPExperimentalConstraints.jpg  used on input line 88.
-(pdftex.def)             Requested size: 286.72858pt x 226.83536pt.
-[7] [8 <./ALPExperimentalConstraints.jpg>]
-<ALPColliderConstraints.jpg, id=54, 344.487pt x 243.91125pt>
-File: ALPColliderConstraints.jpg Graphic file (type jpg)
-<use ALPColliderConstraints.jpg>
-Package pdftex.def Info: ALPColliderConstraints.jpg  used on input line 124.
-(pdftex.def)             Requested size: 241.13924pt x 170.7367pt.
-
-Overfull \hbox (59.04439pt too wide) in paragraph at lines 124--125
-[][] 
- []
-
-<ALPExperimentalAndColliderConstraints.jpg, id=55, 542.025pt x 461.3235pt>
-File: ALPExperimentalAndColliderConstraints.jpg Graphic file (type jpg)
-<use ALPExperimentalAndColliderConstraints.jpg>
-Package pdftex.def Info: ALPExperimentalAndColliderConstraints.jpg  used on input line 130.
-(pdftex.def)             Requested size: 189.71158pt x 161.46564pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--134
-
- []
-
-) [9 <./ALPColliderConstraints.jpg> <./ALPExperimentalAndColliderConstraints.jpg>] [10]
 Chapter 2.
-(Chapter_2.tex [11
+(Chapter_1.tex
+<StandardModel.jpg, id=29, 702.625pt x 527.9725pt>
+File: StandardModel.jpg Graphic file (type jpg)
+<use StandardModel.jpg>
+Package pdftex.def Info: StandardModel.jpg  used on input line 19.
+(pdftex.def)             Requested size: 281.04501pt x 211.18526pt.
 
-] [12]) [13]
-Chapter 3.
-(Chapter_3.tex) [14
+Underfull \hbox (badness 10000) in paragraph at lines 2--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--22
+
+ []
+
+[5
 
 ]
+<ChargeConjugation.jpg, id=33, 272.01625pt x 186.6975pt>
+File: ChargeConjugation.jpg Graphic file (type jpg)
+<use ChargeConjugation.jpg>
+Package pdftex.def Info: ChargeConjugation.jpg  used on input line 36.
+(pdftex.def)             Requested size: 272.01558pt x 186.69704pt.
+
+Overfull \hbox (44.39354pt too wide) in paragraph at lines 36--37
+[][] 
+ []
+
+<ParityTransformation.png, id=34, 397.485pt x 127.47626pt>
+File: ParityTransformation.png Graphic file (type png)
+<use ParityTransformation.png>
+Package pdftex.def Info: ParityTransformation.png  used on input line 42.
+(pdftex.def)             Requested size: 397.48402pt x 127.47594pt.
+
+Overfull \hbox (78.81456pt too wide) in paragraph at lines 42--44
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--48
+
+ []
+
+[6 <./StandardModel.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 53--62
+
+ []
+
+[7 <./ChargeConjugation.jpg> <./ParityTransformation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 71--81
+
+ []
+
+<ALPExperimentalConstraints.jpg, id=49, 637.1805pt x 504.08325pt>
+File: ALPExperimentalConstraints.jpg Graphic file (type jpg)
+<use ALPExperimentalConstraints.jpg>
+Package pdftex.def Info: ALPExperimentalConstraints.jpg  used on input line 87.
+(pdftex.def)             Requested size: 286.72858pt x 226.83536pt.
+[8] [9 <./ALPExperimentalConstraints.jpg>]
+<ALPColliderConstraints.jpg, id=57, 344.487pt x 243.91125pt>
+File: ALPColliderConstraints.jpg Graphic file (type jpg)
+<use ALPColliderConstraints.jpg>
+Package pdftex.def Info: ALPColliderConstraints.jpg  used on input line 123.
+(pdftex.def)             Requested size: 241.13924pt x 170.7367pt.
+
+Overfull \hbox (59.04439pt too wide) in paragraph at lines 123--124
+[][] 
+ []
+
+<ALPExperimentalAndColliderConstraints.jpg, id=58, 542.025pt x 461.3235pt>
+File: ALPExperimentalAndColliderConstraints.jpg Graphic file (type jpg)
+<use ALPExperimentalAndColliderConstraints.jpg>
+Package pdftex.def Info: ALPExperimentalAndColliderConstraints.jpg  used on input line 129.
+(pdftex.def)             Requested size: 189.71158pt x 161.46564pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--133
+
+ []
+
+) [10 <./ALPColliderConstraints.jpg> <./ALPExperimentalAndColliderConstraints.jpg>] [11]
+Chapter 3.
+(Chapter_2.tex [12
+
+] [13]) [14]
 Chapter 4.
-[15
+(Chapter_3.tex) [15
 
 ]
 Chapter 5.
 [16
 
-] (main.bbl [17
+]
+Chapter 6.
+[17
 
-]) [18
+] (main.bbl [18
+
+]) [19
 
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 6593 strings out of 478547
- 111888 string characters out of 2841835
+ 6586 strings out of 478547
+ 111806 string characters out of 2841835
  489148 words of memory out of 3000000
- 24653 multiletter control sequences out of 15000+600000
- 517044 words of font info for 125 fonts, out of 8000000 for 9000
+ 24647 multiletter control sequences out of 15000+600000
+ 516413 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,768b,534s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on main.pdf (19 pages, 735950 bytes).
+ 72i,14n,77p,768b,534s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on main.pdf (20 pages, 728149 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
+ 172 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
