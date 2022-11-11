@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  10 NOV 2022 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  12 NOV 2022 10:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -412,9 +412,9 @@ Package pdftex.def Info: ALPExperimentalConstraints.jpg  used on input line 87.
 File: ALPColliderConstraints.jpg Graphic file (type jpg)
 <use ALPColliderConstraints.jpg>
 Package pdftex.def Info: ALPColliderConstraints.jpg  used on input line 123.
-(pdftex.def)             Requested size: 241.13924pt x 170.7367pt.
+(pdftex.def)             Requested size: 265.2558pt x 187.81223pt.
 
-Overfull \hbox (59.04439pt too wide) in paragraph at lines 123--124
+Overfull \hbox (83.16095pt too wide) in paragraph at lines 123--124
 [][] 
  []
 
@@ -422,13 +422,18 @@ Overfull \hbox (59.04439pt too wide) in paragraph at lines 123--124
 File: ALPExperimentalAndColliderConstraints.jpg Graphic file (type jpg)
 <use ALPExperimentalAndColliderConstraints.jpg>
 Package pdftex.def Info: ALPExperimentalAndColliderConstraints.jpg  used on input line 129.
-(pdftex.def)             Requested size: 189.71158pt x 161.46564pt.
+(pdftex.def)             Requested size: 211.38889pt x 179.91544pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--133
+Overfull \hbox (29.29404pt too wide) in paragraph at lines 129--130
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--134
 
  []
 
-) [10 <./ALPColliderConstraints.jpg> <./ALPExperimentalAndColliderConstraints.jpg>] [11]
+[10 <./ALPColliderConstraints.jpg> <./ALPExperimentalAndColliderConstraints.jpg>]) [11]
 Chapter 3.
 (Chapter_2.tex [12
 
@@ -450,15 +455,15 @@ Chapter 6.
 
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 6586 strings out of 478547
- 111806 string characters out of 2841835
+ 6591 strings out of 478547
+ 111960 string characters out of 2841835
  489148 words of memory out of 3000000
- 24647 multiletter control sequences out of 15000+600000
+ 24652 multiletter control sequences out of 15000+600000
  516413 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,14n,77p,768b,534s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on main.pdf (20 pages, 728149 bytes).
+Output written on main.pdf (20 pages, 729647 bytes).
 PDF statistics:
  172 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
