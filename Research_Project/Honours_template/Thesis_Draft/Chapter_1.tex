@@ -83,7 +83,7 @@ Since light pseudoscalars are theorised to naturally couple to photons, due to s
 being conducted at low-energy accelerators exploit the (inverse) Primakoff effect, wherein axions are converted to photons (and vice versa) in collisions with photons, or identically with electromagnetic fields \cite{d'Enterria:2753504}. This is the case with the experimental search strategies
 that are summarised below, namely the Light Shining through Walls (LSW) experiments, helioscope, and haloscope searches
 \begin{figure}[H]
-    \centering
+    \centering      
     \includegraphics[scale = 0.45]{ALPExperimentalConstraints.jpg}
     \caption{Plot displaying the constraints imposed on the masses and coupling strengths of ALPs to photons by a variety of experiments, such as LSW, helioscope, and haloscope searches (such as ALPS-II and ADMX respectively). Of particular interest are the constraints imposed by the LSW experiments ALPS-II, as well as the helioscope limits expected to be set by IAXO. The bright yellow band indicates
     the prediction for the axion}
@@ -121,7 +121,7 @@ examined by the LEP-I and LEP-II experiments via, for instance, the decay mode $
 \begin{figure}[H]
     \begin{subfigure}{0.4\textwidth}
     \includegraphics[scale = 0.77]{ALPColliderConstraints.jpg}
-    \caption{Bounds on the $(m_{a}, g_{a\gamma})$ parameter space by ALP searches from existing collider and accelerator experiments}
+    \caption{Detailed bounds on the $(m_{a}, g_{a\gamma})$ parameter space by ALP searches from existing collider and accelerator experiments}
     \label{ALPColliderConstraints}
     \end{subfigure}
     \hfill
@@ -132,9 +132,28 @@ examined by the LEP-I and LEP-II experiments via, for instance, the decay mode $
     \end{subfigure}
     \hfill
 \end{figure}
-\section{The $B\rightarrow K^{*}a_{0}, a_{0}\rightarrow\gamma\gamma$ Decay Process} 
-The model considered in the sections that follow is described in detail in \cite{Izaguirre2016ANF}.
-\subsection{Flavour Changing Neutral Currents} 
+\subsection{Flavour Changing Neutral Currents}\label{FCNC}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.55]{FCNCALP.jpg}
+\end{figure}
 \subsection{Electroweak Penguin Decays}
+\section{The $B^{0}\rightarrow K^{*}a_{0}, a_{0}\rightarrow\gamma\gamma$ Decay Process} 
+The model considered in the sections that follow is described in detail in \cite{Izaguirre2016ANF}. The model describes a
+coupling to the weak gauge bosons $W^{\pm}$, which gives rise to observable signatures within the detector apparatus. This model has a
+zero coupling with gluons, and its effective Lagrangian is given by
+\begin{equation}
+    \mathcal{L} = (\partial_{\mu}a)^{2}-\frac{1}{2}m_{a}^{2}a^{2}-\frac{g_{aW}}{4}W_{\mu\nu}\tilde{W}^{\mu\nu}
+\end{equation}
+where $g_{aW}$ is the coupling between the ALP field $a$ and the electroweak gauge boson field $W$. Furthermore, $\tilde{W}^{\mu\nu} = \epsilon^{\mu\nu\alpha\beta}W_{\alpha\beta}/2$ \cite{Izaguirre2016ANF}.Promising decay channels which could exhibit this coupling can take
+place through a Flavour Changing Neutral Current (FCNC) process, further detailed in Section \ref{FCNC} below. One such decay channel is 
+\begin{equation}\label{DecayChannel}
+    B^{0}\rightarrow K^{*}a_{0}, a_{0}\rightarrow\gamma\gamma
+\end{equation}
+The above decay channel is of interest, as the decaying particle is a neutral $B$ meson, which has been studied extensively by a multitude of accelerators and colliders that are optimised to generate and detect
+them. The Large Hadron Collider beauty (LHCb) is one such detector that possesses a substantial amount of data pertaining to the decay of $B$-mesons. For this reason, the search for ALPs that are produced by the decay channel
+described in (\ref{DecayChannel}) appears to be viable and worth pursuing at the LHCb. The design, structure, and computational framework of the experiment are further detailed in the subsequent chapters
+
+
 
 

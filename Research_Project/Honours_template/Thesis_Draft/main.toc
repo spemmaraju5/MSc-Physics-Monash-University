@@ -11,9 +11,9 @@
 \contentsline {subsection}{\numberline {2.5.2}Haloscope Searches}{9}{}%
 \contentsline {subsection}{\numberline {2.5.3}Helioscope Searches}{10}{}%
 \contentsline {subsection}{\numberline {2.5.4}Collider Searches}{10}{}%
-\contentsline {section}{\numberline {2.6}The $B\rightarrow K^{*}a_{0}, a_{0}\rightarrow \gamma \gamma $ Decay Process}{11}{}%
-\contentsline {subsection}{\numberline {2.6.1}Flavour Changing Neutral Currents}{11}{}%
-\contentsline {subsection}{\numberline {2.6.2}Electroweak Penguin Decays}{11}{}%
+\contentsline {subsection}{\numberline {2.5.5}Flavour Changing Neutral Currents}{11}{}%
+\contentsline {subsection}{\numberline {2.5.6}Electroweak Penguin Decays}{11}{}%
+\contentsline {section}{\numberline {2.6}The $B^{0}\rightarrow K^{*}a_{0}, a_{0}\rightarrow \gamma \gamma $ Decay Process}{11}{}%
 \contentsline {chapter}{\numberline {3}The LHCb Detector}{12}{}%
 \contentsline {section}{\numberline {3.1}Structure of the LHCb Detector}{12}{}%
 \contentsline {subsection}{\numberline {3.1.1}Vertex Locator (VELO)}{12}{}%
