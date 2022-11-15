@@ -1,4 +1,34 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{ATLAS:2012znl}
+{Observation and study of the Higgs boson candidate in the two photon decay
+  channel with the ATLAS detector at the LHC}.
+\newblock 12 2012.
+
+\bibitem{PhysRevLett.124.081803}
+C.~Abel, S.~Afach, N.~J. Ayres, C.~A. Baker, G.~Ban, G.~Bison, K.~Bodek,
+  V.~Bondar, M.~Burghoff, E.~Chanel, Z.~Chowdhuri, P.-J. Chiu, B.~Clement,
+  C.~B. Crawford, M.~Daum, S.~Emmenegger, L.~Ferraris-Bouchez, M.~Fertl,
+  P.~Flaux, B.~Franke, A.~Fratangelo, P.~Geltenbort, K.~Green, W.~C. Griffith,
+  M.~van~der Grinten, Z.~D. Gruji\ifmmode~\acute{c}\else \'{c}\fi{}, P.~G.
+  Harris, L.~Hayen, W.~Heil, R.~Henneck, V.~H\'elaine, N.~Hild, Z.~Hodge,
+  M.~Horras, P.~Iaydjiev, S.~N. Ivanov, M.~Kasprzak, Y.~Kermaidic, K.~Kirch,
+  A.~Knecht, P.~Knowles, H.-C. Koch, P.~A. Koss, S.~Komposch, A.~Kozela,
+  A.~Kraft, J.~Krempel, M.~Ku\ifmmode~\acute{z}\else \'{z}\fi{}niak, B.~Lauss,
+  T.~Lefort, Y.~Lemi\`ere, A.~Leredde, P.~Mohanmurthy, A.~Mtchedlishvili,
+  M.~Musgrave, O.~Naviliat-Cuncic, D.~Pais, F.~M. Piegsa, E.~Pierre, G.~Pignol,
+  C.~Plonka-Spehr, P.~N. Prashanth, G.~Qu\'em\'ener, M.~Rawlik, D.~Rebreyend,
+  I.~Rien\"acker, D.~Ries, S.~Roccia, G.~Rogel, D.~Rozpedzik, A.~Schnabel,
+  P.~Schmidt-Wellenburg, N.~Severijns, D.~Shiers, R.~Tavakoli~Dinani, J.~A.
+  Thorne, R.~Virot, J.~Voigt, A.~Weis, E.~Wursten, G.~Wyszynski, J.~Zejma,
+  J.~Zenner, and G.~Zsigmond.
+\newblock Measurement of the permanent electric dipole moment of the neutron.
+\newblock {\em Phys. Rev. Lett.}, 124:081803, Feb 2020.
+
+\bibitem{PhysRevLett.13.138}
+J.~H. Christenson, J.~W. Cronin, V.~L. Fitch, and R.~Turlay.
+\newblock Evidence for the $2\ensuremath{\pi}$ decay of the $k_{2}^{0}$ meson.
+\newblock {\em Phys. Rev. Lett.}, 13:138--140, Jul 1964.
 
 \bibitem{d'Enterria:2753504}
 David d'Enterria.
@@ -6,6 +36,16 @@ David d'Enterria.
 \newblock Technical report, 2021.
 \newblock 11 pages, 8 plots, extended contribution to the 'Feebly-Interacting
   Particles (FIPs) 2020 Workshop Report'.
+
+\bibitem{Holstein:2006bh}
+Barry~R. Holstein.
+\newblock {Graviton Physics}.
+\newblock {\em Am. J. Phys.}, 74:1002--1011, 2006.
+
+\bibitem{Garcia_Irastorza_2022}
+Igor~Garcia Irastorza.
+\newblock An introduction to axions and their detection.
+\newblock {\em {SciPost} Physics Lecture Notes}, mar 2022.
 
 \bibitem{Izaguirre2016ANF}
 Eder Izaguirre, Tongyan Lin, and Brian Shuve.
@@ -27,6 +67,19 @@ Tatsumi Nitta.
 \newblock {Operations and Data Taking Status of ADMX}.
 \newblock {\em PoS}, EPS-HEP2021:180, 2022.
 
+\bibitem{Michael:920}
+Michael~De Nuccio and Francesco Forti.
+\newblock {\em Search for an Axion-Like Particle in B decays at the BABAR
+  experiment and projections to the Belle II data sample}.
+\newblock PhD thesis, Pisa, University of Pisa, Pisa, 2018.
+\newblock Presented on 19 04 2018.
+
+\bibitem{article}
+R.D. Peccei and Helen Quinn.
+\newblock Cp conservation in the presence of pseudoparticles.
+\newblock {\em Physical Review Letters - PHYS REV LETT}, 38:1440--1443, 06
+  1977.
+
 \bibitem{Primakoff:1951iae}
 H.~Primakoff.
 \newblock {Photoproduction of neutral mesons in nuclear electric fields and the
@@ -36,5 +89,10 @@ H.~Primakoff.
 \bibitem{https://doi.org/10.48550/arxiv.1407.0546}
 A.~Ringwald.
 \newblock Axions and axion-like particles, 2014.
+
+\bibitem{PhysRevLett.40.223}
+Steven Weinberg.
+\newblock A new light boson?
+\newblock {\em Phys. Rev. Lett.}, 40:223--226, Jan 1978.
 
 \end{thebibliography}
