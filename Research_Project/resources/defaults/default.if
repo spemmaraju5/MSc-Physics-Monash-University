@@ -1,0 +1,147 @@
+#
+# FeynGame default level file for game mode
+#
+
+#########################
+# Process definitions   #
+#########################
+
+# The processes (challenges) are grouped by difficulty:
+
+# easy      |  5 points
+# medium    | 10 points
+# hard      | 25 points
+
+# The processes are defined by specifying the particles (comma
+# separated) of the initial ("start") and the final ("end") state.
+
+# Here are the example challenges:
+
+####################################
+easy
+####################################
+
+start: e,E
+end: e,E
+
+start: e,e
+end: e,e
+
+start: e,E
+end: mu,Mu
+
+start: e,E
+end: t,T
+
+start: e,E
+end: ph,ph
+
+start: e,E
+end: Z,Z
+
+start: Z
+end: tau,Tau
+
+start: Z
+end: b,B,g
+
+start: H
+end: Z,Z
+
+start: H
+end: W,W
+
+start: g,g
+end: g,g
+
+start: g,g
+end: t,T
+
+start: W
+end: e,Nue
+
+start: W
+end: W,ph,ph
+
+start: W
+end: b,C,g
+
+####################################
+medium
+####################################
+
+start: g,g
+end: H
+
+start: H
+end: ph,ph
+
+start: g,g
+end: H,H
+
+start: g,g
+end: t,T,H
+
+start: g,g
+end: H,Z
+
+start: u,D
+end: H,W
+
+start: u,D
+end: t,B
+
+start: e,E
+end: W,W
+
+start: H
+end: Z,g,g
+
+start: mu
+end: e,numu,Nue
+
+start: t
+end: b,E,nue
+
+start: ph,ph
+end: ph,ph
+
+start: ph,ph
+end: W,W
+
+start: W,W
+end: W,W
+
+start: W
+end: b,C,u,U
+
+start: c,s
+end: t,b
+
+##########################
+hard
+##########################
+
+start: u,U
+end: d,D,H
+
+start: u,D
+end: t,T,W
+
+start: ph,g
+end: ph,g
+
+start: b
+end: s,ph
+
+start: b,S
+end: B,s
+
+start: e,E
+end: g,g
+
+start: e,E
+end: c,C,g
+
+start: W
+end: e,Nue,g,g

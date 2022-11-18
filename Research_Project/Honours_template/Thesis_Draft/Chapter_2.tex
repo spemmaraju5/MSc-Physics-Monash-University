@@ -1,55 +1,19 @@
-The LHCb (Large Hadron Collider beauty) experiment is one of the detector experiments that forms a part of the Large Hadron Collider (LHC), located at CERN in Geneva, on the Franco-Swiss border. It is an experiment that is designed to 
-investigate the phenomenon of CP violation in hadrons containing the $b$ (bottom, or beauty) quark. Studies at this detector aim to account for various physical conundra, the most prominent of which is the observed abundance of matter over
-antimatter in the Universe. The detector is also able to perform measurements pertaining to charm and electroweak processes, and has a $b\bar{b}$ production cross-section of approximately 500 $\mu b$ at an energy of 13 TeV, making it the most abundant source of $B$-mesons in the world  This chapter is intended to provide the reader with an overview of the structure of the detector, with an emphasis on the 
-components that are relevant for the analysis of the $B\rightarrow K^{0*}A, A\rightarrow\gamma\gamma$ decay channel, the significance of which has been described in Chapter 1. The section also contains a brief overview of the analysis of the detector data, its flow, the various
-software modules that are responsible for its processing and analysis, and the framework within which these are implemented.
 \section{Structure of the LHCb Detector}
-The LHCb is a single-arm spectrometer whose forward angular coverage encompasses the range from approximately 10 mrad to 300 mrad in the bending (non-bending) plane, and whose pseudorapidity, $\eta$, lies in the range $2 < \eta < 5$.
-The detector is designed such that the $b$ and $\bar{b}$ hadrons are produced within the same forward or backward cone at high energies. The detector comprises a high-precision tracking system, which is responsible for the measurement of the properties of the particles that traverse the
-detector, such as their momenta and electric charge. The tracking system comprises of four main components, namely the vertex locator, (VELO), the two Ring Imaging Cherenkov (RICH) detectors, magnet, and hadronic and electromagnetic calorimeters. Of the aforementioned components (commonly referred to as subdetectors), those that are relevant for the
-analysis of the decay channel of interest, namely the VELO, magnet, and the Electromagnetic Calorimeter (ECAL), are described in further detail in the sections that follow.
 \subsection{Vertex Locator (VELO)}
-The Vertex Locator (VELO) is a silicon microstrip detector that surrounds the proton-proton interaction region in the experiment. It is responsible for providing 
-measurements of track coordinates that enable the identification of the primary and secondary interaction vertices, the latter of which is characteristic of beauty and charm 
-hadron decays. The VELO was designed to optimise five major aspects of the LHCb, namely the angular coverage, triggering of events, reconstruction efficiency, displacement of tracks and vertices, and the decay time of
-particles that traverse the detector. The significance of each of these aspects is summarised below
 \subsubsection{Angular Coverage}
 \subsubsection{Triggering}
 \subsubsection{Reconstruction Efficiency}
 \subsubsection{Displaced Tracks and Vertices}
 \subsubsection{Decay Time}
-The decay time of a particle is obtained from the measurement of its flight distance in the VELO. This is essential for time-dependent measurements in the rapidly oscillating
-$B_{s}^{0}$-$\bar{B_{s}^{0}}$ meson system
 \subsection{Ring Imaging Cherenkov (RICH) Detector}
 \subsection{Magnet} 
 \subsection{Electromagnetic Calorimeter (ECAL)}
 \section{Data Analysis at the LHCb}
-Data collection at the LHCb detector is divided into periods known as fills and runs. A fill is a single period of collisions separated by the announcement of stable beam conditions and the dumping of the beam
-by the LHCb. Such a phase typically lasts approximately 12 hours. A fill can be subdivided into runs, each of which lasts a maximum of one hour. The high event rate at the LHCb mandates a high-bandwidth data acquisition
-system, along with a robust, and selective trigger system. The flow of data through this trigger system, along with its various constituent hardware and software-level components are described in further detail in this section
 \subsection{The LHCb Data Flow}
-The LHCb is provided with approximately 40 million proton-proton collisions by the LHC every second, amounting to approximately 1 TB of storage data each second. In order to optimise the further processing of this data, it must first be filtered so as to retain
-only the events pertaining to the phenomena of interest. This is first performed through the \textit{trigger}, which is divided into two stages, namely the L0 trigger and the high-level trigger (HLT). The former is implemented in hardware, while the latter operates at
-the software level, and is implemented in an application known as Moore. This triggered data is then reconstructed to transform the hits of particles incident on the detector into objects such as tracks and clusters, using an application known as Brunel. These objects are stored in an
-output file in a 'DST' format. Despite being suitable for analysis, such files are often inaccessible to users due to the imposition of computing restrictions. Hence, the data is further filtered through a set of selections known as \textit{stripping}, which is handled by an application known as 
-DaVinci, the output file of this step being produced in a micro-DST (or $\mu$-DST) format
 \subsection{The LHCb Simulation Framework}
-A large number of Monte Carlo (MC) events are produced in parallel to the detector data. These are processed in a similar manner to the real data, the key difference being the two simulation steps that replace the proton-proton collisions and the detector response, which are controlled by
-applications known as Gauss and Boole respectively. The analysis of the decay of the resultant particles from the former simulation requires Gauss to call various Monte Carlo generators such as PYTHIA and POWHEG. The decay of these particles is controlled by the EvtGen and Geant4 applications. The architecture of each of these applications is briefly described
-below
 \subsubsection{Gauss}
-The Gauss framework is constructed analogously to the other LHCb software applications (i.e. using the general Gaudi data-processing framework). The Gaudi framework assists in the configuration
-of algorithms and tools within the application, and also controls the flow of data in the event loop. The Gauss framework has two key purposes, namely to control the generation of collisions (in most cases,
-proton-proton collisions) with Pythia, where a specific LHCb configuration is implemented, and to propagate generated particles through the experimental apparatus, and to simulate the physics processes within the sub-detectors using 
-the Geant4 toolkit, which mimics the response of sub-detectors when a particle propagates through them.
 \subsubsection{EvtGen}
-The EvtGen package is an event generator that is designed for the simulation of the physics of $B$-meson decays. The package provides a framework to handle complex sequential decays and CP violating decays. 
-The simulation of particle decays takes place through analysis of decay amplitudes, rather than probabilities. The 
 \subsubsection{Pythia}
-The Pythia progam is a standard tool for the generation of high-energy collisions, comprising a coherent set of physics models for the evolution from few-body hard processes to complex multihadronic final states.
-hard processes and models for initial and final-state parton showers, multiple parton-parton interaction, beam remnants, string fragmentations and particle decays.  One can integrate its usage with other applications due to its
-various utilities and interfaces to external programs. While its predecessors were written in Fortran, the present version of the software, namely Pythia 8, represents a complete rewrite in C++. Currently, the program 
-only works with $pp$, $e^{+}e^{-}, \bar{p}p$ and $ \mu^{+}\mu^{-}$ pairs. 
 \subsubsection{Geant4}
 \subsubsection{Boole} 
 

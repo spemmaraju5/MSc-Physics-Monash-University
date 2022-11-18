@@ -1,0 +1,61 @@
+<a href="Auxiliary">[Up: Customization]</a><br><br>
+
+<h3>Modelfile</h3>
+<br>
+<p text align = justify>
+It is part of the philosophy of <i>FeynGame</i> to use a pre-defined
+ model (say, QED, the Standard Model, the MSSM, or a subset of the
+ associated particles) where each particle corresponds to a line with a
+ certain appearance.  This makes it particularly efficient to draw a
+ particular diagram, because the different line styles for the individual
+ particles have been defined beforehand, using the <i>model
+ file</i>. A <i>model file</i> for describing the electro-weak interaction of the first two lepton generations would read
+<br><br>
+[ e, E, fermion, color=Red, label=e ]<br>
+[ nue, Nue, fermion, color=dc27e7, label=&nu;<sub>e</sub> ]<br>
+[ mu, Mu, fermion, color=Green, label=&mu;]<br>
+[ numu, Numu, fermion, color=27e7b3,label=&nu;<sub>&mu;</sub> ]<br>
+[ W, W, photon, color=dc27e7, label=W]<br>
+[ Z, Z, photon, color=Blue, label=Z]<br>
+[ ph, ph, photon, color=Green, label=&gamma; ]<br>
+<br>
+Each pair of square brackets
+ defines a particle. The first two entries assign an internal name for
+ the particle. If those are different from each other, it is assumed
+ that the particle is charged and an arrow is added to the line if not stated
+ otherwise. The third entry defines the basic line style. These three
+ entries are required when defining a line in the <i>model file</i>. The
+ <a href="Labels"><b>label</b></a> parameter is optional.</p>
+<br>
+<p text align = justify>
+Starting <i>FeynGame</i> by giving it the name of the <i>model file</i>
+ as argument (including its path) will load the specific model instead of
+ the default one. It is possible to open additional <i>model files</i> by
+ either pressing the &#10010 right next to the tabs representing the
+ currently opened <i>model files</i> or via <b>File > Load model file</b>.
+ This lets one select a new <i>model file</i> to open. Upon confirmation,
+ the new model file is added to the list of <i>model files</i> and can be
+ activated by pressing the corresponding tab. One can press the &#10006 on
+ a tab to close the corrsponding <i>model file</i> and remove it form the
+ list of <i>model files</i>.</p>
+<br>
+<p text align = justify>
+A convenient option to modify the <i>model file</i> is to modify the
+ appearance of an existing line within <i>FeynGame</i> (for example by using
+ <a href="EditFrame"><b>EditFrame</b></a>), and then selecting
+ the <a href="PlusTile"><b>"+" tile</b></a> in the main window.</p>
+<br>
+<p text align = justify>
+To create a completely new model file, one can do so manually by creating
+ a ".model" file and editing it in a text editor. Another way is to draw a
+ diagram onto the canvas and then pressing <b>File > Convert canvas to model</b>.
+ This will create a new model that contains all the objects that are drawn
+ on the canvas. It also derives the Feynman rules from the vertices that are
+ present on the canvas. It should be noted that lines and vertices are considered
+ to be of the same <i>type</i> even if they have different descriptions.</p>
+<br>
+<p text align = justify>
+One can also create a new model by merging several of the opened models by
+ pressing <b>File > Merge models </b>. This opens another window where one can
+ select the models that should be merged. Upon confirmation the new merged model
+ will appear as one of the model tabs. The models that were merged remain unchanged</p>

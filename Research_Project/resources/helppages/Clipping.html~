@@ -1,0 +1,24 @@
+  <a href="Auxiliary">[Up: Auxiliary]</a><br><br>
+
+<h3>Clipping</h3>
+<br>
+
+Independent of whether the grid is on or off, \feyngame\ will do
+additional kinds of clipping when objects are moved by mouse or curved
+by mouse wheel:<br>
+<i>Vertex clipping.</i> If the end of a line is moved closer to another
+  line (or to its other end) than a certain minimal distance, it will be
+  connected with that line through a vertex.<br>
+<i>Curvature clipping.</i> If the curvature of a line is decreased below
+  a certain minimal value via the mouse wheel, it will be set to zero.
+<i>Angle clipping.</i> If the slope of a straight line is close to a
+  multiple of &pi;/2, it will be replaced by that multiple of
+  $\pi/2$. Via the menu item \menu[,]{Edit, Clipping angles} or by
+  repeatedly pressing \keystroke{c}, that value can be changed to
+  $\pi/4$ or $\pi/16$, or zero.
+\end{description}
+This kind of clipping is introduced for the user's convenience, because
+otherwise it would be rather clumsy to connect lines, or to turn a
+curved line into a completely straight line. In order to overrule such
+clipping, one can use \editframe\ to do a pixel-wise modification of the
+position or the curvature.

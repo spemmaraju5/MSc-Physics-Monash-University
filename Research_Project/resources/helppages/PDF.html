@@ -1,0 +1,16 @@
+<a href="Saving">[Up: Saving]</a><br><br>
+
+<h3>Export to PDF / PostScript</h3>
+<br>
+<p text align = justify>
+With <b>File > Print / to PDF</b>, a diagram can be exported as PDF, or directly sent to a printer. <b>Feyngame</b> will open a dialog box which controls the following features:<br><br>
+&bull; <i>Restrict printing area to displayed rectangle:</i> The bounding box of the PDF is determined automatically from the actual location of the diagram on the canvas. The area that will be printed is indicated by a rectangle.<br><br>
+&bull; <i>Print full canvas:</i> The bounding box is determined by the size of the canvas.<br><br>
+&bull; <i>Print on maximum size:</i> The diagram is put on a canvas with a fixed size and then printed. This ensures that all diagrams get scaled the same way when exporting even when the size of the window was changed.<br><br>
+
+
+&bull; <i>Display viewbox/trim parameters</i> The bounding box parameters are displayed when the diagram is printed or exported. They can then be copied to the clipboard and pasted into a text editor, for example as parameters for the <i>\includegraphics</i> command in <i>LaTeX</i>:<br>
+  <i>\includegraphics[viewport = 18 347 577 824,
+    size=.3\textwidth]{ggh.pdf}</i><br>
+  Equivalently, one can use the <i>trim</i> parameters.<br><br>
+&bull; <i>Print in B/W:</i> Print in black-and-white. More precisely: Lines and the borders of vertices are drawn in black.  The interior of the vertices is drawn black or white depending on the brightness of its actual color. All other objects remain untouched.</p>

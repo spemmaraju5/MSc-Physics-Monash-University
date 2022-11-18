@@ -1,0 +1,15 @@
+<html>
+
+  <a href="Drawing">[Up: Drawing]</a><br><br>
+
+<h3>Attaching Labels</h3>
+<br>
+<p text align = justify>
+One can attach labels to objects like lines, vertices, or floating objects. In the <a href="Modelfile"><b>model file</b>, this is done by including the <i>label</i> keyword in the line definition. Currently, labels can be given with LaTeX typesetting, or using basic HTML commands. In this case, the label definition should start with the string "&#60;html&#62;". Using the "&#60;html&#62;" combined with the "&#60;font&#62;" tag, it is possible to change the color and the font of the text. By default LaTeX is used. The displaying of the LaTeX output is handled by the <a href="https://github.com/opencollab/jlatexmath">JLatexMath</a> library</p>
+<br>
+<p text align = justify>
+The position of a label is relative to its associated line, but it can be changed by mouse or using <a href="EditFrame"><b>EditFrame</b></a>. Moving the line will also move the label, such that the relative position of the two remains fixed. On the other hand, the orientation of the label is defined relative to the canvas, i.e. rotating the line will not rotate the label relative to the canvas.  The default properties of the label (position, size, orientation, etc.) are the same for all lines; they can be changed by pressing the <i>Set as default</i> button in <a href="EditFrame"><b>EditFrame</b></a>. In this way, one can also determine whether the label is shown or not by default. Pressing "l" will toggle the displaying of the active line's label. The labels for all the other objects work in exactly the same way.</p><br>
+<p text align = justify>
+One can also set custom defaults for the position and general options for the labels via the EditFrame. The defaults are separate for floating objects and non-floating vertices and also separate for different line types.
+</p>
+</html>

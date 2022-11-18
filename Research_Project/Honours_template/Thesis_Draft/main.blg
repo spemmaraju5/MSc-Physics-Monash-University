@@ -5,50 +5,56 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 Database file #1: refs.bib
+Warning--entry type for "SM_Picture" isn't style-file defined
+--line 7 of file refs.bib
+Warning--entry type for "ChargeConj" isn't style-file defined
+--line 119 of file refs.bib
+Warning--entry type for "ParityTransf" isn't style-file defined
+--line 133 of file refs.bib
 Warning--to sort, need author or key in ATLAS:2012znl
 Warning--empty author in ATLAS:2012znl
 Warning--empty journal in ATLAS:2012znl
 Warning--empty institution in d'Enterria:2753504
 Warning--empty booktitle in Izaguirre2016ANF
-You've used 15 entries,
+You've used 24 entries,
             2118 wiz_defined-function locations,
-            602 strings with 7626 characters,
-and the built_in function-call counts, 6564 in all, are:
-= -- 560
-> -- 560
+            654 strings with 8929 characters,
+and the built_in function-call counts, 9143 in all, are:
+= -- 802
+> -- 687
 < -- 0
-+ -- 228
-- -- 210
-* -- 590
-:= -- 1196
-add.period$ -- 45
-call.type$ -- 15
-change.case$ -- 149
++ -- 281
+- -- 252
+* -- 763
+:= -- 1631
+add.period$ -- 68
+call.type$ -- 24
+change.case$ -- 197
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 156
-empty$ -- 338
-format.name$ -- 210
-if$ -- 1228
+cite$ -- 29
+duplicate$ -- 238
+empty$ -- 552
+format.name$ -- 252
+if$ -- 1755
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 12
-newline$ -- 78
-num.names$ -- 28
-pop$ -- 140
+int.to.str$ -- 24
+missing$ -- 17
+newline$ -- 119
+num.names$ -- 46
+pop$ -- 199
 preamble$ -- 1
-purify$ -- 134
+purify$ -- 173
 quote$ -- 0
-skip$ -- 106
+skip$ -- 175
 stack$ -- 0
-substring$ -- 249
-swap$ -- 13
+substring$ -- 398
+swap$ -- 22
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
+type$ -- 96
 warning$ -- 5
-while$ -- 40
-width$ -- 17
-write$ -- 161
-(There were 5 warnings)
+while$ -- 65
+width$ -- 26
+write$ -- 246
+(There were 8 warnings)

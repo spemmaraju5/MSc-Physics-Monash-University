@@ -10,12 +10,14 @@
 %headers and footers
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+ 
 
 \usepackage[T1]{fontenc}
 \usepackage{ae,aecompl}
 \usepackage{natbib}
 \usepackage{float}
 \usepackage{placeins}
+\usepackage{physics}
 
 % Only include extra packages if you really need them. Common packages are:
 \usepackage[utf8]{inputenc}
@@ -27,6 +29,7 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{caption,setspace}
+\usepackage{hyperref}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%% AUTHORS - PLACE YOUR OWN COMMANDS HERE %%%%%
@@ -95,10 +98,7 @@
 
 %#################################################
 \newpage
-\chapter*{Acknowledgements}
-I would first like to convey my heartfelt and sincere gratitude to my parents, and my younger brother Piyush, who have supported me every step of the way throughout this arduous, yet highly rewarding journey. Their unwavering faith in my capabilities during the tough times is unparalleled and I am eternally grateful to them for enabling me to pursue this body of work. 
-Secondly, I would like to thank my supervisor, Prof. Ulrik Egede, without whose support and guidance, this body of work would not have taken its present form. I am eternally grateful to Prof. Egede for his continual support throughout the years and all of the additional opportunities that he has presented me to become more involved with the collaboration, and to further explore the realm of experimental particle physics. \\
-\\
+
 
 %#################################################
 \newpage
@@ -109,7 +109,6 @@ Secondly, I would like to thank my supervisor, Prof. Ulrik Egede, without whose 
 \renewcommand{\baselinestretch}{1.5}
 
 \newpage
-\chapter{Introduction}
 \chapter{Background and Motivation}
 \input{Chapter_1.tex}
 
@@ -158,5 +157,5 @@ Secondly, I would like to thank my supervisor, Prof. Ulrik Egede, without whose 
 
 \label{lastpage}
 \bibliographystyle{plain} % We choose the "plain" reference style
-\bibliography{refs}
+\bibliography{refs}{\huge}
 \end{document}

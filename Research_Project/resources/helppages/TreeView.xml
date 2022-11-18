@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Help>
+  <Philosophy>
+  </Philosophy>
+<Drawing>
+  <Lines>
+    <MomentumArrow>
+    </MomentumArrow>
+  </Lines>
+  <Vertices>
+  </Vertices>
+  <Tadpoles>
+  </Tadpoles>
+  <Labels>
+  </Labels>
+  <CopyPaste>
+  </CopyPaste>
+  <EditFrame>
+  </EditFrame>
+  <MultiEdit>
+  </MultiEdit>
+</Drawing>
+<Saving>
+  <FGFiles>
+  </FGFiles>
+  <Export>
+  </Export>
+  <Clipboard>
+  </Clipboard>
+  <PDF>
+  </PDF>
+  <Print>
+  </Print>
+</Saving>
+<Customization>
+  <Auxiliary>
+    <Grid>
+    </Grid>
+    <HelperLines>
+    </HelperLines>
+    <ActiveObject>
+    </ActiveObject>
+    <PlusTile>
+    </PlusTile>
+    <Clipping>
+    </Clipping>
+  </Auxiliary>
+  <Modelfile>
+  </Modelfile>
+</Customization>
+</Help>

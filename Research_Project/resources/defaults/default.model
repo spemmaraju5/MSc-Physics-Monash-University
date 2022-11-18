@@ -1,0 +1,109 @@
+#
+# FeynGame default model file
+#
+
+#
+# Feynman rules are based on the conventions of Ref. [1].
+# See Ref. [2] for details and comparison to other literature.
+#
+# [1] F. Mandl and G. Shaw, Quantum Field Theory, 2nd edition (Wiley, Chichester, UK, 2010).
+# [2] J.C. Romao and J.P. Silva, A resource for signs and Feynman diagrams of the Standard Model, Int. J. Mod. Phys. A 27 (2012) 1230025, arXiv:1209.6213 [hep-ph].
+#
+
+# Line definitions: 
+
+[t, T, FERMION, color=ff000000, stroke=2.0, dash=false, double=false, showArrow = true, arrowSize=15, arrowPlace=0.5, label = t, indices = <0|1|0|1>, propagator = \frac{i\delta_{<idxE.cf><idxS.cf>} (<p.slash> + <m>)_{<idxE.di><idxS.di>}}{<p>^2-<m>^2 + i\epsilon}, external = u_{<idx.di>}^{<idx.cf>}(<p.vector>) | \bar{u}_{<idx.di>}^{<idx.cf>}(<p.vector>), external* = \bar{v}_{<idx.di>}^{<idx.cf>}(<p.vector>) | v_{<idx.di>}^{<idx.cf>}(<p.vector>), anticommuting = true]
+[b, B, FERMION, color=ff0000ff, stroke=2.0, dash=false, double=false, showArrow = true, arrowSize=15, arrowPlace=0.5, label = b, indices = <0|1|0|1>, propagator = \frac{i\delta_{<idxE.cf><idxS.cf>} (<p.slash> + <m>)_{<idxE.di><idxS.di>}}{<p>^2-<m>^2 + i\epsilon}, external = u_{<idx.di>}^{<idx.cf>}(<p.vector>) | \bar{u}_{<idx.di>}^{<idx.cf>}(<p.vector>), external* = \bar{v}_{<idx.di>}^{<idx.cf>}(<p.vector>) | v_{<idx.di>}^{<idx.cf>}(<p.vector>), anticommuting = true]
+[c, C, FERMION, color=ffcc6600, stroke=2.0, dash=false, double=false, showArrow = true, arrowSize=15, arrowPlace=0.5, label = c, indices = <0|1|0|1>, propagator = \frac{i\delta_{<idxE.cf><idxS.cf>} (<p.slash> + <m>)_{<idxE.di><idxS.di>}}{<p>^2-<m>^2 + i\epsilon}, external = u_{<idx.di>}^{<idx.cf>}(<p.vector>) | \bar{u}_{<idx.di>}^{<idx.cf>}(<p.vector>), external* = \bar{v}_{<idx.di>}^{<idx.cf>}(<p.vector>) | v_{<idx.di>}^{<idx.cf>}(<p.vector>), anticommuting = true]
+[s, S, FERMION, color=ff33ccff, stroke=2.0, dash=false, double=false, showArrow = true, arrowSize=15, arrowPlace=0.5, label = s, indices = <0|1|0|1>, propagator = \frac{i\delta_{<idxE.cf><idxS.cf>} (<p.slash> + <m>)_{<idxE.di><idxS.di>}}{<p>^2-<m>^2 + i\epsilon}, external = u_{<idx.di>}^{<idx.cf>}(<p.vector>) | \bar{u}_{<idx.di>}^{<idx.cf>}(<p.vector>), external* = \bar{v}_{<idx.di>}^{<idx.cf>}(<p.vector>) | v_{<idx.di>}^{<idx.cf>}(<p.vector>), anticommuting = true]
+[u, U, FERMION, color=ff006666, stroke=2.0, dash=false, double=false, showArrow = true, arrowSize=15, arrowPlace=0.5, label = u, indices = <0|1|0|1>, propagator = \frac{i\delta_{<idxE.cf><idxS.cf>} (<p.slash> + <m>)_{<idxE.di><idxS.di>}}{<p>^2-<m>^2 + i\epsilon}, external = u_{<idx.di>}^{<idx.cf>}(<p.vector>) | \bar{u}_{<idx.di>}^{<idx.cf>}(<p.vector>), external* = \bar{v}_{<idx.di>}^{<idx.cf>}(<p.vector>) | v_{<idx.di>}^{<idx.cf>}(<p.vector>), anticommuting = true]
+[d, D, FERMION, color=ff999999, stroke=2.0, dash=false, double=false, showArrow = true, arrowSize=15, arrowPlace=0.5, label = d, indices = <0|1|0|1>, propagator = \frac{i\delta_{<idxE.cf><idxS.cf>} (<p.slash> + <m>)_{<idxE.di><idxS.di>}}{<p>^2-<m>^2 + i\epsilon}, external = u_{<idx.di>}^{<idx.cf>}(<p.vector>) | \bar{u}_{<idx.di>}^{<idx.cf>}(<p.vector>), external* = \bar{v}_{<idx.di>}^{<idx.cf>}(<p.vector>) | v_{<idx.di>}^{<idx.cf>}(<p.vector>), anticommuting = true]
+[e, E, FERMION, color=ffff0000, stroke=2.0, dash=false, double=false, showArrow = true, arrowSize=15, arrowPlace=0.5, label = e, indices = <0|1>, propagator = \frac{i(<p.slash> + <m>)_{<idxE.di><idxS.di>}}{<p>^2-<m>^2 + i\epsilon}, external = u_{<idx.di>}(<p.vector>) | \bar{u}_{<idx.di>}(<p.vector>), external* = \bar{v}_{<idx.di>}(<p.vector>) | v_{<idx.di>}(<p.vector>), anticommuting = true]
+[mu, Mu, FERMION, color=ff009900, stroke=2.0, dash=false, double=false, showArrow = true, arrowSize=15, arrowPlace=0.5, label = \mu, indices = <0|1>, propagator = \frac{i(<p.slash> + <m>)_{<idxE.di><idxS.di>}}{<p>^2-<m>^2 + i\epsilon}, external = u_{<idx.di>}(<p.vector>) | \bar{u}_{<idx.di>}(<p.vector>), external* = \bar{v}_{<idx.di>}(<p.vector>) | v_{<idx.di>}(<p.vector>), anticommuting = true]
+[tau, Tau, FERMION, color=ffcc0033, stroke=2.0, dash=false, double=false, showArrow = true, arrowSize=15, arrowPlace=0.5, label = \tau, indices = <0|1>, propagator = \frac{i(<p.slash> + <m>)_{<idxE.di><idxS.di>}}{<p>^2-<m>^2 + i\epsilon}, external = u_{<idx.di>}(<p.vector>) | \bar{u}_{<idx.di>}(<p.vector>), external* = \bar{v}_{<idx.di>}(<p.vector>) | v_{<idx.di>}(<p.vector>), anticommuting = true]
+[nue, Nue, FERMION, color=ffdc27e7, stroke=2.0, dash=false, double=false, showArrow = true, arrowSize=15, arrowPlace=0.5, label = \nu_e, indices = <0|1>, propagator = \frac{i(<p.slash> + <m>)_{<idxE.di><idxS.di>}}{<p>^2-<m>^2 + i\epsilon}, external = u_{<idx.di>}(<p.vector>) | \bar{u}_{<idx.di>}(<p.vector>), external* = \bar{v}_{<idx.di>}(<p.vector>) | v_{<idx.di>}(<p.vector>), anticommuting = true]
+[numu, Numu, FERMION, color=ff727e3b, stroke=2.0, dash=false, double=false, showArrow = true, arrowSize=15, arrowPlace=0.5, label = \nu_\mu, indices = <0|1>, propagator = \frac{i(<p.slash> + <m>)_{<idxE.di><idxS.di>}}{<p>^2-<m>^2 + i\epsilon}, external = u_{<idx.di>}(<p.vector>) | \bar{u}_{<idx.di>}(<p.vector>), external* = \bar{v}_{<idx.di>}(<p.vector>) | v_{<idx.di>}(<p.vector>), anticommuting = true]
+[nutau, Nutau, FERMION, color=ffe727aa, stroke=2.0, dash=false, double=false, showArrow = true, arrowSize=15, arrowPlace=0.5, label = \nu_\tau, indices = <0|1>, propagator = \frac{i(<p.slash> + <m>)_{<idxE.di><idxS.di>}}{<p>^2-<m>^2 + i\epsilon}, external = u_{<idx.di>}(<p.vector>) | \bar{u}_{<idx.di>}(<p.vector>), external* = \bar{v}_{<idx.di>}(<p.vector>) | v_{<idx.di>}(<p.vector>), anticommuting = true]
+[ph, ph, PHOTON, color=ffff00ff, stroke=2.0, dash=false, double=false, showArrow = false, wiggleSize=28, wiggleHeight=14, wiggleSharpness=5, label = \gamma, indices = <1>, propagator = i\left[\frac{- g_{<idxS.lz><idxE.lz>}}{<p>^2 + i\epsilon} + (1-\xi_\gamma)\frac{<p>_{<idxS.lz>}<p>_{<idxE.lz>}}{(<p>^2)^2}\right], external = \epsilon_{<idx.lz>}(<p.vector>) | \epsilon_{<idx.lz>}^{*}(<p.vector>)]
+[Z, Z, PHOTON, color=ff0000ff, stroke=2.0, dash=false, double=false, showArrow = false, wiggleSize=28, wiggleHeight=14, wiggleSharpness=5, label = Z, indices = <1>, propagator = \frac{i}{<p>^2 - <m>^2 + i\epsilon}\left[ -g_{<idxS.lz><idxE.lz>} + (1-\xi_Z)\frac{<p>_{<idxS.lz>}<p>_{<idxE.lz>}}{<p>^2-\xi_Z\, <m>^2} \right], external = \epsilon_{<idx.lz>}(<p.vector>) | \epsilon_{<idx.lz>}^{*}(<p.vector>)]
+[W, W, PHOTON, color=ff006666, stroke=2.0, dash=false, double=false, showArrow = false, wiggleSize=28, wiggleHeight=14, wiggleSharpness=5, label = W, indices = <1>, propagator = \frac{i}{<p>^2 - <m>^2 + i\epsilon}\left[ -g_{<idxS.lz><idxE.lz>} + (1-\xi_W)\frac{<p>_{<idxS.lz>}<p>_{<idxE.lz>}}{<p>^2-\xi_W\, <m>^2} \right], external = \epsilon_{<idx.lz>}(<p.vector>) | \epsilon_{<idx.lz>}^{*}(<p.vector>)]
+[g, g, GLUON, color=ffff0000, stroke=2.0, dash=false, double=false, showArrow = false, wiggleSize=20, wiggleHeight=20, wiggleOffset=13, label = g, indices = <1|0|1>, propagator = i\delta^{<idxS.ca><idxE.ca>}\left[ \frac{-g_{<idxS.lz><idxE.lz>}}{<p>^2 + i\epsilon} + (1-\xi_G)\frac{<p>_{<idxS.lz>}<p>_{<idxE.lz>}}{(<p>^2)^2} \right], external = \epsilon_{<idx.lz>}^{<idx.ca>}(<p.vector>) | {\epsilon_{<idx.lz>}^{<idx.ca>}}^{*}(<p.vector>)]
+[H, H, FERMION, color=ff0000ff, stroke=2.0, dash=true, dashLength=10.0, double=false, showArrow = false, label = H, propagator = \frac{i}{<p>^2-<m>^2 + i\epsilon}]
+
+
+# Vertex rules: 
+
+{t, T, g, vertex=\left( -i (T^{<g.idx.ca>})_{<t.idx.cf> <T.idx.cf>} \gamma_{<t.idx.di> <T.idx.di>}^{<g.idx.lz>}\right), factor=g_s}
+{b, B, g, vertex=\left( -i (T^{<g.idx.ca>})_{<b.idx.cf> <B.idx.cf>} \gamma_{<b.idx.di> <B.idx.di>}^{<g.idx.lz>}\right), factor=g_s}
+{c, C, g, vertex=\left( -i (T^{<g.idx.ca>})_{<c.idx.cf> <C.idx.cf>} \gamma_{<c.idx.di> <C.idx.di>}^{<g.idx.lz>}\right), factor=g_s}
+{s, S, g, vertex=\left( -i (T^{<g.idx.ca>})_{<s.idx.cf> <S.idx.cf>} \gamma_{<s.idx.di> <S.idx.di>}^{<g.idx.lz>}\right), factor=g_s}
+{u, U, g, vertex=\left( -i (T^{<g.idx.ca>})_{<u.idx.cf> <U.idx.cf>} \gamma_{<u.idx.di> <U.idx.di>}^{<g.idx.lz>}\right), factor=g_s}
+{d, D, g, vertex=\left( -i (T^{<g.idx.ca>})_{<d.idx.cf> <D.idx.cf>} \gamma_{<d.idx.di> <D.idx.di>}^{<g.idx.lz>}\right), factor=g_s}
+{t, T, ph, vertex=(-iQ_{<t>}\,\gamma_{<t.idx.di> <T.idx.di>}^{<ph.idx.lz>}\delta_{<t.idx.cf> <T.idx.cf>}), factor=e}
+{b, B, ph, vertex=(-iQ_{<b>}\,\gamma_{<b.idx.di> <B.idx.di>}^{<ph.idx.lz>}\delta_{<b.idx.cf> <B.idx.cf>}), factor=e}
+{c, C, ph, vertex=(-iQ_{<c>}\,\gamma_{<c.idx.di> <C.idx.di>}^{<ph.idx.lz>}\delta_{<c.idx.cf> <C.idx.cf>}), factor=e}
+{s, S, ph, vertex=(-iQ_{<s>}\,\gamma_{<s.idx.di> <S.idx.di>}^{<ph.idx.lz>}\delta_{<s.idx.cf> <S.idx.cf>}), factor=e}
+{u, U, ph, vertex=(-iQ_{<u>}\,\gamma_{<u.idx.di> <U.idx.di>}^{<ph.idx.lz>}\delta_{<u.idx.cf> <U.idx.cf>}), factor=e}
+{d, D, ph, vertex=(-iQ_{<d>}\,\gamma_{<d.idx.di> <D.idx.di>}^{<ph.idx.lz>}\delta_{<d.idx.cf> <D.idx.cf>}), factor=e}
+{t, T, Z, vertex=\frac{-i}{\cos\theta_W}\,\gamma_{<t.idx.di> <T.idx.di>}^{<Z.idx.lz>}(g_V^{<t>}-g_A^{<t>}\,\gamma_5)\delta_{<t.idx.cf> <T.idx.cf>}, factor=g}
+{b, B, Z, vertex=\frac{-i}{\cos\theta_W}\,\gamma_{<b.idx.di> <B.idx.di>}^{<Z.idx.lz>}(g_V^{<b>}-g_A^{<b>}\,\gamma_5)\delta_{<b.idx.cf> <B.idx.cf>}, factor=g}
+{c, C, Z, vertex=\frac{-i}{\cos\theta_W}\,\gamma_{<c.idx.di> <C.idx.di>}^{<Z.idx.lz>}(g_V^{<c>}-g_A^{<c>}\,\gamma_5)\delta_{<c.idx.cf> <C.idx.cf>}, factor=g}
+{s, S, Z, vertex=\frac{-i}{\cos\theta_W}\,\gamma_{<s.idx.di> <S.idx.di>}^{<Z.idx.lz>}(g_V^{<s>}-g_A^{<s>}\,\gamma_5)\delta_{<s.idx.cf> <S.idx.cf>}, factor=g}
+{u, U, Z, vertex=\frac{-i}{\cos\theta_W}\,\gamma_{<u.idx.di> <U.idx.di>}^{<Z.idx.lz>}(g_V^{<u>}-g_A^{<u>}\,\gamma_5)\delta_{<u.idx.cf> <U.idx.cf>}, factor=g}
+{d, D, Z, vertex=\frac{-i}{\cos\theta_W}\,\gamma_{<d.idx.di> <D.idx.di>}^{<Z.idx.lz>}(g_V^{<d>}-g_A^{<d>}\,\gamma_5)\delta_{<d.idx.cf> <D.idx.cf>}, factor=g}
+{B, t, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<t.idx.di> <B.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<t><B>}\delta_{<t.idx.cf> <B.idx.cf>}, factor=g}
+{b, T, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<b.idx.di> <T.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<T><b>}^{*}\delta_{<b.idx.cf> <T.idx.cf>}, factor=g}
+{S, t, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<t.idx.di> <S.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<t><S>}\delta_{<t.idx.cf> <S.idx.cf>}, factor=g}
+{s, T, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<s.idx.di> <T.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<T><s>}^{*}\delta_{<s.idx.cf> <T.idx.cf>}, factor=g}
+{t, D, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<t.idx.di> <D.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<t><D>}\delta_{<t.idx.cf> <D.idx.cf>}, factor=g}
+{d, T, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<d.idx.di> <T.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<T><d>}^{*}\delta_{<d.idx.cf> <T.idx.cf>}, factor=g}
+{B, c, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<c.idx.di> <B.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<c><B>}\delta_{<c.idx.cf> <B.idx.cf>}, factor=g}
+{b, C, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<b.idx.di> <C.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<C><b>}^{*}\delta_{<b.idx.cf> <C.idx.cf>}, factor=g}
+{c, S, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<c.idx.di> <S.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<c><S>}\delta_{<c.idx.cf> <S.idx.cf>}, factor=g}
+{s, C, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<s.idx.di> <C.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<C><s>}^{*}\delta_{<s.idx.cf> <C.idx.cf>}, factor=g}
+{c, D, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<c.idx.di> <D.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<c><D>}\delta_{<c.idx.cf> <D.idx.cf>}, factor=g}
+{C, d, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<d.idx.di> <C.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<C><d>}^{*}\delta_{<d.idx.cf> <C.idx.cf>}, factor=g}
+{B, u, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<u.idx.di> <B.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<u><B>}\delta_{<u.idx.cf> <B.idx.cf>}, factor=g}
+{b, U, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<b.idx.di> <U.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<U><b>}^{*}\delta_{<b.idx.cf> <U.idx.cf>}, factor=g}
+{S, u, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<u.idx.di> <S.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<u><S>}\delta_{<u.idx.cf> <S.idx.cf>}, factor=g}
+{s, U, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<s.idx.di> <U.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<U><s>}^{*}\delta_{<s.idx.cf> <U.idx.cf>}, factor=g}
+{D, u, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<u.idx.di> <D.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<u><D>}\delta_{<u.idx.cf> <D.idx.cf>}, factor=g}
+{d, U, W, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<d.idx.di> <U.idx.di>}^{<W.idx.lz>}(1-\gamma_5)V_{<U><d>}^{*}\delta_{<d.idx.cf> <U.idx.cf>}, factor=g}
+{t, T, H, vertex=\left( -i\frac{<t.m>}{2m_W}\delta_{<t.idx.di> <T.idx.di>}\delta_{<t.idx.cf> <T.idx.cf>} \right), factor=g}
+{b, B, H, vertex=\left( -i\frac{<b.m>}{2m_W}\delta_{<b.idx.di> <B.idx.di>}\delta_{<b.idx.cf> <B.idx.cf>} \right), factor=g}
+{c, C, H, vertex=\left( -i\frac{<c.m>}{2m_W}\delta_{<c.idx.di> <C.idx.di>}\delta_{<c.idx.cf> <C.idx.cf>} \right), factor=g}
+{s, S, H, vertex=\left( -i\frac{<s.m>}{2m_W}\delta_{<s.idx.di> <S.idx.di>}\delta_{<s.idx.cf> <S.idx.cf>} \right), factor=g}
+{u, U, H, vertex=\left( -i\frac{<u.m>}{2m_W}\delta_{<u.idx.di> <U.idx.di>}\delta_{<u.idx.cf> <U.idx.cf>} \right), factor=g}
+{d, D, H, vertex=\left( -i\frac{<d.m>}{2m_W}\delta_{<d.idx.di> <D.idx.di>}\delta_{<d.idx.cf> <D.idx.cf>} \right), factor=g}
+{e, E, ph, vertex=(-iQ_{<e>}\,\gamma_{<e.idx.di> <E.idx.di>}^{<ph.idx.lz>}), factor=e}
+{mu, Mu, ph, vertex=(-iQ_{<mu>}\,\gamma_{<mu.idx.di> <Mu.idx.di>}^{<ph.idx.lz>}), factor=e}
+{ph, tau, Tau, vertex=(-iQ_{<tau>}\,\gamma_{<tau.idx.di> <Tau.idx.di>}^{<ph.idx.lz>}), factor=e}
+{e, E, Z, vertex=\frac{-i}{\cos\theta_W}\,\gamma_{<e.idx.di> <E.idx.di>}^{<Z.idx.lz>}(g_V^{<e>}-g_A^{<e>}\,\gamma_5), factor=g}
+{mu, Mu, Z, vertex=\frac{-i}{\cos\theta_W}\,\gamma_{<mu.idx.di> <Mu.idx.di>}^{<Z.idx.lz>}(g_V^{<mu>}-g_A^{<mu>}\,\gamma_5), factor=g}
+{tau, Tau, Z, vertex=\frac{-i}{\cos\theta_W}\,\gamma_{<tau.idx.di> <Tau.idx.di>}^{<Z.idx.lz>}(g_V^{<tau>}-g_A^{<tau>}\,\gamma_5), factor=g}
+{Z, nue, Nue, vertex=\frac{-i}{\cos\theta_W}\,\gamma_{<nue.idx.di> <Nue.idx.di>}^{<Z.idx.lz>}(g_V^{<nue>}-g_A^{<nue>}\,\gamma_5), factor=g}
+{Numu, Z, numu, vertex=\frac{-i}{\cos\theta_W}\,\gamma_{<numu.idx.di> <Numu.idx.di>}^{<Z.idx.lz>}(g_V^{<numu>}-g_A^{<numu>}\,\gamma_5), factor=g}
+{Nutau, nutau, Z, vertex=\frac{-i}{\cos\theta_W}\,\gamma_{<nutau.idx.di> <Nutau.idx.di>}^{<Z.idx.lz>}(g_V^{<nutau>}-g_A^{<nutau>}\,\gamma_5), factor=g}
+{e, W, Nue, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<e.idx.di> <Nue.idx.di>}^{<W.idx.lz>}(1-\gamma_5), factor=g}
+{E, W, nue, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<nue.idx.di> <E.idx.di>}^{<W.idx.lz>}(1-\gamma_5), factor=g}
+{W, mu, Numu, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<mu.idx.di> <Numu.idx.di>}^{<W.idx.lz>}(1-\gamma_5), factor=g}
+{W, Mu, numu, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<numu.idx.di> <Mu.idx.di>}^{<W.idx.lz>}(1-\gamma_5), factor=g}
+{Nutau, W, tau, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<tau.idx.di> <Nutau.idx.di>}^{<W.idx.lz>}(1-\gamma_5), factor=g}
+{nutau, W, Tau, vertex=\frac{-i}{2\sqrt{2}}\,\gamma_{<nutau.idx.di> <Tau.idx.di>}^{<W.idx.lz>}(1-\gamma_5), factor=g}
+{e, E, H, vertex=\left( -i\frac{<e.m>}{2m_W}\delta_{<e.idx.di> <E.idx.di>} \right), factor=g}
+{mu, Mu, H, vertex=\left( -i\frac{<mu.m>}{2m_W}\delta_{<mu.idx.di> <Mu.idx.di>} \right), factor=g}
+{H, tau, Tau, vertex=\left( -i\frac{<tau.m>}{2m_W}\delta_{<tau.idx.di> <Tau.idx.di>} \right), factor=g}
+{W, W, ph, vertex=\left( -i <default> \right), factor=e}
+{W, W, Z, vertex=\left( -i\cos\theta_W\, <default> \right), factor=g}
+{W, W, W, W, vertex=\left( i <default> \right), factor=g^2}
+{W, W, Z, Z, vertex=\left( -i\cos^2\theta_W\, <default> \right), factor=g^2}
+{W, W, ph, ph, vertex=\left( -i <default> \right), factor=e^2}
+{W, W, ph, Z, vertex=\left( -i\cos\theta_W\, <default> \right), factor=eg}
+{g, g, g, vertex=\left( - <default> \right), factor=g_s}
+{g, g, g, g, vertex=\left( -i <default> \right), factor=g_s^2}
+{W, W, H, vertex=i <W.m> g^{<W.1.idx.lz><W.2.idx.lz>}, factor=g}
+{H, Z, Z, vertex=i \frac{<Z.m>}{\cos\theta_W} g^{<Z.1.idx.lz><Z.2.idx.lz>}, factor=g}
+{W, W, H, H, vertex=\frac{i}{2} g^{<W.1.idx.lz><W.2.idx.lz>}, factor=g^2}
+{H, H, Z, Z, vertex=\frac{i}{2\cos^2\theta_W} g^{<Z.1.idx.lz><Z.2.idx.lz>}, factor=g^2}
+{H, H, H, vertex=\left( -3i\frac{<H.m>^2}{2m_W} \right), factor=g}
+{H, H, H, H, vertex=\left( -3i\frac{<H.m>^2}{4m_W^2} \right), factor=g^2}

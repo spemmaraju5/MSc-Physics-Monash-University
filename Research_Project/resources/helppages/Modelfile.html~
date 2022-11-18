@@ -1,0 +1,40 @@
+<a href="Auxiliary">[Up: Customization]</a><br><br>
+
+<h3>Modelfile</h3>
+<br>
+<p text align = justify>
+It is part of the philosophy of <i>FeynGame</i> to use a pre-defined
+model (say, QED, the Standard Model, the MSSM, or a subset of the
+associated particles) where each particle corresponds to a line with a
+certain appearance.  This makes it particularly efficient to draw a
+particular diagram, because the different line styles for the individual
+particles have been defined beforehand, using the <i>model
+  file</i>. A <i>model file</i> for describing the electro-weak interaction of the first two lepton generations would read
+<br><br>
+[e, E, fermion, color=Red, label=e ]<br>
+[ nue, Nue, fermion, color=dc27e7, label=&nu;<sub>e</sub> ]<br>
+[ mu, Mu, fermion, color=Green, label=&mu;]<br>
+[ numu, Numu, fermion, color=27e7b3,label=&nu;<sub>&mu;</sub> ]<br>
+[ W, W, photon, color=dc27e7, label=W]<br>
+[ Z, Z, photon, color=Blue, label=Z]<br>
+[ ph, ph, photon, color=Green, label=&gamma; ]<br>
+<br>
+Each pair of square brackets
+defines a particle. The first two entries assign an internal name for
+the particle. The third entry defines the
+basic line style. These three
+entries are required when defining a line in the <i>model file</i>. The
+<a href="Labels"><b>label</b></a> parameter is optional.</p>
+<br>
+<p text align = justify>
+Starting <i>FeynGame</i> by giving it the name of the <i>model file</i>
+as argument (including its path) will load the specific model instead of
+the default one. Alternatively, one can change the <i>current
+model</i> from the main menu of <i>FeynGame</i> using <b>File > Load model
+file</b>.</p>
+<br>
+<p text align = justify>
+A convenient option to modify the <i>model file</i> is to modify the
+appearance of an existing line within <i>FeynGame</i> (for example by using
+<a href="EditFrame"><b>EditFrame</b></a>), and then selecting
+the <a href="PlusTile"><b>"+" tile</b></a> in the main window.</p>

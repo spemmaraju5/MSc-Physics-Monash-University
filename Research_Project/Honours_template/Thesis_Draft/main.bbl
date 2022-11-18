@@ -25,6 +25,21 @@ C.~Abel, S.~Afach, N.~J. Ayres, C.~A. Baker, G.~Ban, G.~Bison, K.~Bodek,
 \newblock Measurement of the permanent electric dipole moment of the neutron.
 \newblock {\em Phys. Rev. Lett.}, 124:081803, Feb 2020.
 
+\bibitem{Archilli:2017xmu}
+F.~Archilli, M.~O. Bettler, P.~Owen, and K.~A. Petridis.
+\newblock {Flavour-changing neutral currents making and breaking the standard
+  model}.
+\newblock {\em Nature}, 546(7657):221--226, 2017.
+
+\bibitem{Beekman_2019}
+Aron Beekman, Louk Rademaker, and Jasper van Wezel.
+\newblock An introduction to spontaneous symmetry breaking.
+\newblock {\em {SciPost} Physics Lecture Notes}, dec 2019.
+
+\bibitem{https://doi.org/10.48550/arxiv.hep-ph/9704427}
+Chuan-Tsung Chan.
+\newblock On the symmetry constraints of cp violations in qcd, 1997.
+
 \bibitem{PhysRevLett.13.138}
 J.~H. Christenson, J.~W. Cronin, V.~L. Fitch, and R.~Turlay.
 \newblock Evidence for the $2\ensuremath{\pi}$ decay of the $k_{2}^{0}$ meson.
@@ -37,6 +52,22 @@ David d'Enterria.
 \newblock 11 pages, 8 plots, extended contribution to the 'Feebly-Interacting
   Particles (FIPs) 2020 Workshop Report'.
 
+\bibitem{ChargeConj}
+Universitat di~Barcelona.
+\newblock Scientists bring us a step closer to understanding the nature of
+  matter and antimatter, 2022.
+
+\bibitem{SM_Picture}
+P~Gargon.
+\newblock The standard model: a beautiful but flawed theory.
+
+\bibitem{doi:10.1146/annurev-nucl-102014-022120}
+Peter~W. Graham, Igor~G. Irastorza, Steven~K. Lamoreaux, Axel Lindner, and
+  Karl~A. van Bibber.
+\newblock Experimental searches for the axion and axion-like particles.
+\newblock {\em Annual Review of Nuclear and Particle Science}, 65(1):485--514,
+  2015.
+
 \bibitem{Holstein:2006bh}
 Barry~R. Holstein.
 \newblock {Graviton Physics}.
@@ -46,6 +77,11 @@ Barry~R. Holstein.
 Igor~Garcia Irastorza.
 \newblock An introduction to axions and their detection.
 \newblock {\em {SciPost} Physics Lecture Notes}, mar 2022.
+
+\bibitem{Isern_2008}
+J.~Isern, E.~Garc{\'{\i} }a-Berro, S.~Torres, and S.~Catal{\'{a}}n.
+\newblock Axions and the cooling of white dwarf stars.
+\newblock {\em The Astrophysical Journal}, 682(2):L109--L112, jul 2008.
 
 \bibitem{Izaguirre2016ANF}
 Eder Izaguirre, Tongyan Lin, and Brian Shuve.
@@ -61,6 +97,10 @@ R.~Khatiwada et~al.
 Cristina Margalejo~Blasco.
 \newblock {Status update of the axion helioscope BabyIAXO}.
 \newblock {\em PoS}, ICHEP2022:113, 2022.
+
+\bibitem{ParityTransf}
+R~Nave.
+\newblock Hyperphysics: Parity, 2022.
 
 \bibitem{Nitta:2022jez}
 Tatsumi Nitta.
@@ -89,6 +129,11 @@ H.~Primakoff.
 \bibitem{https://doi.org/10.48550/arxiv.1407.0546}
 A.~Ringwald.
 \newblock Axions and axion-like particles, 2014.
+
+\bibitem{Ringwald:2012hr}
+Andreas Ringwald.
+\newblock {Exploring the Role of Axions and Other WISPs in the Dark Universe}.
+\newblock {\em Phys. Dark Univ.}, 1:116--135, 2012.
 
 \bibitem{PhysRevLett.40.223}
 Steven Weinberg.

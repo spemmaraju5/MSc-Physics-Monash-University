@@ -17,10 +17,10 @@ has also been hypothesised as a mediator of the gravitational force \cite{Holste
 \begin{figure}[H]
     \centering
     \includegraphics[scale = 0.4]{StandardModel.jpg}
-    \caption{The particles of the Standard Model, grouped based on their quantum spin into gauge bosons and fermions (particles that make up all matter).The fermions are further divided into quarks and leptons which are fundamental, and can partake in various interactions that are mediated by the gauge bosons corresponding to each of the three fundamental forces described by the model. The Higgs boson is also included, and is responsible for all of the particles acquiring their mass.}
+    \caption{The particles of the Standard Model, grouped based on their quantum spin into gauge bosons and fermions (particles that make up all matter).The fermions are further divided into quarks and leptons which are fundamental, and can partake in various interactions that are mediated by the gauge bosons corresponding to each of the three fundamental forces described by the model. The Higgs boson is also included, and is responsible for all of the particles acquiring their mass. Image sourced from \cite{SM_Picture}}
     \label{StandardModel}
 \end{figure}
-Despite providing a comprehensive description of the fundamental components of nature and the force acting between these, the Standard Model is subject to numerous limitations, the most prominent of which is its inability to account for the gravitational force. Furthermore, the nature of dark matter and dark energy, which account for
+Despite providing a comprehensive description of the fundamental components of nature and the force acting between these, the Standard Model is subject to numerous limitations, the most prominent of which is its inability to account for the gravitational force \cite{Holstein:2006bh}. Furthermore, the nature of dark matter and dark energy, which account for
 a large proportion of the matter in the Universe, is not fully understood, and remains an area of ongoing research. A more subtle limitation, however, pertains to a phenomenon known as CP violation and the absence of experimental evidence of this in the strong force, despite being theoretically permissible by the quantum field theory of this force,
 known as quantum chromodynamics (QCD) \cite{Garcia_Irastorza_2022}. This is known as the Strong CP problem and forms the basis for motivating particles such as the axion, as well as Axion-Like Particles (ALPs), both of which are described in further detail in the sections that follow.
 \section{CP Violation}
@@ -34,68 +34,75 @@ a study of the decay of neutral kaons by Cronin and Fitch in 1964 \cite{PhysRevL
     \centering
     \begin{subfigure}{0.5\textwidth}
         \includegraphics[]{ChargeConjugation.jpg}
-        \caption{The charge conjugation transformation $C$, which interchanges particles in a physical system with their corresponding antiparticles.}
+        \caption{The charge conjugation transformation $C$, which interchanges particles in a physical system with their corresponding antiparticles. Sourced from \cite{ChargeConj}}
         \label{ChargeConjugation}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.7\textwidth}
         \includegraphics[]{ParityTransformation.png}
         \caption{An illustration of the parity transformation $P$, corresponding
-        to the inversion of spatial coordinates in a physical system}
+        to the inversion of spatial coordinates in a physical system. Sourced from \cite{ParityTransf}}
         \label{ParityTransformation}
     \end{subfigure}
     \hfill
 \end{figure}
 \subsection{The Strong CP Problem}\label{StrongCPProb}
-The theoretically permissible nature of CP violation in the strong force is evident within the QCD Lagrangian, which can be written in the following form:
+The theoretically permissible nature of CP violation in the strong force is evident within the QCD Lagrangian, which can be written in the following form \cite{Michael:920}:
 \begin{equation}\label{QCD_Lagrangian}
     \mathcal{L}_{QCD} = -\frac{1}{4}G_{\mu\nu}G^{\mu\nu}-\frac{g_{s}^{2}\theta}{32\pi^{2}}G_{\mu\nu}\tilde{G}^{\mu\nu}+\bar{\psi}(i\gamma^{\mu}D_{\mu}-me^{i\theta'\gamma_{5}})\psi
 \end{equation}
 where $G_{\mu\nu}G^{\mu\nu}$ represents the gluonic field strength tensor, which is the QCD equivalent of the electromagnetic field strength tensor, $F_{\mu\nu}F^{\mu\nu}$, and $\tilde{G}^{\mu\nu}$ is its dual. By inspection, it is evident that the terms $\theta$ and $\theta'$ in Equation \ref{QCD_Lagrangian} are CP-violating, as they both 
 change sign under a parity transformation. The effects of these terms, which can be interpreted as physical angles, are not experimentally observed, thereby suggesting that these angular terms are infinitessimal in magnitude. The angular terms $\theta$ and $\theta'$ can be combined to form a total effective angle, labelled $\bar{\theta}$. The absence
 of CP violation in the strong force suggests that $|\bar{\theta}|\approx 0$. This is supported by the experimental measurement of the electric dipole moment (EDM) of the neutron, which impose the constraint $|\bar{\theta}| < 10^{-10}$ \cite{PhysRevLett.124.081803}. This is referred to as a fine-tuning problem, wherein the value of $|\bar{\theta}|$ is constrained to be as small as possible
-through the tuning of other parameters.\\
+through the tuning of other parameters in order to maintain consistency with experimental observations \cite{https://doi.org/10.48550/arxiv.hep-ph/9704427}.\\
 \\
 A more elegant solution to the Strong CP problem was proposed by Peccei and Quinn in 1977 \cite{article}. This solution involved promoting $\bar{\theta}$ to a dynamic field, thereby introducing a spatial and temporal dependence, along with an associated
 potential. This field is postulated to have an associated global symmetry, known as the Peccei-Quinn (PQ) symmetry. Spontaneous breaking of this symmetry mandates that $|\bar{\theta}| = 0$, thereby resolving the Strong CP Problem without the need of fine-tuning. This solution 
-results in the introduction of the axion, which in turn leads to the motivation of Axion-Like Particles (ALPs) through the similar mechanism of spontaneous symmetry breaking.
-\subsection{Spontaneous Symmetry Breaking}
+results in the introduction of the axion, which in turn leads to the motivation of Axion-Like Particles (ALPs) through the similar mechanism of spontaneous symmetry breaking, which is elaborated upon in \cite{Beekman_2019}.
 \section{Axions}
 Spontaneous breaking of the PQ symmetry described in Section \ref{StrongCPProb} mandates the introduction of a light, pseudoscalar (spin-0 and odd parity) particle known as the QCD axion \cite{article}. Axions obey a well-defined relation between their mass and coupling
-to Standard Model particles. For instance, the coupling constant $f_{A}$ of the axion-photon coupling in one of the many axion models is inversely proportional to the mass of the axion, $m_{A}$, as demonstrated in the relationship represented in Equation \ref{AxionMassCoupling} below
+to Standard Model particles. For instance, the coupling constant $f_{A}$ of the axion-photon coupling in one of the many axion models is inversely proportional to the mass of the axion, $m_{A}$, as demonstrated in the relationship represented in Equation \ref{AxionMassCoupling} below \cite{Michael:920}:
 \begin{equation}\label{AxionMassCoupling}
     f_{A}m_{A} = f_{\pi^{0}}m_{\pi^{0}}
 \end{equation}
-where $f_{\pi^{0}} = 92$ GeV and $m_{\pi^{0}} = 135$ MeV correspond to the mass and coupling strength to photons of the neutral pion, $\pi^{0}$, respectively.
+where $f_{\pi^{0}} = 92$ GeV and $m_{\pi^{0}} = 135$ MeV correspond to the mass and coupling strength to photons of the neutral pion, $\pi^{0}$, respectively.\\
+\\
+Axions are referred to as pseudo Nambu-Goldstone (pNG) bosons, on account of their zero quantum spin and odd parity. There exist various axion models, which differ in their couplings to fermions and the energy scales involved. A detailed description of two of the most prominent axion models, namely the Kim-Shifman-Vainshtein-Zakharov (KSVZ), and the Dine-Fischler-Srednicki-Zhitnitsky (DFSZ) models can be obtained in \cite{Garcia_Irastorza_2022}.
+Despite the variety of axion models that are proposed, these pseudoscalars are known to mix with mesons, and consequently possess a model-independent coupling to photons. This coupling can be expressed through the presence of the following term in the Lagrangian \cite{Garcia_Irastorza_2022}
+\begin{equation}\label{AxionPhoton}
+    \mathcal{L}_{a_{0}\gamma} = -\frac{g_{a_{0}\gamma}}{4}a_{0}F_{\mu\nu}\tilde{F}^{\mu\nu} = g_{a_{0}\gamma}a_{0}\vb*{E}\cdot\vb*{B}
+\end{equation}
+where $g_{a_{0}\gamma}$ is the axion-photon coupling, and $F_{\mu\nu}$ and $\tilde{F}^{\mu\nu}$ represent the electromagnetic field strength tensor and its dual respectively. The term on the far right of Equation \ref{AxionPhoton} is an equivalent form of the interaction that is written in terms of the electric and magnetic fields, $\vb*{E}$ and $\vb*{B}$ respectively \cite{Garcia_Irastorza_2022}. Other couplings of axions
+to fermions that are of interest for the purposes of detection include those to nucleons and electrons, the latter of which is model-dependent. The phenomenology of axions described above serves as a motivation for the introduction of other light bosons as a consequence of other spontaneously broken symmetries at a higher energy scale $f_{a}$ \cite{Ringwald:2012hr}. These are referred to as axion-like particles, or ALPs
 \section{Axion Like Particles (ALPs)}
 Spontaneous breaking of other symmetries similar to the Peccei-Quinn symmetry described in Section \ref{StrongCPProb} produces particles similar to the axion, referred to as \textit{axion-like particles} (which will henceforth be referred to as ALPs, or $a_{0}$ in decays). Unlike axions, which are expected to be very light (i.e. within the sub-eV regime), the masses of ALPs 
 are not as constrained, thereby implying that these can be arbitrarily heavy. Furthermore, Axion-Like Particles are able to couple to pairs of
 gauge bosons (e.g. $\gamma\gamma, gg, HH$) as well as fermions (i.e. leptons and quarks) depending on the model being considered, and are not solely linked to the strong interaction like their
-counterparts. \\
+counterparts \cite{Michael:920}. \\
 \\
 ALPs are of significant importance to advancements in various fields of physics, particularly cosmology. The feeble nature of the interactions between ALPs and Standard Model particles makes them ideal dark matter candidates. In addition to this, they
-are believed to be able to offer an explanation of the anomalies in the energy loss of white dwarf stars. Their existence can also offer an explanation of the observational hints on extra dark radiation in the primordial plasma during big bang nucleosynthesis in the form
-of Cosmic ALP Background (CAB) radiation. Thus, a multitude of experimental methods and strategies have been employed to search for these particles, the most prominent of which include haloscope searches, Light-Shining-Through Wall (LSW) searches, and helioscope searches. These
+are believed to be able to offer an explanation of the anomalies in the energy loss of white dwarf stars \cite{Isern_2008}. Their existence can also offer an explanation of the observational hints on extra dark radiation in the primordial plasma during big bang nucleosynthesis in the form
+of Cosmic ALP Background (CAB) radiation \cite{https://doi.org/10.48550/arxiv.1407.0546}. Thus, a multitude of experimental methods and strategies have been employed to search for these particles, the most prominent of which include haloscope searches, Light-Shining-Through Wall (LSW) searches, and helioscope searches. These
 techniques, along with the constraints that they have imposed on the masses and couplings of ALPs to Standard Model particles are summarised in the sections that follow. The general search strategy and constraints imposed by collider experiments are also summarised in these sections. This, with an enhanced focus on the Large Hadron Collider beauty (LHCb) experiment,
 will be the primary emphasis of the remainder of this work. 
 \section{Experimental Searches for Axions and ALPs}\label{ALPExpt} 
 Since light pseudoscalars are theorised to naturally couple to photons, due to spin-selection rules and mass constraints, the searches for ALPs performed through cosmological and astrophysical observations, as well as those
 being conducted at low-energy accelerators exploit the (inverse) Primakoff effect, wherein axions are converted to photons (and vice versa) in collisions with photons, or identically with electromagnetic fields \cite{d'Enterria:2753504}. This is the case with the experimental search strategies
-that are summarised below, namely the Light Shining through Walls (LSW) experiments, helioscope, and haloscope searches
+that are summarised below, namely the Light Shining through Walls (LSW) experiments, helioscope, and haloscope searches. Further details on the nature and structure of the search techniques described below can be obtained in \cite{doi:10.1146/annurev-nucl-102014-022120}
 \begin{figure}[H]
     \centering      
     \includegraphics[scale = 0.45]{ALPExperimentalConstraints.jpg}
     \caption{Plot displaying the constraints imposed on the masses and coupling strengths of ALPs to photons by a variety of experiments, such as LSW, helioscope, and haloscope searches (such as ALPS-II and ADMX respectively). Of particular interest are the constraints imposed by the LSW experiments ALPS-II, as well as the helioscope limits expected to be set by IAXO. The bright yellow band indicates
-    the prediction for the axion}
+    the prediction for the axion. Figure sourced from \cite{https://doi.org/10.48550/arxiv.1407.0546}}
     \label{ALPExperimentalConstraints}
 \end{figure}
 \subsection{Light Shining Through Walls (LSW) Searches}
 LSW experiments are intended to produce and detect ALPs in the laboratory by sending laser photons along a strong magnetic field,
 thereby allowing for their conversion into ALPs towards a blocking wall, behind which these might reconvert into photons, once again in the presence of 
-a strong magnetic field. These photons are susceptible to detection. Currently, the best sensitivity of LSW experiments has been establishedd by the Any Light Particle Search
+a strong magnetic field \cite{https://doi.org/10.48550/arxiv.1407.0546}. These photons are susceptible to detection. Currently, the best sensitivity of LSW experiments has been establishedd by the Any Light Particle Search
 (ALPS I) experiment located at DESY. A successor experiment, known as ALPS II, has also been designed with a high-power laser system, and stronger magnets. The experiment intends to 
 probe the ALP parameter space that is favoured by astrophysical observations. However, the ability of LSW experiments to probe other spectral ranges, particularly in the microwave and
-X-ray ranges are still in the early stages of development, and are unlikely to yield significant results in the forseeable future
+X-ray ranges are still in the early stages of development, and are unlikely to yield significant results in the forseeable future \cite{https://doi.org/10.48550/arxiv.1407.0546}.
 \subsection{Haloscope Searches}
 Haloscopes directly search for galactic halo dark matter axions and ALPs in the laboratory. The most sensitive of these experiments aim to detect the electromagnetic power which is generated from the conversion of dark matter axions and ALPs into detectable photons.
 The optimal sensitivity is achieved on resonance, at which point the power output is proportional to the quality factor of the cavity. One experiment that has attained a sensitivity to probe axion dark matter is the Axion Dark Matter Experiment (ADMX). The constraints on the masses
@@ -117,24 +124,22 @@ diminishes such that the ALP leaves the detector and appears as an invisible par
 respectively. The photons that are present in the final state of each of these processes can convert into ALPs via the Primakoff process off a nuclear target. The inverse Primakoff process is exploited when the decay mode $a_{0}\rightarrow\gamma\gamma$ is probed for the presence of ALPs. Various collider experiments have
 aimed to constrain the masses and couplings of ALPs to photons through a multitude of decay modes, the most prominent of these being CLEO and BaBar, where mono-photon final states with missing energies from long-lived "invisible" ALPs with via radiative decays are investigated, as well as diphoton and triphoton final states, as 
 examined by the LEP-I and LEP-II experiments via, for instance, the decay mode $e^{+}e^{-}\rightarrow\gamma a_{0}$ (where $a_{0}\rightarrow\gamma\gamma$). Each of the experiments described above probes a different region in the $(m_a, g_{a\gamma})$ parameter space. The constraints imposed on these parameters is summarised in Figure
-\ref{ALPColliderConstraints} below
+\ref{ALPColliderConstraints} below. Figure \ref{ALPExperimentalAndColliderConstraints} provides a more holistic perspective on the collider constraints by also including the regions of the parameter space that have been probed by the multitude of experimental techniques described above. The regions probed by the ATLAS and CMS detectors, which are
+sub-experiments of the Large Hadron Collider (LHC) are of particular interest, as they investigate the phenomenon in lead-lead (Pb-Pb) collisions, in contrast to the proton-proton (pp) collisions performed at the LHCb \cite{d'Enterria:2753504}
 \begin{figure}[H]
     \begin{subfigure}{0.5\textwidth}
-    \includegraphics[scale = 0.8]{ALPColliderConstraints.jpg}
-    \caption{Detailed bounds on the $(m_{a}, g_{a\gamma})$ parameter space by ALP searches from existing collider and accelerator experiments}
+    \includegraphics[scale = 0.7]{ALPColliderConstraints.jpg}
+    \caption{Detailed bounds on the $(m_{a}, g_{a\gamma})$ parameter space by ALP searches from existing collider and accelerator experiments.}
     \label{ALPColliderConstraints}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.4\textwidth}
-        \includegraphics[scale = 0.4]{ALPExperimentalAndColliderConstraints.jpg}
-        \caption{Limits on $(m_{a},g_{a\gamma})$ imposed by the techniques described in Section \ref{ALPExpt}.The collider constraints in Figure \ref{ALPColliderConstraints} are also evident on the far right of this figure}
+        \includegraphics[scale = 0.35]{ALPExperimentalAndColliderConstraints.jpg}
+        \caption{Limits on $(m_{a},g_{a\gamma})$ imposed by the techniques described in Section \ref{ALPExpt}. The collider constraints in Figure \ref{ALPColliderConstraints} are also evident on the far right of this figure.}
         \label{ALPExperimentalAndColliderConstraints}
     \end{subfigure}
     \hfill
 \end{figure}
-\subsection{Flavour Changing Neutral Currents}\label{FCNC}
-
-\subsection{Electroweak Penguin Decays}
 \section{The $B^{0}\rightarrow K^{*}a_{0}, a_{0}\rightarrow\gamma\gamma$ Decay Process} 
 \begin{figure}[H]
     \centering
@@ -148,7 +153,7 @@ zero coupling with gluons, and its effective Lagrangian is given by
     \mathcal{L} = (\partial_{\mu}a)^{2}-\frac{1}{2}m_{a}^{2}a^{2}-\frac{g_{aW}}{4}W_{\mu\nu}\tilde{W}^{\mu\nu}
 \end{equation}
 where $g_{aW}$ is the coupling between the ALP field $a$ and the electroweak gauge boson field $W$. Furthermore, $\tilde{W}^{\mu\nu} = \epsilon^{\mu\nu\alpha\beta}W_{\alpha\beta}/2$ \cite{Izaguirre2016ANF}.Promising decay channels which could exhibit this coupling can take
-place through a Flavour Changing Neutral Current (FCNC) process, further detailed in Section \ref{FCNC} below. One such decay channel is 
+place through a Flavour Changing Neutral Current (FCNC) process, further detailed in \cite{Archilli:2017xmu}. One such decay channel is 
 \begin{equation}\label{DecayChannel}
     B^{0}\rightarrow K^{*}a_{0}, a_{0}\rightarrow\gamma\gamma
 \end{equation}

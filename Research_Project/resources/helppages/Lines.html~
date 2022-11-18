@@ -1,0 +1,26 @@
+<html>
+
+<h3>Lines</h3>
+<h3>Drawing lines</h3>
+
+<p text align = justify>
+Lines can be drawn by selecting one of the tiles at the bottom of the main window, and subsequently clicking-and-dragging on the canvas.
+</p>
+<p text align = justify>
+Clicking and dragging an existing line on the canvas will move the line.  Grabbing the line close to its center will move the entire line, grabbing it close to either of its ends will move only that end. In this way you can stretch, shorten, and turn the line.
+</p>
+<br><br>Other ways to modify a line are achieved while clicking and thus activating the line. In particular:
+<br> &bull; Turning the mouse wheel will bend the line.
+<br> &bull; Pressing "i" will reverse the direction of the line (invert).
+
+<p text align = justify>
+For other ways to modify the line (thickness, color, etc.), see <b>Help > Show keyboard shortcuts</b>.
+</p>
+<p text align = justify>
+In addition, all line parameters can be accessed and modified through the <a href="EditFrame"><b>EditFrame</b></a> which opens by pressing "e", or selecting <b>View > Open/Close EditFrame</b>.
+</p>
+<br><br>
+image test with link: <br>
+<a href="https://gitlab.com/feyngame/FeynGame"><img src="TestImage.png"/></a>
+
+</html>
