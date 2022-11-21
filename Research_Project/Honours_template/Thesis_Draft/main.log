@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  18 NOV 2022 14:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  22 NOV 2022 10:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,12 +603,20 @@ Package pdftex.def Info: FCNCALP.jpg  used on input line 146.
 (pdftex.def)             Requested size: 428.87332pt x 144.3128pt.
 [9 <./ALPColliderConstraints.jpg> <./ALPExperimentalAndColliderConstraints.jpg> <./FCNCALP.jpg>]) [10]
 Chapter 2.
-(Chapter_2.tex) [11
+(Chapter_2.tex
+<LHCbDetector.jpg, id=314, 581.17125pt x 380.622pt>
+File: LHCbDetector.jpg Graphic file (type jpg)
+<use LHCbDetector.jpg>
+Package pdftex.def Info: LHCbDetector.jpg  used on input line 16.
+(pdftex.def)             Requested size: 261.52464pt x 171.2783pt.
 
-]
-Overfull \vbox (126.10016pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 2--19
 
- [12]
+ []
+
+) [11
+
+ <./LHCbDetector.jpg>] [12]
 Chapter 3.
 (Chapter_3.tex) [13
 
@@ -626,20 +634,20 @@ Chapter 5.
 
 ]) [18] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 47FEA70E181D6C734EDF4AE585313B4D;4425.
+(rerunfilecheck)             Checksum: 158731B5AEC9C4838D5D6B6FE6F063A9;4425.
  ) 
 Here is how much of TeX's memory you used:
- 14037 strings out of 478547
- 227965 string characters out of 2841835
- 605838 words of memory out of 3000000
- 31889 multiletter control sequences out of 15000+600000
+ 14052 strings out of 478547
+ 228369 string characters out of 2841835
+ 606242 words of memory out of 3000000
+ 31901 multiletter control sequences out of 15000+600000
  519188 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,13n,77p,793b,554s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on main.pdf (19 pages, 834714 bytes).
+Output written on main.pdf (19 pages, 963302 bytes).
 PDF statistics:
- 471 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 478 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

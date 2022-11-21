@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1668743433 "main.aux" "main.bbl" "main" 1668743435
+["bibtex main"] 1669074727 "main.aux" "main.bbl" "main" 1669074809
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1668743434 13796 892dbc0a4f69e89787b03ccab48ea977 "pdflatex"
-  "refs.bib" 1668660963 12274 4b52dfaaa0837e02fd2af8d1af54fabc ""
+  "main.aux" 1669074809 14843 4fef77c853f3293b8161afb0abdd9e52 "pdflatex"
+  "refs.bib" 1669022251 12734 3a4de8c9127290321a1b71cac7d33ae2 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1668743433 "c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex" "main.pdf" "main" 1668743435
+["pdflatex"] 1669074807 "c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex" "main.pdf" "main" 1669074809
   "ALPColliderConstraints.jpg" 1667973468 41322 a200eafb06155cb1e585243f538262ee ""
   "ALPExperimentalAndColliderConstraints.jpg" 1668051808 75634 c87911c15b7f279af0cbb54000e517a0 ""
   "ALPExperimentalConstraints.jpg" 1667818259 128954 18999bef77d3fde2de7ddc15ed0f57f1 ""
@@ -168,19 +168,20 @@
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1625501267 48833 3b7b4cfab1a3d15596bfd3772a77ab65 ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty" 1636710260 4545 d84d0b20a11b9c36c6ecf45697be591c ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Chapter_1.tex" 1668743121 24815 7fd05ca962f51a3801ff4413560d7d95 ""
-  "Chapter_2.tex" 1668743430 621 77871aa7d3ad35da9d4b702120424c72 ""
+  "Chapter_1.tex" 1668994437 24834 3c487a88cb1b1d07a9c606879413c47e ""
+  "Chapter_2.tex" 1669074806 2542 4290cc7d08d797b5670865390eb3f04e ""
   "Chapter_3.tex" 0 -1 0 ""
   "ChargeConjugation.jpg" 1667276859 4452 2cd84bd776ed2ca550a1084900ccbeec ""
   "FCNCALP.jpg" 1668417456 32609 96f6d4fd1270b38fd514cde49f86c35d ""
+  "LHCbDetector.jpg" 1668994546 125104 f528eb3a94685157d55702e05b04a04b ""
   "ParityTransformation.png" 1667270721 3411 e3c6c37f61c5440b4105b7725dd795b5 ""
   "StandardModel.jpg" 1667266861 124619 2c70e6d5c36be4979a8f1be0e10d3810 ""
-  "c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex" 1668743277 4280 fc041fa218b641da69ed3c8c53bf3c46 ""
-  "main.aux" 1668743434 13796 892dbc0a4f69e89787b03ccab48ea977 "pdflatex"
-  "main.bbl" 1668743433 5618 c12bd0cc2c95e7686248f68c1401799f "bibtex main"
-  "main.out" 1668743434 4425 47fea70e181d6c734edf4ae585313b4d "pdflatex"
-  "main.tex" 1668743277 4280 fc041fa218b641da69ed3c8c53bf3c46 ""
-  "main.toc" 1668743434 2919 1ef549dd3a9780678f3397d14f671aaf "pdflatex"
+  "c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex" 1669074407 4313 b5572d8cc9fbf2ae4e9d35daf44127ae ""
+  "main.aux" 1669074809 14843 4fef77c853f3293b8161afb0abdd9e52 "pdflatex"
+  "main.bbl" 1669074728 5720 25fa690dc9f2c3cac55ae2885d04ed08 "bibtex main"
+  "main.out" 1669074809 4425 158731b5aec9c4838d5d6b6fe6f063a9 "pdflatex"
+  "main.tex" 1669074407 4313 b5572d8cc9fbf2ae4e9d35daf44127ae ""
+  "main.toc" 1669074809 2920 9d14f45d3ff0a8178df2f170bec0a65a "pdflatex"
   "monashlogo.png" 1557181040 74007 7fb0b9b96cbbd7568b17f0cec2e153a0 ""
   (generated)
   "main.aux"
