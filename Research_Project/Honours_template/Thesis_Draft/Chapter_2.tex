@@ -62,8 +62,14 @@ are controlled by the Gauss application, which is responsible for calling the va
 the detector. On the other hand, the latter entails the transformation of the simulated hits made in the virtual detector into signals that mimic the real detector. This process is regulated by the Boole application, whose output is designed to closely match that of the real detector, such that the simulated data produced can be 
 processed via the process described in Section \ref{LHCbDataFlow} above. 
 \subsubsection{Gauss}
+
 \subsubsection{EvtGen}
 \subsubsection{Pythia}
+The PYTHIA program is a standard tool for the generation of high-energy collisions. It constitutes a coherent set of
+physics models for the evolution from a few-body hard process to a complex multihadronic final states, and contains numerous libraries of 
+hard processes and models for initial and final state parton showers, multiple parton-parton interactions, beam remnants and particle decays. It 
+also possesses a set of utilities and interfaces to external programs. The present version of the tool, PYTHIA 8, represents a complete rewrite in the C++ programming language, thereby contrasting
+with its predecessors that were implemented in Fortran. The program presently only works with $pp$, $\bar{p}p, e^{-}e^{+}$ and 
 \subsubsection{Geant4}
 \subsubsection{Boole} 
 
