@@ -25,6 +25,12 @@ C.~Abel, S.~Afach, N.~J. Ayres, C.~A. Baker, G.~Ban, G.~Bison, K.~Bodek,
 \newblock Measurement of the permanent electric dipole moment of the neutron.
 \newblock {\em Phys. Rev. Lett.}, 124:081803, Feb 2020.
 
+\bibitem{AbellanBeteta:2020amj}
+Carlos Abell\'an~Beteta et~al.
+\newblock {Calibration and performance of the LHCb calorimeters in Run 1 and 2
+  at the LHC}.
+\newblock 8 2020.
+
 \bibitem{Archilli:2017xmu}
 F.~Archilli, M.~O. Bettler, P.~Owen, and K.~A. Petridis.
 \newblock {Flavour-changing neutral currents making and breaking the standard
@@ -96,6 +102,13 @@ Eddy Jans.
 R.~Khatiwada et~al.
 \newblock {Axion Dark Matter Experiment: Detailed design~and operations}.
 \newblock {\em Rev. Sci. Instrum.}, 92(12):124502, 2021.
+
+\bibitem{Kopciewicz_2022}
+P.~Kopciewicz, S.~Maccolini, T.~Szumlak, and on~behalf of~the LHCb
+  VELO~collaboration.
+\newblock The lhcb vertex locator upgrade — the detector calibration
+  overview.
+\newblock {\em Journal of Instrumentation}, 17(01):C01046, jan 2022.
 
 \bibitem{MargalejoBlasco:2022ncg}
 Cristina Margalejo~Blasco.

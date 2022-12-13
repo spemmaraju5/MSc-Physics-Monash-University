@@ -1,0 +1,50 @@
+EventType: 11102463
+# InsertPythonCode:
+#from Configurables import LHCb__ParticlePropertySvc as ParticlePropertySvc
+#ParticlePropertySvc().Particles = ["a0                    17         221   0.0      0.180	5.063171e-19                       a0         221      0.00000000"]
+
+# ApplicationMgr().ExtSvc += [ParticlePropertySvc() ]
+# EndInsertPythonCode
+# Descriptor: {[[B0]nos -> (K*(892)0 -> K+ pi-) (a0 -> gamma gamma)]cc, [[B0]os$
+# NickName: Bd_Ksteta,gg=DecProdCut
+# Cuts: DaughtersInLHCb
+#
+# Documentation: daughters in acceptance.
+# EndDocumentation
+# PhysicsWG: RD
+# Tested: Yes
+# Responsible: Subrahmanya Pemmaraju
+# Email: spemmara@cern.ch
+# Date:20221121
+#
+Alias       MyK*0      K*0
+Alias       Myanti-K*0 anti-K*0
+ChargeConj  MyK*0      Myanti-K*0
+Alias       MyA0       a0
+ChargeConj  MyA0       MyA0
+#
+Decay B0sig
+  1.000         MyK*0     MyA0        SVS;
+Enddecay
+CDecay anti-B0sig
+#
+Alias       Myanti-K*0 anti-K*0
+ChargeConj  MyK*0      Myanti-K*0
+Alias       MyA0       a0
+ChargeConj  MyA0       MyA0
+#
+Decay B0sig
+  1.000         MyK*0     MyA0        SVS;
+Enddecay
+CDecay anti-B0sig
+#
+Decay MyK*0
+  1.000        K+	pi-              VSS;
+Enddecay
+CDecay Myanti-K*0
+#
+Decay MyA0
+  1.000         gamma       gamma        PHSP;
+Enddecay
+End
+

@@ -14,47 +14,48 @@ Warning--entry type for "ParityTransf" isn't style-file defined
 Warning--to sort, need author or key in ATLAS:2012znl
 Warning--empty author in ATLAS:2012znl
 Warning--empty journal in ATLAS:2012znl
+Warning--empty journal in AbellanBeteta:2020amj
 Warning--empty institution in d'Enterria:2753504
 Warning--empty booktitle in Izaguirre2016ANF
-You've used 25 entries,
+You've used 27 entries,
             2118 wiz_defined-function locations,
-            658 strings with 9000 characters,
-and the built_in function-call counts, 9342 in all, are:
-= -- 819
-> -- 694
+            672 strings with 9397 characters,
+and the built_in function-call counts, 9957 in all, are:
+= -- 875
+> -- 730
 < -- 0
-+ -- 285
-- -- 254
-* -- 769
-:= -- 1663
-add.period$ -- 70
-call.type$ -- 25
-change.case$ -- 201
++ -- 300
+- -- 266
+* -- 817
+:= -- 1772
+add.period$ -- 76
+call.type$ -- 27
+change.case$ -- 212
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 245
-empty$ -- 574
-format.name$ -- 254
-if$ -- 1798
+cite$ -- 33
+duplicate$ -- 266
+empty$ -- 617
+format.name$ -- 266
+if$ -- 1919
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 17
-newline$ -- 123
-num.names$ -- 48
-pop$ -- 208
+int.to.str$ -- 27
+missing$ -- 19
+newline$ -- 133
+num.names$ -- 52
+pop$ -- 219
 preamble$ -- 1
-purify$ -- 176
+purify$ -- 185
 quote$ -- 0
-skip$ -- 183
+skip$ -- 199
 stack$ -- 0
-substring$ -- 404
-swap$ -- 23
+substring$ -- 433
+swap$ -- 24
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
-warning$ -- 5
-while$ -- 67
-width$ -- 27
-write$ -- 254
-(There were 8 warnings)
+type$ -- 108
+warning$ -- 6
+while$ -- 72
+width$ -- 29
+write$ -- 274
+(There were 9 warnings)
