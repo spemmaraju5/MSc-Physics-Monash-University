@@ -1,7 +1,7 @@
 \section{Synopsis of the Standard Model}
 The Standard Model of particle physics is a description of the fundamental constituents of the Universe, as well as the interactions between them.
-The model is composed of two main groups of particles, namely the fermions, which possess half-integer quantum spin, and make up all of the 
-matter within the Universe, and the gauge bosons, which are of integer quantum spin, and are responsible for mediating forces between the fermions.\\
+The model is composed of two main groups of particles, namely the fermions, which possess half-integer spin, and make up all of the 
+matter within the Universe, and the gauge bosons, which are of integer spin, and are responsible for mediating forces between the fermions.\\
 \\
 The fermions can be further classified into two categories of fundamental particles known as quarks and leptons. There exist six distinct 'flavours' of quarks, which are
 ascribed the names up, down, charm, strange, top and bottom, denoted, $u, d, c, s, t$ and $b$ respectively. These are grouped into three 'generations' based on their electromagnetic charge
@@ -21,7 +21,7 @@ has also been hypothesised as a mediator of the gravitational force \cite{Holste
     \label{StandardModel}
 \end{figure}
 Despite providing a comprehensive description of the fundamental components of nature and the force acting between these, the Standard Model is subject to numerous limitations, the most prominent of which is its inability to account for the gravitational force \cite{Holstein:2006bh}. Furthermore, the nature of dark matter and dark energy, which account for
-a large proportion of the matter in the Universe, is not fully understood, and remains an area of ongoing research. A more subtle limitation, however, pertains to a phenomenon known as CP violation and the absence of experimental evidence of this in the strong force, despite being theoretically permissible by the quantum field theory of this force,
+a large proportion of the energy density in the Universe, is not fully understood, and remains an area of ongoing research. A more subtle limitation, however, pertains to a phenomenon known as CP violation and the absence of experimental evidence of this in the strong force, despite being theoretically permissible by the quantum field theory of this force,
 known as quantum chromodynamics (QCD) \cite{Garcia_Irastorza_2022}. This is known as the Strong CP problem and forms the basis for motivating particles such as the axion, as well as Axion-Like Particles (ALPs), both of which are described in further detail in the sections that follow.
 \section{CP Violation}
 The principle of symmetry (i.e. the invariance of a physical system under a transformation) is significant in the study of particle physics. Two symmetries that are of particular interest are those of charge conjugation, denoted $C$, and parity, denoted $P$. Charge conjugation is a transformation wherein particles within a physical system are interchanged with
@@ -51,9 +51,13 @@ The theoretically permissible nature of CP violation in the strong force is evid
 \begin{equation}\label{QCD_Lagrangian}
     \mathcal{L}_{QCD} = -\frac{1}{4}G_{\mu\nu}G^{\mu\nu}-\frac{g_{s}^{2}\theta}{32\pi^{2}}G_{\mu\nu}\tilde{G}^{\mu\nu}+\bar{\psi}(i\gamma^{\mu}D_{\mu}-me^{i\theta'\gamma_{5}})\psi
 \end{equation}
-where $G_{\mu\nu}G^{\mu\nu}$ represents the gluonic field strength tensor, which is the QCD equivalent of the electromagnetic field strength tensor, $F_{\mu\nu}F^{\mu\nu}$, and $\tilde{G}^{\mu\nu}$ is its dual. By inspection, it is evident that the terms $\theta$ and $\theta'$ in Equation \ref{QCD_Lagrangian} are CP-violating, as they both 
-change sign under a parity transformation. The effects of these terms, which can be interpreted as physical angles, are not experimentally observed, thereby suggesting that these angular terms are infinitessimal in magnitude. The angular terms $\theta$ and $\theta'$ can be combined to form a total effective angle, labelled $\bar{\theta}$. The absence
-of CP violation in the strong force suggests that $|\bar{\theta}|\approx 0$. This is supported by the experimental measurement of the electric dipole moment (EDM) of the neutron, which impose the constraint $|\bar{\theta}| < 10^{-10}$ \cite{PhysRevLett.124.081803}. This is referred to as a fine-tuning problem, wherein the value of $|\bar{\theta}|$ is constrained to be as small as possible
+where $G_{\mu\nu}G^{\mu\nu}$ represents the gluonic field strength tensor, which is the QCD equivalent of the electromagnetic field strength tensor, $F_{\mu\nu}F^{\mu\nu}$, and $\tilde{G}^{\mu\nu}$ is its dual. By construction, the operator $G_{\mu\nu}\tilde{G}^{\mu\nu}$ is CP violating, as this term preserves the parity and time-reversal symmetries, but violates the charge conjugation symmetry. The effects of the component of (\ref{QCD_Lagrangian}) containing this term are not experimentally observed, thereby suggesting that the term $\theta$ is infinitessimal in magnitude. One can consider a total effective angle, $\bar{\theta}$, which results from
+a transformation of $\theta$, defined as
+\begin{equation}
+    \bar{\theta} = \theta + Arg(\text{det}(M_{q}))
+\end{equation} 
+where $M_{q}$ represents the quark mass matrix. This chiral transformation is essential in order to go to a physical basis by diagonalising the abovementioned quark mass matrix \cite{Peccei_2008}.
+The absence of CP violation in the strong force suggests that $|\bar{\theta}|\approx 0$. Experimental measurement of the electric dipole moment (EDM) of the neutron imposes the constraint $|\bar{\theta}| < 10^{-10}$ \cite{PhysRevLett.124.081803}. This is referred to as a fine-tuning problem, wherein the value of $|\bar{\theta}|$ is constrained to be as small as possible
 through the tuning of other parameters in order to maintain consistency with experimental observations \cite{https://doi.org/10.48550/arxiv.hep-ph/9704427}.\\
 \\
 A more elegant solution to the Strong CP problem was proposed by Peccei and Quinn in 1977 \cite{article}. This solution involved promoting $\bar{\theta}$ to a dynamic field, thereby introducing a spatial and temporal dependence, along with an associated
@@ -65,12 +69,12 @@ to Standard Model particles. For instance, the coupling constant $f_{A}$ of the 
 \begin{equation}\label{AxionMassCoupling}
     f_{A}m_{A} = f_{\pi^{0}}m_{\pi^{0}}
 \end{equation}
-where $f_{\pi^{0}} = 92$ GeV and $m_{\pi^{0}} = 135$ MeV correspond to the mass and coupling strength to photons of the neutral pion, $\pi^{0}$, respectively.\\
+where $f_{\pi^{0}} = 92$ GeV and $m_{\pi^{0}} = 135$ MeV correspond to the coupling strength to photons and the mass of the neutral pion, $\pi^{0}$, respectively.\\
 \\
 Axions are referred to as pseudo Nambu-Goldstone (pNG) bosons, on account of their zero quantum spin and odd parity. There exist various axion models, which differ in their couplings to fermions and the energy scales involved. A detailed description of two of the most prominent axion models, namely the Kim-Shifman-Vainshtein-Zakharov (KSVZ), and the Dine-Fischler-Srednicki-Zhitnitsky (DFSZ) models can be obtained in \cite{Garcia_Irastorza_2022}.
 Despite the variety of axion models that are proposed, these pseudoscalars are known to mix with mesons, and consequently possess a model-independent coupling to photons. This coupling can be expressed through the presence of the following term in the Lagrangian \cite{Garcia_Irastorza_2022}
 \begin{equation}\label{AxionPhoton}
-    \mathcal{L}_{a_{0}\gamma} = -\frac{g_{a_{0}\gamma}}{4}a_{0}F_{\mu\nu}\tilde{F}^{\mu\nu} = g_{a_{0}\gamma}a_{0}\vb*{E}\cdot\vb*{B}
+    \mathcal{L}_{a_{0}\gamma} = -\frac{g_{a_{0}\gamma}}{4}a_{0}F_{\mu\nu}\tilde{F}^{\mu\nu}
 \end{equation}
 where $g_{a_{0}\gamma}$ is the axion-photon coupling, and $F_{\mu\nu}$ and $\tilde{F}^{\mu\nu}$ represent the electromagnetic field strength tensor and its dual respectively. The term on the far right of Equation \ref{AxionPhoton} is an equivalent form of the interaction that is written in terms of the electric and magnetic fields, $\vb*{E}$ and $\vb*{B}$ respectively \cite{Garcia_Irastorza_2022}. Other couplings of axions
 to fermions that are of interest for the purposes of detection include those to nucleons and electrons, the latter of which is model-dependent. The phenomenology of axions described above serves as a motivation for the introduction of other light bosons as a consequence of other spontaneously broken symmetries at a higher energy scale $f_{a}$ \cite{Ringwald:2012hr}. These are referred to as axion-like particles, or ALPs
@@ -88,7 +92,7 @@ will be the primary emphasis of the remainder of this work.
 \section{Experimental Searches for Axions and ALPs}\label{ALPExpt} 
 Since light pseudoscalars are theorised to naturally couple to photons, due to spin-selection rules and mass constraints, the searches for ALPs performed through cosmological and astrophysical observations, as well as those
 being conducted at low-energy accelerators exploit the (inverse) Primakoff effect, wherein axions are converted to photons (and vice versa) in collisions with photons, or identically with electromagnetic fields \cite{d'Enterria:2753504}. This is the case with the experimental search strategies
-that are summarised below, namely the Light Shining through Walls (LSW) experiments, helioscope, and haloscope searches. Further details on the nature and structure of the search techniques described below can be obtained in \cite{doi:10.1146/annurev-nucl-102014-022120}
+that are summarised below, namely the Light Shining through Walls (LSW) experiments, helioscope, and haloscope searches. Further details on the nature and structure of the search techniques described below can be obtained in \cite{doi:10.1146/annurev-nucl-102014-022120}.
 \begin{figure}[H]
     \centering      
     \includegraphics[scale = 0.45]{ALPExperimentalConstraints.jpg}
