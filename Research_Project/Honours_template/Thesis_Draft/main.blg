@@ -17,45 +17,45 @@ Warning--empty journal in ATLAS:2012znl
 Warning--empty journal in AbellanBeteta:2020amj
 Warning--empty institution in d'Enterria:2753504
 Warning--empty booktitle in Izaguirre2016ANF
-You've used 28 entries,
+You've used 36 entries,
             2118 wiz_defined-function locations,
-            679 strings with 9525 characters,
-and the built_in function-call counts, 10322 in all, are:
-= -- 915
-> -- 737
+            740 strings with 11853 characters,
+and the built_in function-call counts, 14423 in all, are:
+= -- 1271
+> -- 1090
 < -- 1
-+ -- 304
-- -- 268
-* -- 835
-:= -- 1826
-add.period$ -- 80
-call.type$ -- 28
-change.case$ -- 216
++ -- 447
+- -- 400
+* -- 1225
+:= -- 2560
+add.period$ -- 106
+call.type$ -- 36
+change.case$ -- 305
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 286
-empty$ -- 653
-format.name$ -- 268
-if$ -- 2005
+cite$ -- 42
+duplicate$ -- 374
+empty$ -- 861
+format.name$ -- 400
+if$ -- 2784
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 20
-newline$ -- 138
-num.names$ -- 54
-pop$ -- 226
+int.to.str$ -- 36
+missing$ -- 28
+newline$ -- 180
+num.names$ -- 70
+pop$ -- 297
 preamble$ -- 1
-purify$ -- 188
+purify$ -- 269
 quote$ -- 0
-skip$ -- 211
+skip$ -- 269
 stack$ -- 0
-substring$ -- 458
-swap$ -- 30
+substring$ -- 664
+swap$ -- 38
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 112
+type$ -- 144
 warning$ -- 6
-while$ -- 77
-width$ -- 30
-write$ -- 286
+while$ -- 102
+width$ -- 38
+write$ -- 378
 (There were 9 warnings)

@@ -31,16 +31,44 @@ Carlos Abell\'an~Beteta et~al.
   at the LHC}.
 \newblock 8 2020.
 
+\bibitem{GEANT4:2002zbu}
+S.~Agostinelli et~al.
+\newblock {GEANT4--a simulation toolkit}.
+\newblock {\em Nucl. Instrum. Meth. A}, 506:250--303, 2003.
+
 \bibitem{Archilli:2017xmu}
 F.~Archilli, M.~O. Bettler, P.~Owen, and K.~A. Petridis.
 \newblock {Flavour-changing neutral currents making and breaking the standard
   model}.
 \newblock {\em Nature}, 546(7657):221--226, 2017.
 
+\bibitem{BARRAND200145}
+G.~Barrand, I.~Belyaev, P.~Binko, M.~Cattaneo, R.~Chytracek, G.~Corti,
+  M.~Frank, G.~Gracia, J.~Harvey, E.van Herwijnen, P.~Maley, P.~Mato,
+  S.~Probst, and F.~Ranjard.
+\newblock Gaudi — a software architecture and framework for building hep data
+  processing applications.
+\newblock {\em Computer Physics Communications}, 140(1):45--55, 2001.
+\newblock CHEP2000.
+
 \bibitem{Beekman_2019}
 Aron Beekman, Louk Rademaker, and Jasper van Wezel.
 \newblock An introduction to spontaneous symmetry breaking.
 \newblock {\em {SciPost} Physics Lecture Notes}, dec 2019.
+
+\bibitem{Belyaev_2011}
+I~Belyaev, T~Brambach, N~H Brook, N~Gauvin, G~Corti, K~Harrison, P~F Harrison,
+  J~He, C~R Jones, M~Lieng, G~Manca, S~Miglioranzi, P~Robbe, V~Vagnoni,
+  M~Whitehead, J~Wishahi, and (on behalf~ofthe LHCb~Collaboration).
+\newblock Handling of the generation of primary events in gauss, the lhcb
+  simulation framework.
+\newblock {\em Journal of Physics: Conference Series}, 331(3):032047, dec 2011.
+
+\bibitem{BUCKLEY2021107310}
+Andy Buckley, Philip Ilten, Dmitri Konstantinov, Leif Lönnblad, James Monk,
+  Witold Pokorski, Tomasz Przedzinski, and Andrii Verbytskyi.
+\newblock The hepmc3 event record library for monte carlo event generators.
+\newblock {\em Computer Physics Communications}, 260:107310, 2021.
 
 \bibitem{https://doi.org/10.48550/arxiv.hep-ph/9704427}
 Chuan-Tsung Chan.
@@ -50,6 +78,12 @@ Chuan-Tsung Chan.
 J.~H. Christenson, J.~W. Cronin, V.~L. Fitch, and R.~Turlay.
 \newblock Evidence for the $2\ensuremath{\pi}$ decay of the $k_{2}^{0}$ meson.
 \newblock {\em Phys. Rev. Lett.}, 13:138--140, Jul 1964.
+
+\bibitem{Clemencic:2010zz}
+Marco Clemencic, Hubert Degaudenzi, Pere Mato, Sebastian Binet, Wim Lavrijsen,
+  Charles Leggett, and Ivan Belyaev.
+\newblock {Recent developments in the LHCb software framework Gaudi}.
+\newblock {\em J. Phys. Conf. Ser.}, 219:042006, 2010.
 
 \bibitem{d'Enterria:2753504}
 David d'Enterria.
@@ -110,6 +144,15 @@ P.~Kopciewicz, S.~Maccolini, T.~Szumlak, and on~behalf of~the LHCb
   overview.
 \newblock {\em Journal of Instrumentation}, 17(01):C01046, jan 2022.
 
+\bibitem{LANGE2001152}
+David~J. Lange.
+\newblock The evtgen particle decay simulation package.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  462(1):152--155, 2001.
+\newblock BEAUTY2000, Proceedings of the 7th Int. Conf. on B-Physics at Hadron
+  Machines.
+
 \bibitem{MargalejoBlasco:2022ncg}
 Cristina Margalejo~Blasco.
 \newblock {Status update of the axion helioscope BabyIAXO}.
@@ -157,6 +200,20 @@ A.~Ringwald.
 Andreas Ringwald.
 \newblock {Exploring the Role of Axions and Other WISPs in the Dark Universe}.
 \newblock {\em Phys. Dark Univ.}, 1:116--135, 2012.
+
+\bibitem{SJOSTRAND2015159}
+Torbjörn Sjöstrand, Stefan Ask, Jesper~R. Christiansen, Richard Corke,
+  Nishita Desai, Philip Ilten, Stephen Mrenna, Stefan Prestel, Christine~O.
+  Rasmussen, and Peter~Z. Skands.
+\newblock An introduction to pythia 8.2.
+\newblock {\em Computer Physics Communications}, 191:159--177, 2015.
+
+\bibitem{Tlustos:913827}
+Lukas Tlustos, Rafael Ballabriga-Sune, Michael Campbell, Erik H~M Heijne,
+  Karla~Lorraine Kincade, Xavier Llopart-Cudie, and Pavel Stejskal.
+\newblock {Imaging properties of the Medipix2 system exploiting single and dual
+  energy thresholds}.
+\newblock {\em IEEE Trans. Nucl. Sci.}, 53:1323--1328, 2006.
 
 \bibitem{PhysRevLett.40.223}
 Steven Weinberg.

@@ -382,3 +382,133 @@ ECAL
     month = "8",
     year = "2020"
 }
+
+Data Analysis at the LHCb
+The LHCb Data Flow
+The LHCb Simulation Framework
+Gauss
+@article{Tlustos:913827,
+      author        = "Tlustos, Lukas and Ballabriga-Sune, Rafael and Campbell,
+                       Michael and Heijne, Erik H M and Kincade, Karla Lorraine
+                       and Llopart-Cudie, Xavier and Stejskal, Pavel",
+      title         = "{Imaging properties of the Medipix2 system exploiting
+                       single and dual energy thresholds}",
+      journal       = "IEEE Trans. Nucl. Sci.",
+      volume        = "53",
+      pages         = "1323-1328",
+      year          = "2006",
+      url           = "http://cds.cern.ch/record/913827",
+      doi           = "10.1109/TNS.2006.872627",
+}
+
+@article{Belyaev_2011,
+doi = {10.1088/1742-6596/331/3/032047},
+url = {https://dx.doi.org/10.1088/1742-6596/331/3/032047},
+year = {2011},
+month = {dec},
+publisher = {},
+volume = {331},
+number = {3},
+pages = {032047},
+author = {I Belyaev and T Brambach and N H Brook and N Gauvin and G Corti and K Harrison and P F Harrison and J He and C R Jones and M Lieng and G Manca and S Miglioranzi and P Robbe and V Vagnoni and M Whitehead and J Wishahi and (on behalf ofthe LHCb Collaboration)},
+title = {Handling of the generation of primary events in Gauss, the LHCb simulation framework},
+journal = {Journal of Physics: Conference Series},
+abstract = {The LHCb simulation application, Gauss, consists of two independent phases, the generation of the primary event and the tracking of particles produced in the experimental setup. For the LHCb experimental program it is particularly important to model B meson decays: the EvtGen code developed in CLEO and BABAR has been chosen and customized for non-coherent B production as occuring in pp collisions at the LHC. The initial proton-proton collision is provided by a different generator engine, currently PYTHIA 6 for massive production of signal and generic pp collisions events. Beam gas events, background events originating from proton halo, cosmics and calibration events for different detectors can be generated in addition to pp collisions. Different generator packages as available in the physics community or specifically developed in LHCb are used for the different purposes. Running conditions affecting the generated events such as the size of the luminous region, the number of collisions occuring in a bunch crossing and the number of spill-over events from neighbouring bunches are modeled via dedicated algorithms appropriately configured. The design of the generator phase of Gauss will be described: a modular structure with well defined interfaces specific to the various tasks, e.g. pp collisions, particle decays, selections, etc. has been chosen. Different implementations are available for the various tasks allowing selecting and combining them as most appropriate at run time as in the case of PYTHIA 6 for pp collisions or HIJING for beam gas. The advantages of such structure, allowing for example to adopt transparently new generators packages, will be discussed.}
+}
+
+@article{BUCKLEY2021107310,
+title = {The HepMC3 event record library for Monte Carlo event generators},
+journal = {Computer Physics Communications},
+volume = {260},
+pages = {107310},
+year = {2021},
+issn = {0010-4655},
+doi = {https://doi.org/10.1016/j.cpc.2020.107310},
+url = {https://www.sciencedirect.com/science/article/pii/S0010465520301181},
+author = {Andy Buckley and Philip Ilten and Dmitri Konstantinov and Leif Lönnblad and James Monk and Witold Pokorski and Tomasz Przedzinski and Andrii Verbytskyi},
+keywords = {Event generator, Event record, Monte Carlo, MCEG, Particle physics, Collider experiments},
+abstract = {In high-energy physics, Monte Carlo event generators (MCEGs) are used to simulate the interactions of high energy particles. MCEG event records store the information on the simulated particles and their relationships, and thus reflect the simulated evolution of physics phenomena in each collision event. We present the HepMC3 library, a next-generation framework for MCEG event record encoding and manipulation, which builds on the functionality of its widely-used predecessors to enable more sophisticated algorithms for event-record analysis. As compared to previous versions, the event record structure has been simplified, while adding the possibility to encode arbitrary information. The I/O functionality has been extended to support common input and output formats of various HEP MCEGs, including formats used in Fortran MCEGs, the formats established by the HepMC2 library, and binary formats such as ROOT; custom input or output handlers may also be used. HepMC3 is already supported by popular modern MCEGs and can replace the older HepMC versions in many others.
+Program summary
+Program Title: HepMC3 Program Files doi: http://dx.doi.org/10.17632/6fpf82rp8b.1 Licensing provisions: GPLv3 Programming language: C++ Nature of problem: The simulation of elementary particle reactions at high energies requires to store and/or modify information related to the simulation. Solution method: Provide a library that allows for manipulation and storage of information that origins from in the simulations of elementary particle reactions at high energies and can be interfaced to the modern Monte Carlo event generator software as well as to the particle detector simulation programs.}
+}
+EvtGen
+@article{LANGE2001152,
+title = {The EvtGen particle decay simulation package},
+journal = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+volume = {462},
+number = {1},
+pages = {152-155},
+year = {2001},
+note = {BEAUTY2000, Proceedings of the 7th Int. Conf. on B-Physics at Hadron Machines},
+issn = {0168-9002},
+doi = {https://doi.org/10.1016/S0168-9002(01)00089-4},
+url = {https://www.sciencedirect.com/science/article/pii/S0168900201000894},
+author = {David J. Lange},
+keywords = {Monte Carlo, Event generator},
+abstract = {With several new B-physics experiments now taking data, the physics of B-meson decays will be studied in greater detail than previously possible. It is important to have a simulation of the underlying physics processes that is able to accurately describe this data. The EvtGen package provides a framework for the implementation of physics processes relevant to decays of B mesons and other resonances. Models of time dependent CP asymmetries in neutral B meson decays, semileptonic form-factor models, and a full decay table for B decays are a few of the implemented features.}
+}
+Pythia
+@article{Bierlich:2022pfr,
+    author = "Bierlich, Christian and others",
+    title = "{A comprehensive guide to the physics and usage of PYTHIA 8.3}",
+    eprint = "2203.11601",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ph",
+    reportNumber = "LU-TP 22-16, MCNET-22-04, FERMILAB-PUB-22-227-SCD",
+    doi = "10.21468/SciPostPhysCodeb.8",
+    month = "3",
+    year = "2022"
+}
+@article{SJOSTRAND2015159,
+title = {An introduction to PYTHIA 8.2},
+journal = {Computer Physics Communications},
+volume = {191},
+pages = {159-177},
+year = {2015},
+issn = {0010-4655},
+doi = {https://doi.org/10.1016/j.cpc.2015.01.024},
+url = {https://www.sciencedirect.com/science/article/pii/S0010465515000442},
+author = {Torbjörn Sjöstrand and Stefan Ask and Jesper R. Christiansen and Richard Corke and Nishita Desai and Philip Ilten and Stephen Mrenna and Stefan Prestel and Christine O. Rasmussen and Peter Z. Skands},
+keywords = {Event generators, Multiparticle production, Matrix elements, Parton showers, Matching and merging, Multiparton interactions, Hadronisation},
+abstract = {The Pythia program is a standard tool for the generation of events in high-energy collisions, comprising a coherent set of physics models for the evolution from a few-body hard process to a complex multiparticle final state. It contains a library of hard processes, models for initial- and final-state parton showers, matching and merging methods between hard processes and parton showers, multiparton interactions, beam remnants, string fragmentation and particle decays. It also has a set of utilities and several interfaces to external programs. Pythia 8.2 is the second main release after the complete rewrite from Fortran to C++, and now has reached such a maturity that it offers a complete replacement for most applications, notably for LHC physics studies. The many new features should allow an improved description of data.
+New version program summary
+Program title: Pythia 8.2 Catalogue identifier: ACTU_v4_0 Program summary URL:http://cpc.cs.qub.ac.uk/summaries/ACTU_v4_0.html Program obtainable from: CPC Program Library, Queen’s University, Belfast, N. Ireland Licensing provisions: GNU General Public Licence, version 2 No. of lines in distributed program, including test data, etc.: 478360 No. of bytes in distributed program, including test data, etc.: 14131810 Distribution format: tar.gz Programming language: C++. Computer: Commodity PCs, Macs. Operating system: Linux, OS X; should also work on other systems. RAM: ∼10 megabytes Classification: 11.2. Does the new version supersede the previous version?: Yes Catalogue identifier of previous version: ACTU_v3_0 Journal reference of previous version: Comput. Phys. Comm. 178 (2008) 852 Nature of problem: High-energy collisions between elementary particles normally give rise to complex final states, with large multiplicities of hadrons, leptons, photons and neutrinos. The relation between these final states and the underlying physics description is not a simple one, for two main reasons. Firstly, we do not even in principle have a complete understanding of the physics. Secondly, any analytical approach is made intractable by the large multiplicities. Solution method: Complete events are generated by Monte Carlo methods. The complexity is mastered by a subdivision of the full problem into a set of simpler separate tasks. All main aspects of the events are simulated, such as hard-process selection, initial- and final-state radiation, beam remnants, fragmentation, decays, and so on. Therefore events should be directly comparable with experimentally observable ones. The programs can be used to extract physics from comparisons with existing data, or to study physics at future experiments. Reasons for new version: Improved and expanded physics models. Summary of revisions: Hundreds of new features and bug fixes, allowing improved modelling. Restrictions: Depends on the problem studied. Running time: 10–1000 events per second, depending on process studied.}
+}
+Geant4
+@article{GEANT4:2002zbu,
+    author = "Agostinelli, S. and others",
+    collaboration = "GEANT4",
+    title = "{GEANT4--a simulation toolkit}",
+    reportNumber = "SLAC-PUB-9350, FERMILAB-PUB-03-339, CERN-IT-2002-003",
+    doi = "10.1016/S0168-9002(03)01368-8",
+    journal = "Nucl. Instrum. Meth. A",
+    volume = "506",
+    pages = "250--303",
+    year = "2003"
+}
+Gaudi
+@article{BARRAND200145,
+title = {GAUDI — A software architecture and framework for building HEP data processing applications},
+journal = {Computer Physics Communications},
+volume = {140},
+number = {1},
+pages = {45-55},
+year = {2001},
+note = {CHEP2000},
+issn = {0010-4655},
+doi = {https://doi.org/10.1016/S0010-4655(01)00254-5},
+url = {https://www.sciencedirect.com/science/article/pii/S0010465501002545},
+author = {G. Barrand and I. Belyaev and P. Binko and M. Cattaneo and R. Chytracek and G. Corti and M. Frank and G. Gracia and J. Harvey and E.van Herwijnen and P. Maley and P. Mato and S. Probst and F. Ranjard},
+keywords = {LHCb, GAUDI, Architecture, Components, Abstract interfaces, Framework},
+abstract = {We present a software architecture and framework that can be used to facilitate the development of data processing applications for High Energy Physics experiments. The development strategy follows an architecture-centric approach as a way of creating a resilient software framework that can withstand changes in requirements and technology over the long lifetimes of experiments. The software architecture, called GAUDI, supports event data processing applications that run in different processing environments, from the high level triggers in the on-line system to the final physics analysis. We present our major architectural design choices and outline the arguments that led to these choices. Several iterations of a software framework based on this architecture have been released and the framework is now being used by the physicists of the collaboration to facilitate the development of data processing algorithms. Object oriented technologies have been used throughout.}
+}
+@article{Clemencic:2010zz,
+    author = "Clemencic, Marco and Degaudenzi, Hubert and Mato, Pere and Binet, Sebastian and Lavrijsen, Wim and Leggett, Charles and Belyaev, Ivan",
+    editor = "Gruntorad, Jan and Lokajicek, Milos",
+    title = "{Recent developments in the LHCb software framework Gaudi}",
+    doi = "10.1088/1742-6596/219/4/042006",
+    journal = "J. Phys. Conf. Ser.",
+    volume = "219",
+    pages = "042006",
+    year = "2010"
+}
