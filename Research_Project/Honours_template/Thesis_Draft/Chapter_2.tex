@@ -17,30 +17,59 @@ detector is further elaborated on in the sections that follow.
     \caption{Diagram of the LHCb detector illustrating its various components. The coordinate system is oriented such that the beam is directed along the $z$ axis, and the $y$ axis is oriented along the vertical. Figure sourced from \cite{AbellanBeteta:2020amj}}
     \label{LHCbDetector}
 \end{figure}
-\subsection{Vertex Locator (VELO)}
-The Vertex Locator (VELO) is a silicon-tracking detector in the spectrometer of the LHCb experiment shown in Figure (\ref{LHCbDetector}) above, and is responsible for the high-precision reconstruction of the primary and secondary vertices, and impact parameters of particle decays. In addition to this, it is a key
-contributor to the measurements of particle lifetimes \cite{Kopciewicz_2022}.
-\subsubsection{Angular Coverage}
-\subsubsection{Triggering}
-\subsubsection{Reconstruction Efficiency}
-\subsubsection{Displaced Tracks and Vertices}
-\subsubsection{Decay Time}
+\subsection{Vertex Locator (VELO)}\label{VELO}
+The Vertex Locator (VELO) is a silicon-tracking detector in the spectrometer, positioned around the proton-proton interaction region of the LHCb experiment shown in Figure (\ref{LHCbDetector}) above, and is responsible for the high-precision reconstruction of the primary and secondary vertices, and impact parameters of particle decays. In addition to this, it is a key
+contributor to the measurements of particle lifetimes \cite{Kopciewicz_2022}.It was designed to optimise the angular coverage, triggering, reconstruction efficiency, and decay time of the resulting particles \cite{Aaij_2014}. The measurements made by the VELO are a vital input to the second level trigger (L1), which enhances the b-quark decay content of the data.\\
+\\
+The detector comprises of a series of silicon-stations that are aligned with the beam direction. These are placed at a radial distance from the beam. These detectors are subjected to a substantial amount of radiation, due to their proximity to the LHC beam
 \subsection{Ring Imaging Cherenkov (RICH) Detector}
+The Ring Imaging Cherenkov (RICH) system at the LHCb consists of two detectors, namely RICH1 and RICH2, and is responsible for the identification of charged hadrons (such as $\pi, K$ and $p$). RICH1 is placed as close as possible to the interaction region, and is located immediately downstream of the VELO, described in Section \ref{VELO} above. This detector is intended to cover the low and intermediate momentum region (ranging from 2 to 40 GeV/c) over the full spectrometer angular acceptance of 25-300 mrad \cite{Adinolfi_2013}. RICH2, on the other hand, is placed downstream of the magnet, as it is intended to
+identify particles possessing higher momenta (i.e. between 15-100 GeV/c) over the angular range 15-120 mrad, which are less affected by the magnetic field \cite{Adinolfi_2013}.\\
+\\
+RICH1 contains aerogel and two fluorobutane (C$_{4}$F$_{10}$) gas radiators which provide Particle Identification (PID) for positive kaons above 2 GeV/c and $\pi$-$K$ separation of up to 10 GeV/c.  within the acceptance. The detector consists of an optical system possessing spherical mirrors located in the LHCb acceptance that are traversed by charged particles and photons. The structure and materials used to construct these mirrors are elaborated upon in \cite{Antunes-Nobrega:630827}. The Cherenkov light emitted by particles as they traverse the detector is focused onto photon detector planes by these spherical mirrors, which are tilted, as well as secondary plane mirrors \cite{Antunes-Nobrega:630827}.Figure 
+\ref{RICH1Layout} below illustrates the layout of the RICH1 detector, with the $z$ axis oriented to run horizontally. 
+Further details on the structure and performance of RICH1 can be obtained in \cite{Adinolfi_2013} and \cite{Antunes-Nobrega:630827}. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{RICH1Layout.jpg}
+    \caption{ADD CAPTION}
+    \label{RICH1Layout}
+\end{figure}
+The optical arrangement of the RICH2 detector is symmetric about the vertical plane. Much like RICH1, the detector possesses two sets of spherical and plane mirrors that focus Cherenkov radiationonto two photon detector arrays. CF$_{4}$ is used as the radiator material \cite{Harnew:2008zz}. Figure \ref{RICH2Layout} represents a schematic of the RICH2 detector.
+\begin{figure}[H]
+    \centering
+    \includegraphics{RICH2Layout.jpg}
+    \caption{ADD CAPTION}
+    \label{RICH2Layout}
+\end{figure}
 \subsection{Magnet} 
 A warm dipole magnet is employed within the design of the LHCb in order to measure the momenta of charged particles. This measurement 
 encompasses the forward acceptance of $\pm$ 250 mrad vertically and of $\pm$ 300 mrad horizontally
 \subsection{Electromagnetic Calorimeter (ECAL)}
-The ECAL thickness of 25 radiation lengths ensures the complete
-containment of the high energy elecctromagnetic showers, as well as the acquisition
-of an optimal energy resolution. The structure of the ECAL cells, comprising of 2 mm layers of lead and 4 mm scintillator layers is demonstrated in
-Figure \ref{ECALStructure} below. The cells are said to have a "shashlik" structure, and the scintillation light readout is performed by Hamamatsu-R7899-20 photomultipliers \cite{AbellanBeteta:2020amj}. 
-The ECAL comprises of a total of 6016 cells.
+The ECAL aims to provide the precision measurement of photons in order to enable the reconstruction of $B$-decay modes containing either a photon or $\pi^{0}$ \cite{GOLUTVIN2003258}.
+The calorimeter is constructed in a "shashlik" structure, comprising of three segmented sections, each comprising modules of an identical square size of 121.2 mm, but with varying numbers of
+readout cells. This 'shashlik' structure had been chosen so as to enhance the energy resolution, response time, and the reliability of the calorimeter in an environment that is prone to radiation, in a cost effective manner \cite{Amato:494264}. Each module (depicted in Figure \ref{ECALModule} below) is comprised of alternating layers of a synthetic material made from polyethelene fibers known as Tyvek, a scintillator tile of thickness 4 mm, and a lead absorber plate of thickness 2 mm.
+The system possesses a total of 67 scintillator and 66 absorber layers, combining to a resultant module depth of approximately 25 radiation lengths \cite{AbellanBeteta:2020amj}. The scintillation light is re-emitted and transported along fibres that penetrate the entire
+module, and is then read out with a photomultiplier tube \cite{AbellanBeteta:2020amj}.
 \begin{figure}[H]
-    \centering
-    \includegraphics[scale = 0.75]{ECALStructure.jpg}
-    \caption{ECAL cell. Figure sourced from \cite{AbellanBeteta:2020amj}}
-    \label{ECALStructure}
+    \begin{subfigure}{0.4\textwidth}
+    \includegraphics[scale = 0.75]{ECALModule.jpg}
+    \caption{ADD CAPTION}
+    \label{ECALModule}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[scale = 0.65]{ECALStructure.jpg}
+        \caption{ADD CAPTION}
+        \label{ECALStructure}
+    \end{subfigure}
+    \hfill
 \end{figure}
+The energy resolution, $\frac{\sigma_{E}}{E}$, (i.e.the accuracy of the detector in determining the energy of the incoming radiation) of the outer module of the ECAL, which consists of one cell (depicted in Figures \ref{ECALModule} and \ref{ECALStructure} respectively) has been measured to be \cite{GOLUTVIN2003258}:
+\begin{equation}
+    \frac{\sigma_{E}}{E} = \frac{9.4\%}{\sqrt{E}}\oplus 0.8\%
+\end{equation}
+The ECAL is a key component of the search for ALPs at the LHCb experiment, since it measures the transverse energy $E_{T}$ of the photons in the decay channel of interest (see Section \ref{DecayChannel}), is a vital measurement for this analysis. Further details on the structure and performance of the ECAL can be obtained in Refs \cite{Amato:494264}, \cite{AbellanBeteta:2020amj}, and \cite{GOLUTVIN2003258}.
 \section{Data Analysis at the LHCb}
 The Large Hadron Collider provides proton-proton collisions to the LHCb approximately 40 million times per second, thereby generating a significant amount of data. In order to retain the data from events that are deemed to be of interest for analyses, the plethora of data must be filtered efficiently, and the algorithms
 implemented must be sufficiently intricate, so as to be able to manage the complexity of the data being processed. The LHCb experiment implements a data flow which enables the aforementioned objectives to be addressed. The flow of data through the LHCb system is further detailed in the sections that follow.
@@ -129,20 +158,20 @@ and tracks with a multitude of graphics systems and a user interface, which can 
 as illustrated in Figure \ref{Geant4Structure} below. Further detail on the nature of the sub-domains and dependencies depicted in this figure can be obtained in \cite{GEANT4:2002zbu}.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.7]{Geant4Structure.jpg}
+    \includegraphics[scale=0.6]{Geant4Structure.jpg}
     \caption{ADD CAPTION}
     \label{Geant4Structure}
 \end{figure}
 \subsubsection{Gaudi}
 The Gaudi software has been developed with the intention of being able to build the large variety of applications necessary for high energy physics experiments, ranging from the simulation of events to the user analysis and the event display. Its design exploits object-oriented methodologies in order to address key criteria pertaining to the separation of data and algorithms, as well as that of persistent and transient data, among other aspects. \\
 \\
-The Gaudi architecture can broadly classified into three categories as follows:
+The Gaudi architecture can broadly classified into three categories as follows \cite{BARRAND200145}:
 \begin{itemize}
-\item[-] \textbf{Algorithms and Application Manager:} Algorithms are a series of generic interfaces that are the fundamental components of applications that process event data. The application manager sits atop a hierarchy of algorithms, and is responsible for the instantiation and calling of these 
+\item[-] \textbf{Algorithms and Application Manager:} Algorithms are a series of generic interfaces that are the fundamental components of applications that process event data. The application manager sits atop a hierarchy of algorithms, and is responsible for the instantiation and calling of these.
 \item[-]\textbf{Transient Data Stores:} The data objects required by the algorithms are organised in various transient data stores, which store event data, which is valid only during the time it takes to process one event. Likewise, detector data, that generally has a lifetime of multiple events, is stored within the transient detector store. There also exists a data store for statistical data, which typically has the lifetime of a complete job, known as a transient histogram and n-tuple store. 
 \item[-] \textbf{Services:} Services are a category of components which offer all the services necessary by algorithms (e.g. those for managing the various transient stores, or for managing the conversion between transient and persistent data). Services that facilitate visualisation and event selection also exist within the architecture
 \end{itemize}
-Figure \ref{GaudiArchitecture} is a depiction of the Gaudi architecture described above. The key components (i.e. the algorithms, application manager, transient data stores, and services), as well as the relationship between these are indicated in this figure. Further detail on the nature of the components described in the diagram can be obtained in \cite{BARRAND200145} and \cite{Clemencic:2010zz}.
+Figure \ref{GaudiArchitecture} is a depiction of the Gaudi architecture described above.The key components (i.e. the algorithms, application manager, transient data stores, and services), as well as the relationship between these are indicated in this figure. Further detail on the nature of the components described in the diagram can be obtained in \cite{BARRAND200145} and \cite{Clemencic:2010zz}.
 \begin{figure}[H]
     \centering 
     \includegraphics[scale=0.8]{GaudiArchitecture.jpg}

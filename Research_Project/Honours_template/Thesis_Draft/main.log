@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  1 FEB 2023 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  7 FEB 2023 22:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -614,120 +614,153 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--19
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
+
+ []
+
 [11
 
  <./LHCbDetector.jpg>]
-<ECALStructure.jpg, id=331, 363.15675pt x 240.9pt>
+<RICH1Layout.jpg, id=338, 212.59425pt x 281.853pt>
+File: RICH1Layout.jpg Graphic file (type jpg)
+<use RICH1Layout.jpg>
+Package pdftex.def Info: RICH1Layout.jpg  used on input line 34.
+(pdftex.def)             Requested size: 170.07562pt x 225.4827pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--37
+
+ []
+
+<RICH2Layout.jpg, id=341, 235.47975pt x 160.80075pt>
+File: RICH2Layout.jpg Graphic file (type jpg)
+<use RICH2Layout.jpg>
+Package pdftex.def Info: RICH2Layout.jpg  used on input line 41.
+(pdftex.def)             Requested size: 235.47917pt x 160.80034pt.
+[12 <./RICH1Layout.jpg>]
+<ECALModule.jpg, id=357, 202.95825pt x 151.767pt>
+File: ECALModule.jpg Graphic file (type jpg)
+<use ECALModule.jpg>
+Package pdftex.def Info: ECALModule.jpg  used on input line 56.
+(pdftex.def)             Requested size: 152.2183pt x 113.82495pt.
+<ECALStructure.jpg, id=358, 363.15675pt x 240.9pt>
 File: ECALStructure.jpg Graphic file (type jpg)
 <use ECALStructure.jpg>
-Package pdftex.def Info: ECALStructure.jpg  used on input line 40.
-(pdftex.def)             Requested size: 272.36688pt x 180.67455pt.
- [12 <./ECALStructure.jpg>]
-<LHCbDataFlow.jpg, id=347, 1087.06125pt x 346.29375pt>
+Package pdftex.def Info: ECALStructure.jpg  used on input line 62.
+(pdftex.def)             Requested size: 236.04909pt x 156.58313pt.
+
+Overfull \hbox (8.42705pt too wide) in paragraph at lines 62--63
+[][] 
+ []
+
+[13 <./RICH2Layout.jpg> <./ECALModule.jpg> <./ECALStructure.jpg>]
+<LHCbDataFlow.jpg, id=376, 1087.06125pt x 346.29375pt>
 File: LHCbDataFlow.jpg Graphic file (type jpg)
 <use LHCbDataFlow.jpg>
-Package pdftex.def Info: LHCbDataFlow.jpg  used on input line 54.
+Package pdftex.def Info: LHCbDataFlow.jpg  used on input line 83.
 (pdftex.def)             Requested size: 434.81679pt x 138.51503pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--57
+Underfull \hbox (badness 10000) in paragraph at lines 77--86
 
  []
 
-<GaussSoftwareStructure.jpg, id=357, 728.7225pt x 269.20575pt>
+[14 <./LHCbDataFlow.jpg>]
+<GaussSoftwareStructure.jpg, id=393, 728.7225pt x 269.20575pt>
 File: GaussSoftwareStructure.jpg Graphic file (type jpg)
 <use GaussSoftwareStructure.jpg>
-Package pdftex.def Info: GaussSoftwareStructure.jpg  used on input line 77.
+Package pdftex.def Info: GaussSoftwareStructure.jpg  used on input line 106.
 (pdftex.def)             Requested size: 364.36035pt x 134.60254pt.
 
-Overfull \hbox (182.2655pt too wide) in paragraph at lines 77--78
+Overfull \hbox (182.2655pt too wide) in paragraph at lines 106--107
 [][] 
  []
 
-<GaussDependenices.jpg, id=358, 364.36125pt x 216.81pt>
+<GaussDependenices.jpg, id=394, 364.36125pt x 216.81pt>
 File: GaussDependenices.jpg Graphic file (type jpg)
 <use GaussDependenices.jpg>
-Package pdftex.def Info: GaussDependenices.jpg  used on input line 83.
+Package pdftex.def Info: GaussDependenices.jpg  used on input line 112.
 (pdftex.def)             Requested size: 200.39929pt x 119.24586pt.
 
-Overfull \hbox (18.30444pt too wide) in paragraph at lines 83--84
+Overfull \hbox (18.30444pt too wide) in paragraph at lines 112--113
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--88
+Underfull \hbox (badness 10000) in paragraph at lines 93--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--88
+Underfull \hbox (badness 10000) in paragraph at lines 93--117
 
  []
 
-[13 <./LHCbDataFlow.jpg>] [14 <./GaussSoftwareStructure.jpg> <./GaussDependenices.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+aer on input line 102.
-LaTeX Font Info:    No file TS1aer.fd. on input line 102.
+[15 <./GaussSoftwareStructure.jpg> <./GaussDependenices.jpg>]
+LaTeX Font Info:    Trying to load font information for TS1+aer on input line 131.
+LaTeX Font Info:    No file TS1aer.fd. on input line 131.
 
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 102.
+(Font)              for symbol `textbullet' on input line 131.
 
-<Geant4Structure.jpg, id=383, 438.438pt x 494.44725pt>
+[16]
+<Geant4Structure.jpg, id=419, 438.438pt x 494.44725pt>
 File: Geant4Structure.jpg Graphic file (type jpg)
 <use Geant4Structure.jpg>
-Package pdftex.def Info: Geant4Structure.jpg  used on input line 132.
-(pdftex.def)             Requested size: 306.9045pt x 346.11072pt.
+Package pdftex.def Info: Geant4Structure.jpg  used on input line 161.
+(pdftex.def)             Requested size: 263.06482pt x 296.67064pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--135
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 137--140
+Underfull \hbox (badness 10000) in paragraph at lines 153--164
 
  []
 
-[16 <./Geant4Structure.jpg>]
-<GaudiArchitecture.jpg, id=399, 486.618pt x 244.5135pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--169
+
+ []
+
+[17 <./Geant4Structure.jpg>]
+<GaudiArchitecture.jpg, id=430, 486.618pt x 244.5135pt>
 File: GaudiArchitecture.jpg Graphic file (type jpg)
 <use GaudiArchitecture.jpg>
-Package pdftex.def Info: GaudiArchitecture.jpg  used on input line 148.
+Package pdftex.def Info: GaudiArchitecture.jpg  used on input line 177.
 (pdftex.def)             Requested size: 389.29492pt x 195.61105pt.
-) [17 <./GaudiArchitecture.jpg>]
+) [18 <./GaudiArchitecture.jpg>]
 Chapter 3.
-(Chapter_3.tex) [18
+(Chapter_3.tex) [19
 
 ]
 Chapter 4.
-[19
+[20
 
 ]
 Chapter 5.
-[20
+[21
 
-] (main.bbl [21
+] (main.bbl [22
 
-] [22
+] [23
 
-] [23]) [24] (main.aux)
+] [24] [25] [26] [27]) [28] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5CDF3F3839E76F606F578F0EEA7AFCDB;4425.
+(rerunfilecheck)             Checksum: C5C6A6E4350AD8AA84F19FDAB354B342;4425.
  ) 
 Here is how much of TeX's memory you used:
- 14177 strings out of 478547
- 230855 string characters out of 2841835
- 606980 words of memory out of 3000000
- 31992 multiletter control sequences out of 15000+600000
+ 14230 strings out of 478547
+ 231836 string characters out of 2841835
+ 616315 words of memory out of 3000000
+ 32034 multiletter control sequences out of 15000+600000
  522515 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,14n,77p,810b,571s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\saich\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on main.pdf (25 pages, 1394614 bytes).
+ 72i,14n,77p,876b,595s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\saich\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on main.pdf (29 pages, 1528589 bytes).
 PDF statistics:
- 563 PDF objects out of 1000 (max. 8388607)
- 116 named destinations out of 1000 (max. 500000)
- 284 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 612 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
 

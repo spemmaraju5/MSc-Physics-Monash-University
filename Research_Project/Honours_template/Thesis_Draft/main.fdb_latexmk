@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1675215660 "main.aux" "main.bbl" "main" 1675215672
+["bibtex main"] 1675767782 "main.aux" "main.bbl" "main" 1675767785
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1675215671 17325 c1ead4bf27dfd7a5990794a00964281e "pdflatex"
-  "refs.bib" 1675215588 28538 45e05d1911d142f9aaa2fc70b0876544 ""
+  "main.aux" 1675767784 17867 dbc80801ce0d93978f0d96354cd59e9d "pdflatex"
+  "refs.bib" 1675737519 57959 ae2e023bd4ac2470842d90753d456627 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1675215670 "c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex" "main.pdf" "main" 1675215672
+["pdflatex"] 1675767782 "c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex" "main.pdf" "main" 1675767785
   "ALPColliderConstraints.jpg" 1667973468 41322 a200eafb06155cb1e585243f538262ee ""
   "ALPExperimentalAndColliderConstraints.jpg" 1668051808 75634 c87911c15b7f279af0cbb54000e517a0 ""
   "ALPExperimentalConstraints.jpg" 1667818259 128954 18999bef77d3fde2de7ddc15ed0f57f1 ""
@@ -68,6 +68,7 @@
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb" 1247600266 31983 5d427b4625a4a5976c1b1c43cab14bba ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247600267 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247600267 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1247600267 37912 07513ec114ac737ab54cea0152f4424b ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1247600266 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1247600267 36281 c355509802a035cadc5f15869451dcee ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247600266 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
@@ -173,9 +174,10 @@
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty" 1636710260 4545 d84d0b20a11b9c36c6ecf45697be591c ""
   "C:/Users/saich/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "Chapter_1.tex" 1674626227 25042 d765b77d969d01e2336ecd3954f9fc78 ""
-  "Chapter_2.tex" 1675215669 17634 da22b87591f021b8c04a0a1164861850 ""
+  "Chapter_2.tex" 1675767779 22226 37f8d516bc429a445a6bf3cc4f5a0764 ""
   "Chapter_3.tex" 0 -1 0 ""
   "ChargeConjugation.jpg" 1667276859 4452 2cd84bd776ed2ca550a1084900ccbeec ""
+  "ECALModule.jpg" 1675651296 27319 31b4eeafea74006fe361067a066f5e4e ""
   "ECALStructure.jpg" 1670825300 51317 3c8502d6d6b55e2ba24d6d61a9dc55c7 ""
   "FCNCALP.jpg" 1674626195 32609 e1c8f4337a43a910e21c85381b368891 ""
   "GaudiArchitecture.jpg" 1675214785 73298 89b7d3769185d7a9e672bd51a08e0c7e ""
@@ -185,13 +187,15 @@
   "LHCbDataFlow.jpg" 1670894173 110761 a26ea571d2cd7f574582f2918e99ffe5 ""
   "LHCbDetector.jpg" 1668994546 125104 f528eb3a94685157d55702e05b04a04b ""
   "ParityTransformation.png" 1667270721 3411 e3c6c37f61c5440b4105b7725dd795b5 ""
+  "RICH1Layout.jpg" 1675736337 44867 a93ae54c9f950acdde2a75a492b45979 ""
+  "RICH2Layout.jpg" 1675737801 21547 9063126f1ee90ef40e18513f79842cf0 ""
   "StandardModel.jpg" 1667266861 124619 2c70e6d5c36be4979a8f1be0e10d3810 ""
   "c:/Users/saich/Desktop/MSc-Physics-Monash-University/Research_Project/Honours_template/Thesis_Draft/main.tex" 1675211554 4313 b5572d8cc9fbf2ae4e9d35daf44127ae ""
-  "main.aux" 1675215671 17325 c1ead4bf27dfd7a5990794a00964281e "pdflatex"
-  "main.bbl" 1675215660 8975 59d43f5f49876a25c95264aa6c6b84f0 "bibtex main"
-  "main.out" 1675215671 4425 5cdf3f3839e76f606f578f0eea7afcdb "pdflatex"
+  "main.aux" 1675767784 17867 dbc80801ce0d93978f0d96354cd59e9d "pdflatex"
+  "main.bbl" 1675767782 25649 6f879a70e42d5e1761b84b8b59770979 "bibtex main"
+  "main.out" 1675767784 4425 c5c6a6e4350ad8aa84f19fdab354b342 "pdflatex"
   "main.tex" 1675211554 4313 b5572d8cc9fbf2ae4e9d35daf44127ae ""
-  "main.toc" 1675215671 2920 358033b6a82d8e21cdfc143cfdfb1144 "pdflatex"
+  "main.toc" 1675767784 2551 3abe4a0023a02a1b49105a30d041f6eb "pdflatex"
   "monashlogo.png" 1557181040 74007 7fb0b9b96cbbd7568b17f0cec2e153a0 ""
   (generated)
   "main.aux"
