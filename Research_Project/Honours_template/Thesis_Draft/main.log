@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  7 FEB 2023 22:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.29)  13 FEB 2023 13:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -614,153 +614,163 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--19
 
  []
 
+<VELOModule.jpg, id=323, 564.30824pt x 329.43076pt>
+File: VELOModule.jpg Graphic file (type jpg)
+<use VELOModule.jpg>
+Package pdftex.def Info: VELOModule.jpg  used on input line 25.
+(pdftex.def)             Requested size: 282.15343pt x 164.71497pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--25
+Underfull \hbox (badness 10000) in paragraph at lines 21--28
 
  []
 
 [11
 
  <./LHCbDetector.jpg>]
-<RICH1Layout.jpg, id=338, 212.59425pt x 281.853pt>
+<RICH1Layout.jpg, id=347, 212.59425pt x 281.853pt>
 File: RICH1Layout.jpg Graphic file (type jpg)
 <use RICH1Layout.jpg>
-Package pdftex.def Info: RICH1Layout.jpg  used on input line 34.
+Package pdftex.def Info: RICH1Layout.jpg  used on input line 41.
 (pdftex.def)             Requested size: 170.07562pt x 225.4827pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--37
+Underfull \hbox (badness 10000) in paragraph at lines 33--44
 
  []
 
-<RICH2Layout.jpg, id=341, 235.47975pt x 160.80075pt>
+[12 <./VELOModule.jpg>]
+<RICH2Layout.jpg, id=360, 235.47975pt x 160.80075pt>
 File: RICH2Layout.jpg Graphic file (type jpg)
 <use RICH2Layout.jpg>
-Package pdftex.def Info: RICH2Layout.jpg  used on input line 41.
+Package pdftex.def Info: RICH2Layout.jpg  used on input line 48.
 (pdftex.def)             Requested size: 235.47917pt x 160.80034pt.
-[12 <./RICH1Layout.jpg>]
-<ECALModule.jpg, id=357, 202.95825pt x 151.767pt>
+<Magnet_image.jpg, id=362, 516.12825pt x 393.26926pt>
+File: Magnet_image.jpg Graphic file (type jpg)
+<use Magnet_image.jpg>
+Package pdftex.def Info: Magnet_image.jpg  used on input line 59.
+(pdftex.def)             Requested size: 258.06349pt x 196.63414pt.
+ [13 <./RICH1Layout.jpg> <./RICH2Layout.jpg>]
+<ECALModule.jpg, id=386, 202.95825pt x 151.767pt>
 File: ECALModule.jpg Graphic file (type jpg)
 <use ECALModule.jpg>
-Package pdftex.def Info: ECALModule.jpg  used on input line 56.
-(pdftex.def)             Requested size: 152.2183pt x 113.82495pt.
-<ECALStructure.jpg, id=358, 363.15675pt x 240.9pt>
+Package pdftex.def Info: ECALModule.jpg  used on input line 80.
+(pdftex.def)             Requested size: 162.3668pt x 121.41374pt.
+<ECALStructure.jpg, id=387, 363.15675pt x 240.9pt>
 File: ECALStructure.jpg Graphic file (type jpg)
 <use ECALStructure.jpg>
-Package pdftex.def Info: ECALStructure.jpg  used on input line 62.
-(pdftex.def)             Requested size: 236.04909pt x 156.58313pt.
+Package pdftex.def Info: ECALStructure.jpg  used on input line 86.
+(pdftex.def)             Requested size: 254.20798pt x 168.62883pt.
 
-Overfull \hbox (8.42705pt too wide) in paragraph at lines 62--63
+Overfull \hbox (26.58594pt too wide) in paragraph at lines 86--87
 [][] 
  []
 
-[13 <./RICH2Layout.jpg> <./ECALModule.jpg> <./ECALStructure.jpg>]
-<LHCbDataFlow.jpg, id=376, 1087.06125pt x 346.29375pt>
+[14 <./Magnet_image.jpg>]
+<LHCbDataFlow.jpg, id=402, 1087.06125pt x 346.29375pt>
 File: LHCbDataFlow.jpg Graphic file (type jpg)
 <use LHCbDataFlow.jpg>
-Package pdftex.def Info: LHCbDataFlow.jpg  used on input line 83.
+Package pdftex.def Info: LHCbDataFlow.jpg  used on input line 102.
 (pdftex.def)             Requested size: 434.81679pt x 138.51503pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--86
+Underfull \hbox (badness 10000) in paragraph at lines 96--105
 
  []
 
-[14 <./LHCbDataFlow.jpg>]
-<GaussSoftwareStructure.jpg, id=393, 728.7225pt x 269.20575pt>
+[15 <./ECALModule.jpg> <./ECALStructure.jpg>]
+<GaussSoftwareStructure.jpg, id=417, 728.7225pt x 269.20575pt>
 File: GaussSoftwareStructure.jpg Graphic file (type jpg)
 <use GaussSoftwareStructure.jpg>
-Package pdftex.def Info: GaussSoftwareStructure.jpg  used on input line 106.
+Package pdftex.def Info: GaussSoftwareStructure.jpg  used on input line 125.
 (pdftex.def)             Requested size: 364.36035pt x 134.60254pt.
 
-Overfull \hbox (182.2655pt too wide) in paragraph at lines 106--107
+Overfull \hbox (182.2655pt too wide) in paragraph at lines 125--126
 [][] 
  []
 
-<GaussDependenices.jpg, id=394, 364.36125pt x 216.81pt>
+<GaussDependenices.jpg, id=418, 364.36125pt x 216.81pt>
 File: GaussDependenices.jpg Graphic file (type jpg)
 <use GaussDependenices.jpg>
-Package pdftex.def Info: GaussDependenices.jpg  used on input line 112.
+Package pdftex.def Info: GaussDependenices.jpg  used on input line 131.
 (pdftex.def)             Requested size: 200.39929pt x 119.24586pt.
 
-Overfull \hbox (18.30444pt too wide) in paragraph at lines 112--113
+Overfull \hbox (18.30444pt too wide) in paragraph at lines 131--132
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--117
+Underfull \hbox (badness 10000) in paragraph at lines 112--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--117
+Underfull \hbox (badness 10000) in paragraph at lines 112--136
 
  []
 
-[15 <./GaussSoftwareStructure.jpg> <./GaussDependenices.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+aer on input line 131.
-LaTeX Font Info:    No file TS1aer.fd. on input line 131.
+[16 <./LHCbDataFlow.jpg>]
+LaTeX Font Info:    Trying to load font information for TS1+aer on input line 150.
+LaTeX Font Info:    No file TS1aer.fd. on input line 150.
 
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 131.
+(Font)              for symbol `textbullet' on input line 150.
 
-[16]
-<Geant4Structure.jpg, id=419, 438.438pt x 494.44725pt>
+[17 <./GaussSoftwareStructure.jpg> <./GaussDependenices.jpg>]
+<Geant4Structure.jpg, id=443, 438.438pt x 494.44725pt>
 File: Geant4Structure.jpg Graphic file (type jpg)
 <use Geant4Structure.jpg>
-Package pdftex.def Info: Geant4Structure.jpg  used on input line 161.
+Package pdftex.def Info: Geant4Structure.jpg  used on input line 180.
 (pdftex.def)             Requested size: 263.06482pt x 296.67064pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--164
+Underfull \hbox (badness 10000) in paragraph at lines 172--183
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--169
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
 
  []
 
-[17 <./Geant4Structure.jpg>]
-<GaudiArchitecture.jpg, id=430, 486.618pt x 244.5135pt>
+<GaudiArchitecture.jpg, id=455, 486.618pt x 244.5135pt>
 File: GaudiArchitecture.jpg Graphic file (type jpg)
 <use GaudiArchitecture.jpg>
-Package pdftex.def Info: GaudiArchitecture.jpg  used on input line 177.
+Package pdftex.def Info: GaudiArchitecture.jpg  used on input line 196.
 (pdftex.def)             Requested size: 389.29492pt x 195.61105pt.
-) [18 <./GaudiArchitecture.jpg>]
+[19 <./Geant4Structure.jpg>]) [20 <./GaudiArchitecture.jpg>]
 Chapter 3.
-(Chapter_3.tex) [19
+(Chapter_3.tex) [21
 
 ]
 Chapter 4.
-[20
+[22
 
 ]
 Chapter 5.
-[21
+[23
 
-] (main.bbl [22
+] (main.bbl [24
 
-] [23
+] [25
 
-] [24] [25] [26] [27]) [28] (main.aux)
+] [26] [27] [28] [29] [30]) [31] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C5C6A6E4350AD8AA84F19FDAB354B342;4425.
+(rerunfilecheck)             Checksum: 210F91445E236F2AFB6D5C42FD336B29;4466.
  ) 
 Here is how much of TeX's memory you used:
- 14230 strings out of 478547
- 231836 string characters out of 2841835
- 616315 words of memory out of 3000000
- 32034 multiletter control sequences out of 15000+600000
+ 14267 strings out of 478547
+ 232457 string characters out of 2841835
+ 618472 words of memory out of 3000000
+ 32060 multiletter control sequences out of 15000+600000
  522515 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,14n,77p,876b,595s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,14n,77p,922b,589s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\saich\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/saich/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on main.pdf (29 pages, 1528589 bytes).
+Output written on main.pdf (32 pages, 1759268 bytes).
 PDF statistics:
- 612 PDF objects out of 1000 (max. 8388607)
- 124 named destinations out of 1000 (max. 500000)
- 299 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 647 PDF objects out of 1000 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
+ 309 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,31 +1,22 @@
-from StandardParticles import StdAllNoPIDsPions as Pions
-from StandardParticles import StdAllLooseKaons as Kaons
-from StandardParticles import StdAllLoosePhotons as Photons
+from Configurables import DaVinci
+from GaudiConf import IOHelper
+
+#Load algorithms
 from Configurables import CombineParticles
-from PhysConf.Selections import Selection
+from Configurables import DaVinci
+from Configurables import DecayTreeTuple
+from DecayTreeTuple.Configuration import *
+
+#Load input particles
+from StandardParticles imp
+
 import GaudiConfUtils.ConfigurableGenerators as ConfigurableGenerators
 from PhysConf.Selections import SimpleSelection
-from PhysConfSelections import CombineSelection
-#Combine Kaon and Pion to form K*
-kstar_decay_products = {
-    'K+': (ACHILDCUT (PIDk > 5) & (PT > 500*MeV | PT > 500*MeV) & MIPCHI2DV(PRIMARY) > 25),
-    'pi-': (ACHILDCUT(PIDpi < 0) & (PT > 1200*MeV | PT > 500*MeV) & MIPCHI2DV(PRIMARY) > 25)
-}
 
-kstar_comb = "(ADAMASS('K*0) < 50*MeV)"
 
-kstar_vertex = (
-    'VFASPF(VCHI2/VDOF)< 9' 
-    '& (BPVDIRA > 0.9997)'
-    "& (ADAMASS('K*0') < 50*MeV)"
-)
-
-kstar_sel = CombineSelection(
-    'Sel_kstar',
-    ConfigurableGenerators.CombineParticles,
-    [Kaons, Pions],
-    DecayDescriptor = '[K*0 -> K+ pi-]cc',
-    DaughterCuts=kstar_decay_products,
-    CombinationCut=kstar_comb,
-    MotherCut=kstar_vertex
-)
+line = 'Beauty2XGammaExclusiveBd2KstGammaLine'
+strip_sel = StrippingSelection("Strip_sel", "HLT_PASS(StrippingBeauty2XGammaExclusiveBd2KstGammaLineDecision)")
+strip_input = AutomaticData('Phys/{0}/Particles'.format(line))
+tuple_sel = TupleSelection('Tuple_sel', 
+                           [strip_sel, strip_input],
+                           Decay='B0 -> (K*(892)0~ -> K+ pi-) gamma]CC')

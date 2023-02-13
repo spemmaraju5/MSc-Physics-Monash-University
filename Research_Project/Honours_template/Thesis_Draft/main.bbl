@@ -77,6 +77,90 @@ S.~Agostinelli et~al.
 \newblock {GEANT4--a simulation toolkit}.
 \newblock {\em Nucl. Instrum. Meth. A}, 506:250--303, 2003.
 
+\bibitem{Amato:424338}
+S~Amato, D~Carvalho, P~Colrain, T~Da~Silva, J~R~T De~Mello, L~De~Paula,
+  M~Gandelman, J~Helder-Lopes, B~Maréchal, D~Moraes, E~Polycarpo, Ziad~J
+  Ajaltouni, G~Böhner, V~Breton, R~Cornat, O~Deschamps, A~Falvard, J~Lecoq,
+  P~Perret, C~Trouilleau, A~Ziad, E~Aslanides, J~P Cachemiche, R~Le~Gac,
+  O~Leroy, M~Menouni, R~Potheau, A~Yu Tsaregorodtsev, G~Barrand,
+  C~Beigbeder-Beau, D~Breton, T~Cacéres, O~Callot, R~Cizeron, P~Cros,
+  B~D'Almagne, B~Delcourt, F~Fulda-Quenzer, A~Hrisoho, B~Jean-Marie,
+  J~Lefrançois, J~M Noppe, V~Tocut, K~Truong, Ralph Dollan, R~Schwierz,
+  B~Spaan, H~Fischer, J~Franz, F~H Heinsius, K~C Königsmann, H~Schmitt,
+  C~Bauer, D~Baumeister, N~Bulian, H~P Fuchs, T~Glebe, W~Hofmann, K~T Knöpfle,
+  S~Löchner, M~Schmelling, B~Schwingenheuer, F~Sciacca, E~Sexauer, U~Trunk,
+  S~Bachmann, P~Bock, H~Deppe, H~B Dreis, F~Eisele, M~Feuerstack-Raible,
+  S~Henneberger, P~Igo-Kemenes, C~Rummel, R~Rusnyak, U~Stange, V~Lindenstruth,
+  R~Richter, M~W Schulz, A~Walsch, G~Bencivenni, C~Bloise, F~Bossi, P~Campana,
+  G~Capon, P~De~Simone, C~Forti, M~Murtas, L~Passalacqua, V~Patera, L~Satta,
+  A~Sciubba, M~Bargiotti, A~Bertin, M~Bruschi, M~Capponi, I~D'Antone, S~Castro,
+  R~Donà, D~Galli, B~Giacobbe, U~Marconi, I~Massa, M~Piccinini, M~Poli,
+  N~Semprini-Cesari, R~Spighi, V~Vagnoni, S~Vecchi, M~Villa, A~Vitale,
+  A~Zoccoli, W~Bonivento, A~Cardini, M~Caria, A~Lai, D~Pinci, B~Saitta,
+  V~Carassiti, A~Cotta-Ramusino, P~Dalpiaz, A~Gianoli, M~Martini, F~Petrucci,
+  M~Savrié, A~Bizzeti, M~Calvetti, E~Iacopini, M~Lenti, F~Martelli,
+  G~Passaleva, M~Veltri, S~Cuneo, F~Fontanelli, V~Gracco, P~Musico,
+  A~Petrolini, M~Sannino, M~Alemi, T~F Bellunato, M~Calvi, C~Matteuzzi,
+  P~Negri, M~Paganoni, V~Verzi, G~Auriemma, V~Bocci, C~Bosio, G~Chiodi,
+  D~Fidanza, A~Frenkel, K~Harrison, S~Mari, G~Martellotti, S~Martínez,
+  G~Penso, R~Santacesaria, C~Satriano, A~Satta, G~Carboni, Daniele Dominici,
+  R~Messi, L~Pacciani, L~Paoluzi, E~Santovetti, T~S Bauer, M~Doets, Yu~Guz,
+  V~Gromov, R~Hierck, L~Hommels, E~Jans, T~Ketel, S~Klous, B~Köne, M~Merk,
+  M~Needham, H~Schuijlenburg, T~Sluijk, L~Wiggers, G~van Apeldoorn,
+  N~Van~Bakel, J~van~den Brand, R~Van~der Eijk, N~Zaitsev, C~Gao, C~Jiang,
+  H~Sun, Z~Zhu, M~Bisset, J~P Cheng, Y~G Cui, Y~Gao, H~J He, Y~P Kuang, Y~J Li,
+  Y~Liao, Q~Lin, J~P Ni, Shao~Bei Bei, J~J Su, Y~R Tian, Q~Wang, Q~S Yan,
+  E~Banas, J~Blocki, K~Galuszka, P~Jalocha, P~Kapusta, B~Kisielewski,
+  W~Kucewicz, T~Lesiak, J~Michalowski, B~Muryn, Z~Natkaniec, W~Ostrowicz,
+  G~Polok, E~Rulikowska-Zarebska, M~Stodulski, M~Witek, P~Zychowski, M~Adamus,
+  A~Chlopik, Z~Guzik, A~Nawrot, M~Szczekowski, D~V Anghel, C~Coca, D~Dumitru,
+  G~Giolu, C~Magureanu, R~Petrescu, S~Popescu, T~Preda, A~M Rosca, V~L Rusu,
+  V~Bolotov, S~Filippov, J~Gavrilov, E~Guschin, V~Kloubov, L~Kravchuk,
+  S~Laptev, V~Laptev, V~Postoev, A~Sadovskii, I~N Semeniouk, S~Barsuk,
+  I~Belyaev, A~Golutvin, O~Gouchtchine, V~Kiritchenko, G~Kostina, N~Levitski,
+  A~Morozov, P~Pakhlov, D~Roussinov, V~Rusinov, S~Semenov, A~Soldatov,
+  E~Tarkovski, Yu~A Alexandrov, V~Baskov, L~Gorbov, B~Govorkov, V~Kim,
+  P~Netchaeva, V~Polianski, L~Shtarkov, A~Verdi, M~Zavertiaev, I~Ajinenko, K~S
+  Belous, V~Brekhovskikh, S~Denissov, R~I Dzhelyadin, A~V Dorokhov, A~Kobelev,
+  A~K Konoplyannikov, A~K Likhoded, V~D Matveev, V~Novikov, V~F Obraztsov, A~P
+  Ostankov, V~I Rykalin, V~K Semenov, M~M Shapkin, N~Smirnov, M~M Soldatov,
+  A~Sokolov, V~V Talanov, O~P Yushchenko, B~Botchine, S~Guetz, V~Lazarev,
+  N~Saguidova, V~Souvorov, E~Spiridenkov, A~Vorobyov, A~A Vorobyov,
+  S~Botta-Ferragut, A~Diéguez, L~Garrido-Beltran, D~Gascón, S~Gómez,
+  R~Miquel, D~Peralta-Rodriguez, M~Rosello~Canal, X~Vilasis~Cardona, B~Adeva,
+  P~Conde, F~Gómez, J~A Hernando, A~Iglesias, A~López-Aguera, A~Pazos,
+  M~Pló, J~M Rodríguez, J~J Saborido, M~J Tobar, P~Bartalini, A~Bay,
+  C~Currat, O~Dormond, F~Durrenmatt, Y~Ermoline, R~Frei, G~Gagliardi, J~P
+  Hertig, G~Haefeli, P~Koppenburg, Jean-Pierre Perroud, F~Ronga, O~Schneider,
+  L~Studer, M~Tareb, M~T Tran, R~Bernet, E~Holzschuh, P~Sievers, O~Steinkamp,
+  U~Straumann, D~Wyler, M~Ziegler, S~Maznichenko, O~Omelaenko, Y~Ranyuk, M~V
+  Sosipatorow, V~Aushev, V~Kiva, I~Kolomiets, Y~Pavlenko, V~Pugatch,
+  Yu~Vasilev, V~Zerkin, N~Brook, R~Head, F~Wilson, V~Gibson, S~G Katvars, C~R
+  Jones, C~H Shepherd-Themistocleous, C~P Ward, D~R Ward, S~A Wotton, C~A~J
+  Brew, C~J Densham, S~Easo, B~Franek, J~G~V Guy, R~N~J Halsall, J~A Lidbury,
+  J~V Morris, A~Papanestis, G~N Patrick, F~J~P Soler, S~A Temple, S~Eisenhardt,
+  A~Khan, F~Muheim, S~Playfer, A~Walker, A~J Flavell, A~Halley, V~O'Shea, F~J~P
+  Soler, S~Biagi, T~Bowcock, R~Gamet, P~Hayman, M~McCubbin, C~Parkes, G~Patel,
+  S~Walsh, V~Wright, G~J Barber, D~Clark, P~Dauncey, A~Duane, J~Hassard,
+  R~Hill, M~J John, D~R Price, P~Savage, B~Simmons, L~W Toudup, D~M Websdale,
+  M~Adinolfi, J~Bibby, M~J Charles, N~Harnew, F~Harris, I~McArthur,
+  J~Rademacker, N~J Smale, S~Topp-Jørgensen, G~Wilkinson, J~André,
+  F~Anghinolfi, A~Augustinus, P~Binko, M~Bonnet, André Braem, B~Bruder,
+  J~Buytaert, M~Campbell, A~Cass, M~Cattaneo, P~Charra, Enrico~Guido Chesi,
+  J~Christiansen, R~Chytracek, J~Closier, G~Corti, C~D'Ambrosio, H~Dijkstra,
+  D~Domínguez, J~P Dufey, M~Ferro-Luzzi, F~Fiedler, W~Flegel, F~Formenti, R~W
+  Forty, M~Frank, I~García-Alfonso, C~Gaspar, G~Gracia-Abril, Thierry Gys,
+  F~Hahn, S~Haider, J~Harvey, B~Hay, H~J Hilke, A~Jacholkowska, R~Jacobsson,
+  P~Jarron, C~Joram, B~Jost, A~Kashchuk, I~Korolko, D~Lacarrère, M~Laub,
+  M~Letheren, J~F Libby, R~Lindner, M~Losasso, P~Mato-Vila, H~Müller,
+  T~Nakada, J~Ocariz, S~Probst, F~Ranjard, W~Riegler, F~Röhner, T~Ruf,
+  B~Schmidt, T~Schneider, A~Schöning, A~Schopper, W~Snoeys, W~Tejessy,
+  F~Teubert, O~Ullaland, A~Valassi, Eric Van~Herwijnen, P~Vázquez-Regueiro,
+  I~Videau, F~Vincido-Santos, G~Von~Holtey, P~Wicht, A~Wright, K~Wyllie, Piet
+  Wertelaers, and M~Zuin.
+\newblock {\em {LHCb magnet: Technical Design Report}}.
+\newblock Technical design report. LHCb. CERN, Geneva, 2000.
+
 \bibitem{Amato:494264}
 S~Amato, D~Carvalho, P~Colrain, T~Da~Silva, J~R~T De~Mello, L~De~Paula,
   M~Gandelman, J~Helder-Lopes, B~Maréchal, D~Moraes, E~Polycarpo, Ziad~J
@@ -160,6 +244,19 @@ S~Amato, D~Carvalho, P~Colrain, T~Da~Silva, J~R~T De~Mello, L~De~Paula,
   Wertelaers, and M~Zuin.
 \newblock {\em {LHCb calorimeters: Technical Design Report}}.
 \newblock Technical design report. LHCb. CERN, Geneva, 2000.
+
+\bibitem{1018421}
+J.~Andre, P.~Charra, W.~Flegel, P.A. Giudici, O.~Jamet, P.~Lancon, M.~Losasso,
+  F.~Rohner, and C.~Rosset.
+\newblock Status of the lhcb magnet system.
+\newblock {\em IEEE Transactions on Applied Superconductivity}, 12(1):366--371,
+  2002.
+
+\bibitem{1324843}
+J.~Andre, W.~Flegel, P.A. Giudici, O.~Jamet, and M.~Losasso.
+\newblock Status of the lhcb dipole magnet.
+\newblock {\em IEEE Transactions on Applied Superconductivity}, 14(2):509--513,
+  2004.
 
 \bibitem{Antunes-Nobrega:630827}
 R~Antunes-Nobrega, A~França-Barbosa, I~Bediaga, G~Cernicchiaro,
@@ -320,6 +417,15 @@ David d'Enterria.
 Universitat di~Barcelona.
 \newblock Scientists bring us a step closer to understanding the nature of
   matter and antimatter, 2022.
+
+\bibitem{EKLUND200572}
+Lars Eklund.
+\newblock The lhcb vertex locator.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  546(1):72--75, 2005.
+\newblock Proceedings of the 6th International Workshop on Radiation Imaging
+  Detectors.
 
 \bibitem{SM_Picture}
 P~Gargon.

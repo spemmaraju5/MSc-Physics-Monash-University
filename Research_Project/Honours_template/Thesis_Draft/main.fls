@@ -969,6 +969,13 @@ INPUT .\LHCbDetector.jpg
 INPUT .\LHCbDetector.jpg
 INPUT .\LHCbDetector.jpg
 INPUT .\LHCbDetector.jpg
+INPUT .\VELOModule.jpg
+INPUT .\VELOModule.jpg
+INPUT VELOModule.jpg
+INPUT .\VELOModule.jpg
+INPUT .\VELOModule.jpg
+INPUT .\VELOModule.jpg
+INPUT .\VELOModule.jpg
 INPUT .\RICH1Layout.jpg
 INPUT .\RICH1Layout.jpg
 INPUT RICH1Layout.jpg
@@ -983,6 +990,13 @@ INPUT .\RICH2Layout.jpg
 INPUT .\RICH2Layout.jpg
 INPUT .\RICH2Layout.jpg
 INPUT .\RICH2Layout.jpg
+INPUT .\Magnet_image.jpg
+INPUT .\Magnet_image.jpg
+INPUT Magnet_image.jpg
+INPUT .\Magnet_image.jpg
+INPUT .\Magnet_image.jpg
+INPUT .\Magnet_image.jpg
+INPUT .\Magnet_image.jpg
 INPUT .\ECALModule.jpg
 INPUT .\ECALModule.jpg
 INPUT ECALModule.jpg

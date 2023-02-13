@@ -20,8 +20,15 @@ detector is further elaborated on in the sections that follow.
 \subsection{Vertex Locator (VELO)}\label{VELO}
 The Vertex Locator (VELO) is a silicon-tracking detector in the spectrometer, positioned around the proton-proton interaction region of the LHCb experiment shown in Figure (\ref{LHCbDetector}) above, and is responsible for the high-precision reconstruction of the primary and secondary vertices, and impact parameters of particle decays. In addition to this, it is a key
 contributor to the measurements of particle lifetimes \cite{Kopciewicz_2022}.It was designed to optimise the angular coverage, triggering, reconstruction efficiency, and decay time of the resulting particles \cite{Aaij_2014}. The measurements made by the VELO are a vital input to the second level trigger (L1), which enhances the b-quark decay content of the data.\\
-\\
-The detector comprises of a series of silicon-stations that are aligned with the beam direction. These are placed at a radial distance from the beam. These detectors are subjected to a substantial amount of radiation, due to their proximity to the LHC beam
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{VELOModule.jpg}
+    \caption{ADD CAPTION}
+    \label{VELOModule}
+\end{figure}
+The detector comprises of 21 silicon tracking stations that are placed orthognoally to the beam direction. These are placed around and downstream from the interaction point. Each of these stations consists of two detector modules that are mounted upon independent retracting detector supports, thereby enabling the retraction of the two detector halves during the set-up of the colliding beams \cite{EKLUND200572}. The double-sided detector modules contain two silicon sensors with different microstrip geometry, with one measuring the
+radial distance from the beam axis (known as the R-sensor), and the other measuring an approximate azimuthal angle, $\phi$ (known as the $\phi$ sensor) \cite{Kopciewicz_2022}. The signals from the sensors are directed out via a second metal layer to an analogue front-end ASIC. The sensors and ASICs are mounted atop a TPG (Thermalised Pyrolytic Graphite) and carbon-fibre sandwich \cite{EKLUND200572}. The structure of one half of this sub-detector, including the locations of the abovementioned components is represented in Figure \ref{VELOModule} above. Refs \cite{Kopciewicz_2022}, \cite{Aaij_2014}, and \cite{EKLUND200572} provide a more detailed overview of the various components of the VELO, as well. A comprehensive account on the performance of the subdetector
+is presented in \cite{Aaij_2014}.
 \subsection{Ring Imaging Cherenkov (RICH) Detector}
 The Ring Imaging Cherenkov (RICH) system at the LHCb consists of two detectors, namely RICH1 and RICH2, and is responsible for the identification of charged hadrons (such as $\pi, K$ and $p$). RICH1 is placed as close as possible to the interaction region, and is located immediately downstream of the VELO, described in Section \ref{VELO} above. This detector is intended to cover the low and intermediate momentum region (ranging from 2 to 40 GeV/c) over the full spectrometer angular acceptance of 25-300 mrad \cite{Adinolfi_2013}. RICH2, on the other hand, is placed downstream of the magnet, as it is intended to
 identify particles possessing higher momenta (i.e. between 15-100 GeV/c) over the angular range 15-120 mrad, which are less affected by the magnetic field \cite{Adinolfi_2013}.\\
@@ -43,33 +50,45 @@ The optical arrangement of the RICH2 detector is symmetric about the vertical pl
     \label{RICH2Layout}
 \end{figure}
 \subsection{Magnet} 
-A warm dipole magnet is employed within the design of the LHCb in order to measure the momenta of charged particles. This measurement 
-encompasses the forward acceptance of $\pm$ 250 mrad vertically and of $\pm$ 300 mrad horizontally
+The LHCb employs a warm dipole magnet in order to measure the momenta of charged particles that traverse the detector. This measurement encompasses the forward acceptance of $\pm$ 250 mrad vertically and of $\pm$ 300 mrad horizontally.
+The magnet consists of saddle-shaped coils contained within a window-frame yoke with sloping poles, in alignment with the detector acceptance requirements. The magnet yoke possesses a symmetric structure, with two upright parts, each composed of laminated low carbon steel of thickness
+100 mm, and weighing approximately 25 tons. The total weight of the yoke is approximately 1500 tons, and that of the two coils is 54 tons. These coils are placed mirror-symmetrically opposite each other within the magnet yoke, with each coil consisting of fifteen 'pancakes' arranged in five triplets.
+Figure \ref{Magnet_image} below depicts the layout of the magnet, including the aforementioned components and the relative scale of the structure.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{Magnet_image.jpg}
+    \caption{ADD CAPTION}
+    \label{Magnet_image}
+\end{figure}
+The magnet is operated via the Magnet Control System, which regulates the power supply and monitors parameters such as temperatures, voltages, and mechanical movements. The safe operation of the magnet is monitored by a second, independent system known as the Magnet Safety System (MSS). This system implements a discharge of the magnet if critical parameters stray outside of the operating range.
+Further information on the structure and performance of this magnet can be obtained in Refs \cite{Amato:424338}, \cite{1018421}, and \cite{1324843}.
+
 \subsection{Electromagnetic Calorimeter (ECAL)}
 The ECAL aims to provide the precision measurement of photons in order to enable the reconstruction of $B$-decay modes containing either a photon or $\pi^{0}$ \cite{GOLUTVIN2003258}.
 The calorimeter is constructed in a "shashlik" structure, comprising of three segmented sections, each comprising modules of an identical square size of 121.2 mm, but with varying numbers of
 readout cells. This 'shashlik' structure had been chosen so as to enhance the energy resolution, response time, and the reliability of the calorimeter in an environment that is prone to radiation, in a cost effective manner \cite{Amato:494264}. Each module (depicted in Figure \ref{ECALModule} below) is comprised of alternating layers of a synthetic material made from polyethelene fibers known as Tyvek, a scintillator tile of thickness 4 mm, and a lead absorber plate of thickness 2 mm.
 The system possesses a total of 67 scintillator and 66 absorber layers, combining to a resultant module depth of approximately 25 radiation lengths \cite{AbellanBeteta:2020amj}. The scintillation light is re-emitted and transported along fibres that penetrate the entire
 module, and is then read out with a photomultiplier tube \cite{AbellanBeteta:2020amj}.
-\begin{figure}[H]
-    \begin{subfigure}{0.4\textwidth}
-    \includegraphics[scale = 0.75]{ECALModule.jpg}
-    \caption{ADD CAPTION}
-    \label{ECALModule}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}{0.5\textwidth}
-        \includegraphics[scale = 0.65]{ECALStructure.jpg}
-        \caption{ADD CAPTION}
-        \label{ECALStructure}
-    \end{subfigure}
-    \hfill
-\end{figure}
+
 The energy resolution, $\frac{\sigma_{E}}{E}$, (i.e.the accuracy of the detector in determining the energy of the incoming radiation) of the outer module of the ECAL, which consists of one cell (depicted in Figures \ref{ECALModule} and \ref{ECALStructure} respectively) has been measured to be \cite{GOLUTVIN2003258}:
 \begin{equation}
     \frac{\sigma_{E}}{E} = \frac{9.4\%}{\sqrt{E}}\oplus 0.8\%
 \end{equation}
 The ECAL is a key component of the search for ALPs at the LHCb experiment, since it measures the transverse energy $E_{T}$ of the photons in the decay channel of interest (see Section \ref{DecayChannel}), is a vital measurement for this analysis. Further details on the structure and performance of the ECAL can be obtained in Refs \cite{Amato:494264}, \cite{AbellanBeteta:2020amj}, and \cite{GOLUTVIN2003258}.
+\begin{figure}[H]
+    \begin{subfigure}{0.4\textwidth}
+    \includegraphics[scale = 0.8]{ECALModule.jpg}
+    \caption{ADD CAPTION}
+    \label{ECALModule}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[scale = 0.7]{ECALStructure.jpg}
+        \caption{ADD CAPTION}
+        \label{ECALStructure}
+    \end{subfigure}
+    \hfill
+\end{figure}
 \section{Data Analysis at the LHCb}
 The Large Hadron Collider provides proton-proton collisions to the LHCb approximately 40 million times per second, thereby generating a significant amount of data. In order to retain the data from events that are deemed to be of interest for analyses, the plethora of data must be filtered efficiently, and the algorithms
 implemented must be sufficiently intricate, so as to be able to manage the complexity of the data being processed. The LHCb experiment implements a data flow which enables the aforementioned objectives to be addressed. The flow of data through the LHCb system is further detailed in the sections that follow.
