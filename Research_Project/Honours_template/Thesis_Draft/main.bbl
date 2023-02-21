@@ -1,5 +1,17 @@
 \begin{thebibliography}{10}
 
+\bibitem{CERNLHCBECAL}
+Cern lhcb calorimeter system.
+\newblock Accessed on February 14th, 2023.
+
+\bibitem{GaudiArchitecture}
+The gaudi framework architecture.
+\newblock Accessed on December 14th, 2022.
+
+\bibitem{LHCbSK}
+Lhcb starterkit.
+\newblock Accessed on December 14th, 2022.
+
 \bibitem{ATLAS:2012znl}
 {Observation and study of the Higgs boson candidate in the two photon decay
   channel with the ATLAS detector at the LHC}.
@@ -384,6 +396,11 @@ I~Belyaev, T~Brambach, N~H Brook, N~Gauvin, G~Corti, K~Harrison, P~F Harrison,
 \newblock Handling of the generation of primary events in gauss, the lhcb
   simulation framework.
 \newblock {\em Journal of Physics: Conference Series}, 331(3):032047, dec 2011.
+
+\bibitem{Bierlich:2022pfr}
+Christian Bierlich et~al.
+\newblock {A comprehensive guide to the physics and usage of PYTHIA 8.3}.
+\newblock 3 2022.
 
 \bibitem{BUCKLEY2021107310}
 Andy Buckley, Philip Ilten, Dmitri Konstantinov, Leif Lönnblad, James Monk,
